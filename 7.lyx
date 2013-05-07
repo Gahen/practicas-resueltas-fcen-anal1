@@ -1,0 +1,1424 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Determinar los extremos absolutos de 
+\begin_inset Formula $f|_{A}$
+\end_inset
+
+en los siguientes casos.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=xy(x-y)^{2}=x^{3}y-2x^{2}y^{2}+xy^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}3x^{2}y-4xy+y^{3} & x^{3}-4x^{2}y+3y^{2}x\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}3x^{2}y-4xy^{2}+y^{3}=0 & x^{3}-4x^{2}y+3y^{2}x=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+3x^{2}y-4xy^{2}+y^{3}=0\Rightarrow y=0\vee3x^{2}-4xy+y^{2}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{3}-4x^{2}y+3y^{2}x=0\Rightarrow x=0\vee x^{2}-4xy+3y^{2}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(x-2y)^{2}=(y)^{2}\wedge(2x-y)^{2}=(x)^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|x-2y|=|y|\wedge|2x-y|=|x|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|x-2y|=y\wedge|2x-y|=x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x>2y\Rightarrow x-2y=y\wedge2x-y=x\therefore x=3y\wedge y=x\Rightarrow x=y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\frac{y}{2}<x<2y\Rightarrow-x+2y=y\wedge2x-y=x\therefore x=y\wedge y=x\Rightarrow x=y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2x<y\Rightarrow-x+2y=y\wedge-2x+y=x\therefore x=y\wedge y=3x\Rightarrow x=y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Tengo 1 punto crítico \ensuremath{(0,0)}y una recta \ensuremath{y=x}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHf(x,y)=\left|\begin{matrix}\frac{\partial f}{\partial x^{2}} & \frac{\partial f}{\partial y\partial x}\\
+\frac{\partial f}{\partial x\partial y} & \frac{\partial f}{\partial y^{2}}
+\end{matrix}\right|=\left|\begin{matrix}6xy-4y^{2} & 3x^{2}-8yx+3y^{2}\\
+3x^{2}-8xy+3y^{2} & -4x^{2}+6yx
+\end{matrix}\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHf(x,x)=\left|\begin{matrix}6x^{2}-8x^{2} & 3x^{2}-8x^{2}+3x^{2}\\
+3x^{2}-8x^{2}+3x^{2} & -4x^{2}+6x^{2}
+\end{matrix}\right|\left|\begin{matrix}2x^{2} & -2x^{2}\\
+-2x^{2} & 2x^{2}
+\end{matrix}\right|=(2x^{2})^{2}-(2x^{2})^{2}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore detHf=0\forall x,y\in\mathbb{R}\Rightarrow\mbox{El criterio del hessiano no me sirve}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Como la función es el producto de dos funciones positivas 
+\begin_inset Formula $(xy),(x-y)^{2}$
+\end_inset
+
+ 
+\begin_inset Formula $f(x,y)\geq0$
+\end_inset
+
+.
+ Una de ellas puede valer 0, entonces el mínimo forzosamente será 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+ y se da en toda la recta 
+\begin_inset Formula $y=x$
+\end_inset
+
+ con 
+\begin_inset Formula $x,y>0$
+\end_inset
+
+.
+ Es evidente que no tiene máximo.
+ 
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=xy(x-y)^{2}=x^{3}y-2x^{2}y^{2}+xy^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Es igual que el anterior, pero esta vez }(0,0)\in D\Rightarrow y=x\mbox{ es mínimo con}x,y\geq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=2x^{2}-xy+y^{2}+7x$
+\end_inset
+
+ y 
+\begin_inset Formula $A=\{(x,y)\in\mathbb{R}^{2}/|x|\leq3\wedge|y|\leq3\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}4x-y+7 & -x+2y\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}4x-y+7=0 & -x+2y=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=4x+7\Rightarrow-x+2\left(4x+7\right)=0\Rightarrow7x=-14\Rightarrow x=-2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore y=-8+7=-1\Rightarrow P_{0}=(-2,-1)\rightarrow\mbox{cumple la condición }
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHf(-2,-1)=\left|\begin{matrix}4 & -1\\
+-1 & 2
+\end{matrix}\right|=8-2=6
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore P_{0}\mbox{ es un mínimo local}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como el Hessiano es positivo 
+\begin_inset Formula $\forall x,y$
+\end_inset
+
+ podemos concluir que la función está creciendo en ambas direcciones, por
+ lo tanto el máximo se dará en sus cotas.
+ Así tengo 4 puntos para estudiar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{0}=(-2,-1);P_{1}=(3,3);P_{2}=(3,-3);P_{3}=(-3,3);P_{4}=(-3,-3)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(P_{0})=4+1-2-14=-11
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(P_{1})=18-9+9+21=39
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(P_{2})=18+9+9+21=47
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(P_{3})=18+9+9-21=15
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(P_{4})=18+9-9-21=-3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore f(x,y)\mbox{ tiene un máximo absoluto en }P_{2}\mbox{ y mínimo absoluto en \ensuremath{P_{0}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=2x+4y-x^{2}-y^{2}-3$
+\end_inset
+
+ y 
+\begin_inset Formula $A=\mathbb{R}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}2-2x & 4-2y\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}2-2x=0 & 4-2y=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=1\wedge y=2\therefore P_{0}=(1,2)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHf(1,2)=\left|\begin{matrix}-2 & 0\\
+0 & -2
+\end{matrix}\right|=4\wedge|-2|=-2\therefore P_{0}\mbox{ es un máximo local}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Igual al anterior pero 
+\begin_inset Formula $A=\left\{ (x,y)\in\mathbb{R}^{2}/|x|\leq1\wedge|y|\leq1\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como sé que la función decrece con 
+\begin_inset Formula $(x,y)\rightarrow\pm\infty$
+\end_inset
+
+ las cotas serán mínimos locales o absolutos, cosa que definiré al evaluarlas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{1}=(1,1);P_{2}=(1,-1);P_{3}=(-1,1);P_{4}=(-1,-1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(P_{1})=2+4-1-1-3=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+f(P_{2})=2-4-1-1-3=-7
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(P_{3})=-2+4-1-1-3=-3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(P_{1})=-2-4-1-1-3=-11
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore P_{1}\mbox{ es el mínimo absoluto de la función en }A
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $f(x,y)=2x-y^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\{(x,y)/-1\leq x\leq1\wedge-2\leq y\leq0\}\Rightarrow A=\{(x,y)/|x|\leq1\wedge|y+1|\leq1\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+B=\{(x,y)/x^{2}+y^{2}\geq1\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C=\{(x,y)/x^{2}+y^{2}\geq1\wedge|x|\leq1\wedge|y+1|\leq1\}\Rightarrow\{(x,y)/1\leq x^{2}+y^{2}\leq1+2^{2}=5\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Es evidente que en }f\big|_{C}:\begin{cases}
+max(f(x,y))= & \{(x,y)/(x=1\wedge y=0\}\\
+min(f(x,y))= & \{(x,y)/(x=-1\wedge y=-2)\}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $f:\mathbb{R}^{2}\rightarrow\mathbb{R}$
+\end_inset
+
+ la función
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=(y-1)^{2}-x^{3}+3x^{2}+5
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}6x-3x^{2} & 2y-2\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}6x-3x^{2}=0 & 2y-2=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(x=0\vee x=2)\wedge y=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{0}=(0,1);P_{1}=(2,1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Por las restricciones: }P_{2}=(2,4);P_{3}=(-2,4)\mbox{ y }P_{1}\notin f\Big|_{D}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHf(x,y)=\left|\begin{matrix}-6x+6 & 0\\
+0 & 2
+\end{matrix}\right|=-12x+12\wedge|-6x+6|=-6x+6
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore x<1\Rightarrow min\wedge x>1\Rightarrow silla
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore P_{1}=silla\wedge P_{0}=min\mbox{ pero como dijimos }P_{1}\notin f\Big|_{D}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(P_{1})=-2^{3}+3*2^{2}+5=9
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(P_{2})=3^{2}-2^{3}+3*2^{2}+5=18
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+f(P_{3})=3^{2}+2^{3}+3*2^{2}+5=34
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=y^{2}-2y-x^{3}+3x^{2}+6\mbox{ si }x^{2}\leq y\Rightarrow f_{1}(x)\leq x^{4}-x^{3}+x^{2}+6\wedge|x|\leq2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Opero en R: }f_{1}'(x)=4x^{3}-3x^{2}+2x=x(4x^{2}-3x+2)\Rightarrow x=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{1}''(x)=12x^{2}-6x+2\Bigg|_{x=0}=2\Rightarrow f_{1}(x)\mbox{ tiene un minimo}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore P_{4}=(0,y)\mbox{ con }y\leq4\mbox{, lo tomo para obtener el menor número: }y=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore f(P_{4}=(0,1))=5\mbox{ mínimo absoluto.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $f:\mathbb{R}^{2}\rightarrow\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=x^{2}+y^{2}-x+\frac{1}{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Encontrar el máximo, el mínimo de 
+\begin_inset Formula $f\Big|_{D}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D=\{(x,y)\in\mathbb{R}^{2}:x^{2}+y^{2}\leq1;x+y\geq0\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}2x-1 & 2y\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}2x-1=0 & 2y=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=\frac{1}{2}\wedge y=0\Rightarrow P_{0}=(\frac{1}{2},0)\in D
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHf(P_{0})=\left|\begin{matrix}2 & 0\\
+0 & 2
+\end{matrix}\right|=4\wedge|2|=2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore f(P_{0})=0=min(f\big|_{D}(x,y))\mbox{ absoluto por no haber otros puntos críticos}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ahora miro la frontera de D para ver si encuentro el máximo, ya que la función
+ no está acotada superiormente en 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $x^{2}+y^{2}\leq1\Rightarrow f(x,y)\leq1-x+\frac{1}{4}$
+\end_inset
+
+ el máximo será el menor x 
+\begin_inset Formula $|x|\leq1\wedge x+y\geq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{2}\leq1-y^{2}\Rightarrow|x|\leq\sqrt{1-y^{2}}\begin{cases}
+x>0 & x\leq\sqrt{1-y^{2}}\\
+x\leq & x\leq-\sqrt{1-y^{2}}
+\end{cases}$
+\end_inset
+
+ 
+\begin_inset Formula $y\geq-x\Rightarrow y\geq-\sqrt{1-y^{2}}\Rightarrow y^{2}\geq1-y^{2}\Rightarrow y^{2}\geq\frac{1}{2}\Rightarrow|y|\geq\frac{1}{\sqrt{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore P_{max}=(-\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Verifico: 
+\begin_inset Formula $f(P_{max})=1+\frac{1}{\sqrt{2}}+\frac{1}{4}=1,9571$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Encontrar el punto de 
+\begin_inset Formula $y^{2}=4x$
+\end_inset
+
+ cuya distancia al 
+\begin_inset Formula $(1,0)$
+\end_inset
+
+ es mínima.
+\end_layout
+
+\begin_layout Standard
+Hago un cambio de variable: 
+\begin_inset Formula $x^{2}=4y\Rightarrow(0,1)$
+\end_inset
+
+ es el punto al que quiero acercarme
+\end_layout
+
+\begin_layout Subsection
+Usando multiplicadores de Lagrange
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x)=\frac{x^{2}}{4};g(x)=|x-1|=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'(x)=\lambda g'(x)\Rightarrow x=2\lambda
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|x-1|=k\Rightarrow|2\lambda-1|=k\begin{cases}
+2\lambda-1\geq0 & \lambda=\frac{k+1}{2}\\
+2\lambda-1<0 & \lambda=\frac{-k+1}{2}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Reduciéndolo a una función de una variable
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $f(x,y)=x^{4}+y^{4}-x^{2}-y^{2}$
+\end_inset
+
+ en el círculo unitario y en el borde
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C=\{(x,y)/x^{2}+y^{2}\leq1\}\Rightarrow x^{2}\leq1\wedge y^{2}\leq1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $x^{4}\leq x^{2}\forall x\leq1\wedge y^{4}\leq y^{2}\forall y\leq1\Rightarrow f(x,y)\leq0\forall x,y\in\mathbb{R}\Rightarrow(0,0)$
+\end_inset
+
+ es máximo absoluto y pertenece al círculo unitario.
+\end_layout
+
+\begin_layout Standard
+Como no está acotada inferiormente, el mínimo estará dado por C.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L(x,y,\lambda)=f(x,y)-\lambda g(x,y)=x^{4}+y^{4}-x^{2}-y^{2}-\lambda x^{2}-\lambda y^{2}=x^{4}+y^{4}-x^{2}(\lambda-1)-y^{2}(\lambda-1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L_{x}=4x^{3}-2x(\lambda-1)=0\Leftrightarrow x=0\vee x^{2}=\frac{2(\lambda-1)}{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+L_{y}=4y^{3}-2y(\lambda-1)=0\Leftrightarrow y=0\vee y^{2}=\frac{2(\lambda-1)}{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{(\lambda-1)}{2}+\frac{(\lambda-1)}{2}\leq1\Rightarrow\lambda\leq2\Rightarrow|y|,|x|\leq\begin{cases}
+\sqrt{\frac{2(2-1)}{4}}=\frac{1}{\sqrt{2}}\\
+-\sqrt{\frac{2(2-1)}{4}}=-\frac{1}{\sqrt{2}}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-\frac{1}{\sqrt{2}}\leq y\leq\frac{1}{\sqrt{2}}\wedge-\frac{1}{\sqrt{2}}\leq x\leq\frac{1}{\sqrt{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Los 4 puntos críticos que me quedaron son iguales porque tengo potencias
+ pares y solo varían en el signo: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{\therefore}f(P_{X})=\frac{1}{2^{2}}+\frac{1}{2^{2}}-\frac{1}{2}-\frac{1}{2}=-\frac{1}{2}\Rightarrow\mbox{Mínimo absoluto.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Encontrar los máximos y mínimos de 
+\begin_inset Formula $f(x,y)=y+x-2xy$
+\end_inset
+
+ en
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R=\{(x,y)\in\mathbb{R}^{2}/|x|\leq\frac{1}{2}\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}1-2y & 1-2x\end{matrix}\right)=\lambda\nabla g(x,y)=\left(\begin{cases}
+x>0 & \begin{matrix}1 & 0\end{matrix}\\
+x\leq0 & \begin{matrix}-1 & 0\end{matrix}
+\end{cases}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+x>0 & 1-2y=\lambda\wedge1-2x=0\Rightarrow x=\frac{1}{2}\\
+x\leq0 & 1-2y=-\lambda\wedge1-2x=0\Rightarrow x=\frac{1}{2}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore x>0\Rightarrow x=\frac{1}{2}\wedge y=\frac{\lambda-1}{2}=\lambda-\frac{1}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x\leq\frac{1}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hay infinitas soluciones.
+ Tomando 
+\begin_inset Formula $x=0$
+\end_inset
+
+ se ve que la función no está acotada en 
+\begin_inset Formula $|x|\leq\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+ni a palos
+\end_layout
+
+\begin_layout Section
+Resolver usando el método de Lagrange
+\end_layout
+
+\begin_layout Subsection
+Encontrar la distancia más corta desde el punto 
+\begin_inset Formula $(a_{1},a_{2},a_{3})\in\mathbb{R}^{3}$
+\end_inset
+
+ hasta el plano de ecuación 
+\begin_inset Formula $f(X)=b_{1}x_{1}+b_{2}x_{2}+b_{3}x_{3}+b_{0}=0$
+\end_inset
+
+ donde 
+\begin_inset Formula $(b_{1},b_{2},b_{3})\neq(0,0,0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La distancia de la superficie al punto está dada por 
+\begin_inset Formula $g(X)=||(B-A)||/B\in S$
+\end_inset
+
+.
+ Necesito buscar el mínimo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g(x)=\sqrt{(x_{1}-a_{1})^{2}+(x_{2}-a_{2})^{2}+(x_{3}-a_{3})^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla g(x)=\left(\begin{matrix}\frac{x_{1}-a_{1}}{(x_{1}-a_{1})^{2}+(x_{2}-a_{2})^{2}+(x_{3}-a_{3})^{2}} & \frac{x_{2}-a_{2}}{(x_{1}-a_{1})^{2}+(x_{2}-a_{2})^{2}+(x_{3}-a_{3})^{2}} & \frac{x_{3}-a_{3}}{(x_{1}-a_{1})^{2}+(x_{2}-a_{2})^{2}+(x_{3}-a_{3})^{2}}\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(X)=\left(\begin{matrix}b_{1} & b_{2} & b_{3}\end{matrix}\right)=\lambda\nabla g(x)\Rightarrow\left(\begin{matrix}\frac{\lambda(x_{1}-a_{1})}{(x_{1}-a_{1})^{2}+(x_{2}-a_{2})^{2}+(x_{3}-a_{3})^{2}}=b_{1} & \frac{\lambda(x_{2}-a_{2})}{(x_{1}-a_{1})^{2}+(x_{2}-a_{2})^{2}+(x_{3}-a_{3})^{2}}=b_{2} & \frac{\lambda(x_{3}-a_{3})}{(x_{1}-a_{1})^{2}+(x_{2}-a_{2})^{2}+(x_{3}-a_{3})^{2}}=b_{3}\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b_{1}x_{1}+b_{2}x_{2}+b_{3}x_{3}+b_{0}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Queda un sistema de 4 ecuaciones y 4 incógnitas, al resolverlo ¿obtengo
+ la distancia mínima?
+\end_layout
+
+\begin_layout Section
+Encontrar la distancia mínima entre la parábola 
+\begin_inset Formula $y=x^{2}$
+\end_inset
+
+ y la recta 
+\begin_inset Formula $x-y-2=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=x^{2}-y;g(x,y)=x-y-2;d(x,y)=||(x_{1}-x_{2},y_{1}-y_{2})||
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

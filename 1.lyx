@@ -1,0 +1,2888 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\begin_modules
+theorems-ams
+eqs-within-sections
+figs-within-sections
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Resolver las siguientes inecuaciones
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $|x+3|<1\Leftrightarrow\begin{cases}
+x+3>1\Rightarrow & x<-2\\
+x+3<-1\Rightarrow & x>-4
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $|3x-1|\leq|x-1|\Leftrightarrow\begin{cases}
+3x-1>0\wedge x-1\geq0\wedge3x-1\leq x-1\Rightarrow & x>\frac{1}{3}\wedge x\geq1\wedge x\leq0\Leftrightarrow x\in\emptyset\\
+3x-1>0\wedge x-1<0\wedge3x-1\leq-x+1\Rightarrow & x>\frac{1}{3}\wedge x<1\wedge x\leq\frac{1}{2}\Leftrightarrow x\in(\frac{1}{3},\frac{1}{2})\\
+3x-1\leq0\wedge x-1\geq0\wedge-3x+1\leq x-1\Rightarrow & x\leq\frac{1}{3}\wedge x\geq1\wedge\left(-4x\leq-2\Leftrightarrow x\geq\frac{1}{2}\right)\Leftrightarrow x\in\emptyset\\
+3x-1\leq0\wedge x-1<0\wedge-3x+1\leq-x+1\Rightarrow & x\leq\frac{1}{3}\wedge x<1\wedge x\geq0\Leftrightarrow x\in[0,\frac{1}{3}]
+\end{cases}\therefore x\in[0,\frac{1}{2}]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $|x-3|\ge1\Leftrightarrow\begin{cases}
+x-3\geq1 & x\geq4\\
+x-3\leq-1 & x\leq1
+\end{cases}\therefore x\in(-\infty,1)\cup(4,+\infty)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+ej
+\end_layout
+
+\begin_layout Paragraph
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $|x|\leq|x+3|\rightarrow$
+\end_inset
+
+ se resuelve de manera similar al 1.2
+\end_layout
+
+\begin_layout Subsection
+ej
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\frac{x-2}{3x+1}\right|\leq1\Leftrightarrow\frac{\left|x-2\right|}{\left|3x+1\right|}\Rightarrow$
+\end_inset
+
+ se indefine para 3x+1=0, el resto es equivalente al 1.2
+\end_layout
+
+\begin_layout Section
+Representar los siguientes conjuntos en 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\left\{ x:|x-1|<1,x\notin\mathbb{Z}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+x-1>0 & x<2\wedge x>1=(1,2)\\
+x-1\leq0 & x>0\wedge x\leq1=(0,1]
+\end{cases}\therefore x\in\left(0,2\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\{x:\left|x-3\right|<\left|2-x\right|\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Análogo al 1.b
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\{x:0<x^{2}\leq x^{\text{3}}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+x>1\Rightarrow & x*x^{2}\geq x^{2}\\
+0<x\leq1\Rightarrow & x*x^{2}\leq x^{2}\\
+\begin{cases}
+-1<x\leq0 & x*x^{2}\leq x^{2}\\
+x\leq-1 & x*x^{2}\leq x^{2}
+\end{cases} & \rightarrow\mbox{No incluídos}
+\end{cases}\therefore\{x:0<x^{2}\leq x^{\text{3}}\}\Leftrightarrow0<x\leq1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Representar los siguientes conjuntos en la recta real (complicado de hacer
+ en latex)
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $a\geq0$
+\end_inset
+
+.
+ Determinar para qué valores de 
+\begin_inset Formula $b$
+\end_inset
+
+ se verifican cada una de las siguientes condiciones:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+*:\mbox{si }b\leq0\Rightarrow|a+b|\leq|a|+|b|\mbox{ ya que }sg(a)\neq sg(b)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\left|a+b\right|=|a|+|b|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a\geq0\Rightarrow\begin{cases}
+b\geq0 & |a+b|=a+b=|a|+|b|\\
+b<0 & \mbox{por}*:|a+b|\leq|a|+|b|
+\end{cases}\therefore\left|a+b\right|=|a|+|b|\Leftrightarrow b\geq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\left|a+b\right|<|a|+|b|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+a>0\wedge b>0 & |a+b|=|a|+|b|\Rightarrow|a+b|\nless|a|+|b|\\
+a>0\wedge b<0 & |a+b|<|a|+|b|\mbox{ reflexión análoga a *}
+\end{cases}\therefore\left|a+b\right|<|a|+|b|\Leftrightarrow b<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\left|a-b\right|=|a|+|b|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+b>0 & |a-b|<|a|+|b|\rightarrow\mbox{ reflexión análoga a *}\\
+b\leq0 & |a-b|=|a+(-b)|=|a|+|b|
+\end{cases}\therefore\left|a-b\right|=|a|+|b|\Leftrightarrow b\leq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\left|a-b\right|<|a|+|b|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se resuelve con el mismo razonamiento del punto anterior, en este caso el
+ resultado que nos interesa es cuando 
+\begin_inset Formula $b>0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|a-b\right|<|a|+|b|\Leftrightarrow b>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\left||a|-|b|\right|=\left|a-b\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+b\geq0 & |a|=a\wedge|b|=b\Rightarrow\left||a|-|b|\right|=\left|a-b\right|\\
+b<0 & |a|=a\wedge|b|=-b\Rightarrow\left||a|-|b|\right|=\left|a+b\right|\neq\left|a-b\right|
+\end{cases}\therefore\left||a|-|b|\right|=\left|a-b\right|\Leftrightarrow b\geq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\left||a|-|b|\right|<\left|a-b\right|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se resuelve con el mismo razonamiento del punto anterior, en este caso el
+ resultado que nos interesa es cuando 
+\begin_inset Formula $b<0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b<0\Rightarrow\left||a|-|b|\right|=\left|a+b\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|a+b\right|<|a-b|\rightarrow\mbox{Ya que los signos son opuestos}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\left||a|-|b|\right|<\left|a-b\right|\Leftrightarrow b<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sean 
+\begin_inset Formula $a$
+\end_inset
+
+ y 
+\begin_inset Formula $b$
+\end_inset
+
+ dos números reales.
+ Decidir para qué valores de 
+\begin_inset Formula $a$
+\end_inset
+
+ y 
+\begin_inset Formula $b$
+\end_inset
+
+ son válidas cada una de las siguientes afirmaciones
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $a<a^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+a<0 & a\leq|a|\leq a^{2}\\
+0\leq a\leq1 & a^{2}=a.a\leq a\rightarrow\mbox{ Ya que a reduce a cualquier número, en particular a }a\\
+a>1 & a^{2}>a\rightarrow\mbox{ Ya que a incrementa a cualquier número, en particular a }a
+\end{cases}\therefore a<a^{2}\Leftrightarrow a>1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $a<b\Rightarrow a^{2}<b^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+a>1\wedge a<b\Rightarrow & a*a<b*a\Rightarrow a^{2}<b*a<b*b\Rightarrow a^{2}<b^{2}\\
+0\leq a\leq1\wedge a<b\Rightarrow & a*a<b*a\Rightarrow a^{2}<b*a<b*b\Rightarrow a^{2}<b^{2}\\
+a<0\wedge|a|<|b|\wedge a<b\Rightarrow & |a|*|a|<|b|*|a|\Rightarrow a^{2}<|b|*|a|<|b|*|b|\Rightarrow a^{2}<b^{2}\\
+a<0\wedge|a|\geq|b|\wedge a<b\Rightarrow & |a|*|a|\geq|b|*|a|\Rightarrow a^{2}\geq|b|*|a|\geq|b|*|b|\Rightarrow a^{2}\geq b^{2}
+\end{cases}\therefore a<b\Rightarrow a^{2}<b^{2}\Leftrightarrow a<0\wedge|a|\geq|b|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $a>0\Rightarrow ab\geq b$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a>0$
+\end_inset
+
+ entonces no cambia el signo de b y aumenta su módulo, por lo que 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+b\geq0\Rightarrow & b*a\geq b\\
+b<0\Rightarrow & b*a<b
+\end{cases}\therefore a>0\Rightarrow ab\geq b\Leftrightarrow b\geq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $a+b\geq max\{a,b\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vamos a analizar las cuatro combinaciones de signos
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+a\geq0\wedge b\geq0\Rightarrow & a+b\geq a\wedge a+b\geq b\Rightarrow a+b\geq max\{a,b\}\\
+a\geq0\wedge b<0\Rightarrow & a+b<a\wedge a>b\Rightarrow a+b<a=max\{a,b\}\\
+a<0\wedge b\geq0\Rightarrow & a+b<b\wedge b>a\Rightarrow a+b<b=max\{a,b\}\\
+a<0\wedge b<0\Rightarrow & a+b<a\wedge a+b<b\Rightarrow a+b<max\{a,b\}
+\end{cases}\therefore a+b\geq max\{a,b\}\Leftrightarrow a\geq0\wedge b\geq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sean 
+\begin_inset Formula $0\leq x\leq y$
+\end_inset
+
+.
+ Probar que 
+\begin_inset Formula $x\leq\sqrt{xy}\leq\frac{x+y}{2}\leq y$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x>0\Rightarrow x\leq\sqrt{x^{2}}=\sqrt{x*x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y\geq x\Rightarrow\sqrt{x*x}\leq\sqrt{xy}\Rightarrow x\leq\sqrt{xy}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x\leq\frac{x+x}{2}\wedge y\geq x\Rightarrow x\leq\frac{x+y}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\leq x\leq y\Rightarrow x+y\leq y+y\Rightarrow\frac{x+y}{2}\leq\frac{y+y}{2}=y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\leq x\leq y\Rightarrow\sqrt{x*y}\leq\sqrt{y*y}\Rightarrow\sqrt{xy}\leq|y|=y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Ej
+\end_layout
+
+\begin_layout Subsection
+Mostrar que los siguientes conjuntos no están acotados superiormenete:
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset Formula $\mathbb{R}_{>0};$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Reducción al absurdo, supongo que existe 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $r\in\mathbb{R}$
+\end_inset
+
+ supremo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\exists r'=r+1/r'>r\wedge r'\in\mathbb{R}_{>0}\mbox{ absurdo}\therefore\mathbb{R}_{>0}\mbox{ no tiene supremo en los números reales}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\mathbb{R}_{>0}\mbox{ no está acotado superiormente}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset Formula $A=\{n\in\mathbb{N}:\exists m\in\mathbb{N}\mbox{ con }n=m^{2}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Reducción al absurdo, supongo que existe 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $r\in\mathbb{R}$
+\end_inset
+
+ supremo.
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+Coloquialmente: tomo un natural mayor y lo elevo al cuadrado, este natural
+ pertenecerá a A por definición.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{como todo real esta a menos de 1 de un natural: }\exists r'>r/r'\in\mathbb{N}\Rightarrow(r')^{2}\in A\wedge(r')^{2}>r\mbox{ absurdo}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\therefore\mathbb{A}\mbox{ no tiene supremo en los números reales, por lo tanto no está acotado superiormente.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Mostrar que los siguientes conjuntos no están acotados inferiormente:
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $-\mathbb{N}=\mathbb{Z}_{<0}=\{-1,-2...\}=\{-n/n\in\mathbb{N}\}$
+\end_inset
+
+.
+ Por el segundo axioma de peano sabemos que todo número de
+\begin_inset Formula $\mathbb{N}$
+\end_inset
+
+ tiene un siguiente que pertenece al conjunto.
+\end_layout
+
+\begin_layout Standard
+Para cualquier cota inferior 
+\begin_inset Formula $r$
+\end_inset
+
+ habrá un último 
+\begin_inset Formula $-n\in\mathbb{Z}/-n>r\wedge n\in\mathbb{N}$
+\end_inset
+
+, pero por lo antedicho 
+\begin_inset Formula $n+1\in\mathbb{N}/n+1>n\Leftrightarrow-(n+1)\in\mathbb{N}/-(n+1)<-n$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore-(n+1)<r\mbox{ lo que es absurdo.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset Formula $\{x^{-1}:x<0\};$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+nota: Supongo que 
+\begin_inset Formula $x$
+\end_inset
+
+ pertenece a 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0^{-}}x^{-1}=-\infty\Rightarrow x\mbox{ no está acotado inferiormente en }\mathbb{R}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset Formula $Im(f)$
+\end_inset
+
+ donde 
+\begin_inset Formula $f(x)=-x^{2}+2x+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+nota: Supongo que 
+\begin_inset Formula $f:\mathbb{R}\to\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sabemos que 
+\begin_inset Formula $x^{2}$
+\end_inset
+
+ cambia más rápido que 
+\begin_inset Formula $2x\therefore x\to+\infty\Rightarrow f(x)\to-\infty\therefore f(x)$
+\end_inset
+
+ no está acotada inferiormente.
+\end_layout
+
+\begin_layout Section
+Determinar si los siguientes conjuntos poseen supremo, ínfimo, máximo y
+ mínimo.
+ En caso de poseerlos calcularlos.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $A=\{\frac{1}{n}:n\in\mathbb{N}$
+\end_inset
+
+ y 
+\begin_inset Formula $20<n\leq35\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+No creo que sea necesario otro argumento que el siguiente, ya que el conjunto
+ es acotado por definición.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\left\{ \frac{1}{35},\frac{1}{34}...\frac{1}{20}\right\} \Rightarrow\frac{1}{35}\mbox{ es el máximo (supremo) y }\frac{1}{20}\mbox{ es el mínimo (ínfimo)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $A=\left\{ \frac{(-1)^{n}}{n}:n\in\mathbb{N}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se puede pensar 
+\begin_inset Formula $A=B\cup C/B=\left\{ \left(B_{n}\right)=\frac{(-1)^{n}}{n}:n\in\mathbb{N}\wedge n\%2=0\right\} ,C=\left\{ \left(C_{n}\right)=\frac{(-1)^{n}}{n}:n\in\mathbb{N}\wedge n\%2=1\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+B=\left\{ \frac{1}{2},\frac{1}{4},\frac{1}{6}...\right\} ,C=\left\{ -1,-\frac{1}{3},-\frac{1}{5}...\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+B: & \lim_{n\to\infty}\left(B_{n}\right)=\lim_{n\to\infty}\frac{1}{n}=0\\
+C: & \lim_{n\to\infty}\left(C_{n}\right)=\lim_{n\to\infty}-\frac{1}{n}=0
+\end{cases}\therefore A,B,C\mbox{ son convergentes a 0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\begin{cases}
+B: & \frac{1}{n}>\frac{1}{n+1}\Rightarrow B\mbox{ es estrictamente creciente}\\
+C: & -\frac{1}{n}<-\frac{1}{n+1}\Rightarrow C\mbox{ es estrictamente decreciente}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+B es estrictamente decreciente y su valor incial (y por lo tanto máximo)
+ es 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+C es estrictamente creciente y su valor inicial (y por lo tanto mínimo)
+ es 
+\begin_inset Formula $-1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\mbox{el máximo (supremo) de A es }A_{2}=\frac{1}{2},\mbox{ el mínimo (ínfimo) de A es \ensuremath{A_{1}=-1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $A=\left\{ \left(A_{n}\right)=\frac{1}{n^{2}}:n\in\mathbb{N}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\left\{ 1,\frac{1}{4},\frac{1}{9}...\right\} ;\lim_{n\to\infty}\frac{1}{n^{2}}=0\Rightarrow\left(A_{n}\right)\mbox{ es convergente\ensuremath{\therefore}es acotada\ensuremath{\therefore}tiene supremo e ínfimo}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{1}{n^{2}}>\frac{1}{(n+1)^{2}}\forall n\in\mathbb{N}\Rightarrow\left(A_{n}\right)\mbox{ es estrictamente creciente}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\mbox{máximo}\left(A_{n}\right)=1;\mbox{ínfimo}\left(A_{n}\right)=0;\mbox{ como }0\notin A\mbox{ no tiene mínimo}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $A=\left\{ \left(A_{n}\right)=\frac{2n}{7n-3}:n\in\mathbb{N}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A=\left\{ \frac{1}{2},\frac{4}{11},\frac{1}{3}...\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{por ser cociente de polinomios }\exists\lim_{n\to\infty}\frac{2n}{7n-3}=\frac{2}{7}\Rightarrow\left(A_{n}\right)\mbox{ es convergente\ensuremath{\therefore}es acotada\ensuremath{\therefore}tiene supremo e ínfimo}
+\]
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\lim_{n\to\infty}\frac{2n}{7n-3}=\lim_{n\to\infty}\frac{2n}{7n}$
+\end_inset
+
+ ya que es un cociente de polinomios
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{n+1}/A_{n}=\frac{2n+2}{7n+7-3}*\frac{7n-3}{2n}=\frac{14n^{2}+14n-6n-6}{14n^{2}+8n}=\frac{14n^{2}+8n-6}{14n^{2}+8n}=1-\frac{6}{14n^{2}+8n}>0\forall n\in\mathbb{N}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\left(A_{n}\right)\mbox{ es creciente }\therefore A_{1}=\frac{1}{2}\mbox{ es el mínimo}\wedge\frac{2}{7}\mbox{ es el supremo, como nunca lo alcanza no tiene máximo.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Considerar el conjunto 
+\begin_inset Formula $A=\{a\in\mathbb{Q}:a^{2}<2\}\subset\mathbb{R}.$
+\end_inset
+
+ Calcule su supremo y concluya que 
+\begin_inset Formula $A$
+\end_inset
+
+ no tiene máximo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a\in A\Leftrightarrow a^{2}<2\Leftrightarrow|a|<\sqrt{2}\Rightarrow\mbox{supremo de }A=\sqrt{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sqrt{2}\notin\mathbb{Q}\Rightarrow A\mbox{ no tiene máximo.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Dado el conjunto 
+\begin_inset Formula $B=\{a\in\mathbb{Q}_{>0}:a^{2}>2\}\subset\mathbb{R}$
+\end_inset
+
+, calcule su ínfimo y concluya que B no tiene mínimo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Por el punto anterior y la def. de \ensuremath{B}: }0<a<\sqrt{2}\Rightarrow\mbox{ínfimo de }B=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\notin A\Rightarrow A\mbox{ no tiene mínimo.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Calcular
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $sup\left\{ \frac{n^{2}}{2^{n}}:n\in\mathbb{N}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(A_{n}\right)=\left\{ \frac{1}{2},1,\frac{9}{8},1,\frac{25}{32},\frac{36}{64},\frac{49}{128},\frac{64}{256}=\frac{1}{4},...\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\forall n\in\mathbb{N}:A_{n}=\frac{n^{2}}{2^{n}}\wedge A_{n+1}=\frac{\left(n+1\right)^{2}}{2.2^{n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{(n+1)^{2}}{2^{n+1}}*\frac{2^{n}}{n^{2}}=\frac{(n+1)^{2}}{2*n^{2}}=\frac{1}{2}+\frac{2n+1}{2n^{2}}=\frac{1}{2}+\frac{1}{n}+\frac{1}{2n^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{1}{2}+\frac{1}{n}+\frac{1}{2n^{2}}<1\Leftrightarrow\frac{1}{n}+\frac{1}{2n^{2}}<\frac{1}{2}\Leftrightarrow n>3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\forall n>3:\left(A_{n}\right)\mbox{ es decreciente}\Rightarrow sup\left\{ \frac{n^{2}}{2^{n}}:n\in\mathbb{N}\right\} =\frac{9}{8}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $sup\left\{ \frac{\sqrt{n+1}}{10+n}:n\in\mathbb{N}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(A_{n}\right)=\left\{ \frac{\sqrt{2}}{11},\frac{\sqrt{3}}{12},\frac{2}{13},...\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\sqrt{n+1}}{10+n}=\sqrt{\left(\frac{\sqrt{n+1}}{10+n}\right)^{2}}=\sqrt{\frac{n+1}{20(n+1)+81-1+n^{2}}}=\sqrt{\frac{n+1}{(n+1)*(20+\frac{81}{n+1}+\frac{n^{2}-1}{n+1})}}=\sqrt{\frac{1}{20+\frac{81}{n+1}+n-1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{n\to\infty}A_{n}=\lim_{n\to\infty}\sqrt{\frac{1}{20+\frac{81}{n+1}+n-1}}=0\Rightarrow\frac{\sqrt{n+1}}{10+n}\mbox{es convergente\ensuremath{\therefore}es acotada\ensuremath{\therefore}tiene supremo e ínfimo}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{A_{n+1}}{A_{n}}=\frac{\sqrt{20+\frac{81}{n+1}+n-1}}{\sqrt{20+\frac{81}{n+2}+n}}=\sqrt{\frac{20+\frac{81}{n+1}-\frac{n+1}{n+1}+n}{20+\frac{81}{n+2}+n}}=\sqrt{\frac{20+\frac{80-n}{n+1}+n}{20+\frac{81}{n+2}+n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sqrt{\frac{20+\frac{80-n}{n+1}+n}{20+\frac{81}{n+2}+n}}<1\Leftrightarrow\frac{80-n}{n+1}<\frac{81}{n+2}\Rightarrow\mbox{Resuelvo la inecuación }\frac{80-n}{n+1}<\frac{81}{n+2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(n+2)(80-n)<(n+1)81\Leftrightarrow80n+160-n^{2}-2n<81n+81\Leftrightarrow-n^{2}+78n+160-81-81n<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Leftrightarrow-n^{2}-3n+79<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Pruebo algunos números: }\begin{cases}
+n=7 & -49-21+79=9\\
+n=8 & -64-24+79=-9
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\frac{\sqrt{n+1}}{10+n}\mbox{ es creciente hasta 7 y luego decrece, convergiendo a 0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore A_{7}\mbox{ es el supremo}=\frac{\sqrt{8}}{17}=\frac{2\sqrt{2}}{17}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+inf
+\begin_inset Formula $\left\{ \frac{n-3}{2^{n}}:n\in\mathbb{N}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{n}=\frac{n-3}{2^{n}};\lim_{n\to\infty}A_{n}=\lim_{n\to\infty}\frac{n-3}{2^{n}}=0\therefore\mbox{es convergente\ensuremath{\therefore}es acotada\ensuremath{\therefore}tiene supremo e ínfimo}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{A_{n+1}}{A_{n}}=\frac{n-2}{2^{n+1}}*\frac{2^{n}}{n-3}=\frac{n-2}{2n-6}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{n-2}{2n-6}>1\Leftrightarrow n-2>2n-6\Leftrightarrow n<4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\frac{n-3}{2^{n}}\mbox{ es creciente hasta }n=4\mbox{ y luego decrece convergiendo a 0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\mbox{ inf}\left\{ \frac{n-3}{2^{n}}:n\in\mathbb{N}\right\} =min(A_{1},A_{2},A_{3},0)=min(\frac{-2}{2},\frac{-1}{4},\frac{0}{8},0)=-1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+inf
+\begin_inset Formula $\left\{ n^{2}-9n-10:n\in\text{\mathbb{N}}\right\} $
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{n}=n^{2}-9n-10
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Como es un polinomio (continuo con n\in\mathbb{R}) uso el criterio de la derivada para hayar máximos y mínimos:}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{n}'=2n-9=0\Leftrightarrow n=\frac{9}{2}\Rightarrow\mbox{reviso los valores más cercanos }\in\mathbb{N}:\begin{cases}
+n=4 & 16-36-10=-30\\
+n=5 & 25-45-10=-30
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+A_{n}''=2\therefore n=4\wedge n=5\mbox{ son mínimos locales}\therefore\mbox{inf}\left\{ n^{2}-9n-10:n\in\text{\ensuremath{\mathbb{N}}}\right\} =A_{4/5}=-30
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Decidir si las siguientes afirmaciones son verdadras o falsas (justificar
+ la respuesta con una demostración o un contraejemplo):
+\end_layout
+
+\begin_layout Subsection
+Si 
+\begin_inset Formula $\lim_{n\to\infty}a_{n}=2$
+\end_inset
+
+ entonces 
+\begin_inset Formula $a_{n}>0\forall n\in\mathbb{N}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{falso: }a_{n}=\frac{2n-99}{n}\Rightarrow\lim_{n\to\infty}a_{n}=2\wedge a_{1}=\frac{-97}{1}<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Si 
+\begin_inset Formula $\lim_{n\to\infty}a_{n}=2$
+\end_inset
+
+ entonces 
+\begin_inset Formula $\exists n_{0}/a_{n}>0\forall n\geq n_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Verdadero: por la definición de límite de sucesiones }\lim_{n\to\infty}a_{n}=2\Leftrightarrow\forall\epsilon>0\exists n_{0}\in\mathbb{N}/\forall n>n_{0}:\left|a_{n}-2\right|<\epsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\mbox{basta tomar un }n_{0}\mbox{ lo suficientemente grande para lograr que }a_{n}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Si 
+\begin_inset Formula $a_{n}<2$
+\end_inset
+
+ para todo 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+ y converge, entonces 
+\begin_inset Formula $\lim_{n\to\text{\infty}}a_{n}<2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Falso: sea }a_{n}=2-\frac{1}{n}\Rightarrow a_{n}<2\wedge\lim_{n\to\text{\ensuremath{\infty}}}a_{n}=2\nless2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Si 
+\begin_inset Formula $a_{n}<2-\frac{1}{n}$
+\end_inset
+
+ para todo 
+\begin_inset Formula $n\in\mathbb{N}$
+\end_inset
+
+ y converge, entonces 
+\begin_inset Formula $\lim_{n\to\text{\infty}}a_{n}<2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Falso: sea }a_{n}=2-\frac{1}{2n}\Rightarrow a_{n}<2-\frac{1}{n}\wedge\lim_{n\to\text{\ensuremath{\infty}}}a_{n}=2\nless2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Calcular 
+\begin_inset Formula $l=\lim_{n\to\text{\infty}}\frac{n+1}{n}$
+\end_inset
+
+ y determinar, para cada 
+\begin_inset Formula $\epsilon>0$
+\end_inset
+
+ de la siguiente tabla, un valor 
+\begin_inset Formula $n_{0}=n_{0}(\epsilon)/\left|\frac{n+1}{n}-l\right|<\epsilon$
+\end_inset
+
+ si 
+\begin_inset Formula $n>n_{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{n\to\text{\infty}}\frac{n+1}{n}=1\rightarrow\mbox{ usando el criterio de cociente de polinomios de mismo grado (ver nota al pie \#1)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Busco la relación entre \ensuremath{n_{0}}y }\epsilon:\lim_{n\to\text{\infty}}\frac{n+1}{n}=1\Leftrightarrow\forall\epsilon>0\exists n_{0}\in\mathbb{N}/\forall n>n_{0}:\frac{n+1}{n}-1<\epsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{n+1-n}{n}<\epsilon\Leftrightarrow\frac{1}{n}<\epsilon\Leftrightarrow\epsilon^{-1}<n
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\epsilon$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,027$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,00001$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10^{-6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $n_{0}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,1^{-1}=10$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,027^{-1}=37.03\Rightarrow n_{0}=34$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0,00001^{-1}=100000$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10^{6}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Section
+Dadas las sucesiones 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a_{n}=\frac{1}{\sqrt{n}}+\frac{1}{\sqrt{n+1}}+...+\frac{1}{\sqrt{2n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b_{n}=\frac{1}{\sqrt{n^{2}}}+\frac{1}{\sqrt{n^{2}+1}}+...+\frac{1}{\sqrt{n^{2}+n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Probar que:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{n\to\infty}a_{n}=+\infty$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Defino }a'_{n}=\frac{n+1}{\sqrt{2n}}\leq a_{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{n\to\infty}a'_{n}=\lim_{n\to\infty}\frac{n+1}{\sqrt{2n}}=\lim_{n\to\infty}\sqrt{\frac{(n+1)^{2}}{2n}}=\lim_{n\to\infty}\sqrt{\frac{n}{2}+\frac{1}{2n}+1}=\sqrt{+\infty}=+\infty
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a'_{n}\leq a_{n}\Rightarrow\lim_{n\to\infty}a_{n}=+\infty
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{n\to\infty}b_{n}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Defino }b'_{n}=\frac{n+1}{n}\geq b_{n}\mbox{ y }b''_{n}=\frac{n+1}{\sqrt{n^{2}+n}}\leq b_{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{n\to\infty}b'_{n}=\lim_{n\to\infty}\frac{n+1}{n}=\lim_{n\to\infty}1+\frac{1}{n}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{n\to\infty}b''_{n}=\lim_{n\to\infty}\frac{n+1}{\sqrt{n^{2}+n}}=\lim_{n\to\infty}\sqrt{\frac{(n+1)^{2}}{n^{2}+n}}=\lim_{n\to\infty}\sqrt{\frac{n^{2}+n+n+1}{n^{2}+n}}=\lim_{n\to\infty}\sqrt{\frac{n+1}{n^{2}+n}+1}=\lim_{n\to\infty}\sqrt{\frac{n+1}{n(n+1)}+1}=\lim_{n\to\infty}\sqrt{\frac{1}{n}+1}=\sqrt{1}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b'_{n}\geq b_{n}\geq b''_{n}\wedge\lim_{n\to\infty}b''_{n}=\lim_{n\to\infty}b''_{n}=1\Rightarrow\lim_{n\to\infty}b_{n}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $a_{n}=\frac{4n-10}{n+1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Encontrar 
+\begin_inset Formula $n_{0}\in\mathbb{N}/\forall n\geq n_{0}$
+\end_inset
+
+ se cumpla que 
+\begin_inset Formula $3<a_{n}<5$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{n\to\infty}a_{n}=\lim_{n\to\infty}\frac{4n-10}{n+1}=4\rightarrow\mbox{por el criterio de límite tendiendo a infinito de cociente de polinomios}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\forall\varepsilon>0,\exists n_{0}>0:\forall n>n_{0},|\frac{4n-10}{n+1}-4|<\varepsilon\rightarrow\mbox{Por definición de límite}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Si }\varepsilon=1\Rightarrow\exists n_{0}>0:\forall n>n_{0},|\frac{4n-10}{n+1}-4|<1\Rightarrow3<a_{n}<5\rightarrow\mbox{ por definición de distancia}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|\frac{4n-10}{n+1}-\frac{4n+4}{n+1}\right|<1\Leftrightarrow\left|-\frac{14}{n+1}\right|<1\Leftrightarrow\frac{14}{n+1}<1\Leftrightarrow14-1<n
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\forall n>13,|\frac{4n-10}{n+1}-4|<1\Rightarrow n_{0}=13
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Encontrar, si existen, 
+\begin_inset Formula $max\{a_{n}:n\in\mathbb{N}\}$
+\end_inset
+
+ y 
+\begin_inset Formula $min\{a_{n}:n\in\mathbb{N}\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a_{n+1}>a_{n}\Leftrightarrow\frac{4(n+1)-10}{n+2}>\frac{4n-10}{n+1}\Leftrightarrow(4n+4-10)(n+1)>(n+2)(4n-10)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Leftrightarrow(4n-6)(n+1)>(n+2)(4n-10)\Leftrightarrow(4n-6)(n+1)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Leftrightarrow4n^{2}-6n+4n-6>4n^{2}-10n+8n-20\Leftrightarrow-2n+2n-6+20>0\Leftrightarrow14>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore a_{n}\mbox{ es monótona estrictamente creciente\therefore\ensuremath{min\{a_{n}:n\in\mathbb{N}\}=a_{1}=\frac{4-10}{2}=-3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+sup\{a_{n}:n\in\mathbb{N}\}=\lim_{n\to\infty}a_{n}=4\rightarrow\mbox{ por ser convergente y monótona creciente}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Como es creciente: }\nexists a_{n}/a_{n}=4\rightarrow\mbox{porque entonces para los siguientes números se alejaría del 4 y no sería convergente, como se probó.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore4\notin\left(a_{n}\right)\Rightarrow\nexists max\{a_{n}:n\in\mathbb{N}\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sean 
+\begin_inset Formula $a_{0},b_{0}\in\mathbb{R}/a_{0}>b_{0}>0$
+\end_inset
+
+.
+ Se consideran las sucesiones 
+\begin_inset Formula $\{a_{n}\}_{n\in\mathbb{N}}$
+\end_inset
+
+ y 
+\begin_inset Formula $\{b_{n}\}_{n\in\mathbb{N}}$
+\end_inset
+
+ definidas recurrentemente por:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a_{n+1}=\frac{a_{n}+b_{n}}{2},b_{n+1}=\sqrt{a_{n}b_{n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Demostrar las siguientes afirmaciones:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $a_{n}\geq b_{n}\forall n\in\mathbb{N}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{a_{n+1}}{a_{n}}=\frac{a_{n}+b_{n}}{2a_{n}}=\frac{1}{2}+\frac{b_{n}}{2a_{n}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{b_{n+1}}{b_{n}}=\frac{\sqrt{a_{n}b_{n}}}{b_{n}}=\sqrt{\frac{a_{n}}{b_{n}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Si fuera cierto que: }\frac{a_{n}+b_{n}}{2a_{n}}\geq\sqrt{\frac{a_{n}}{b_{n}}}\Rightarrow\frac{a_{n}^{2}+b_{n}^{2}+2a_{n}b_{n}}{4a_{n}^{2}}\geq\frac{a_{n}}{b_{n}}\Leftrightarrow\left(a_{n}^{2}+b_{n}^{2}+2a_{n}b_{n}\right)*b_{n}\geq4a_{n}^{2}a_{n}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a_{n}^{2}b_{n}+b_{n}^{3}+2a_{n}b_{n}^{2}\geq4a_{n}^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+a_{n}^{2}b_{n}\leq & a_{n}^{3}\\
+b_{n}^{3}\leq & a_{n}^{3}\\
+2a_{n}b_{n}^{2}\leq & a_{n}^{3}
+\end{cases}\Rightarrow a_{n}^{3}+a_{n}^{3}+2a_{n}^{3}\geq4a_{n}^{3}\Rightarrow a_{n}^{3}+a_{n}^{3}+2a_{n}^{3}\geq4a_{n}^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\{a_{n}\}_{n\in\mathbb{N}}$
+\end_inset
+
+ es decreciente y 
+\begin_inset Formula $\{b_{n}\}_{n\in\mathbb{N}}$
+\end_inset
+
+ es creciente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{a_{n+1}}{a_{n}}=\frac{a_{n}+b_{n}}{2a_{n}}<1\Rightarrow\mbox{es decreciente (}a_{n}+b_{n}<2a_{n}\mbox{)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{b_{n+1}}{b_{n}}=\sqrt{\frac{a_{n}}{b_{n}}}>1\Rightarrow\mbox{es creciente}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $a_{0}$
+\end_inset
+
+ un número positivo.
+ Se define la siguiente sucesión dara por recurrencia:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a_{n+1}=sen(a_{n})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Probar que 
+\begin_inset Formula $\{a_{n}\}_{n\in\mathbb{N}}$
+\end_inset
+
+ es una sucesión convergente y calcular su límite.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Sabemos que }sen(x)\leq x\forall x>0\Rightarrow\frac{a_{n+1}}{a_{n}}<1\Rightarrow\mbox{ la suecesión es monótona decreciente}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Probar que 
+\begin_inset Formula $\left(\sum_{j=0}^{n}q^{j}\right)=\frac{1-q^{n+1}}{1-q}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Demuestro por inducción: }\begin{cases}
+P(1): & \frac{1-q^{0+1}}{1-q}=\frac{1-q^{1}}{1-q}=1;\sum_{j=0}^{0}q^{j}=q^{0}=1\\
+P(n)\Rightarrow P(n+1): & \left(\sum_{j=0}^{n}q^{j}\right)=\frac{1-q^{n+1}}{1-q}\Rightarrow\frac{1-q^{n+2}}{1-q}\rightarrow
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\rightarrow\left(\sum_{j=0}^{n+1}q^{j}\right)=\frac{1-q^{n+1}}{1-q}+q^{n+1}=\frac{1-q^{n+1}+q^{n+1}-q^{n+2}}{1-q}=\frac{1-q^{n+2}}{1-q}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Calcular 
+\begin_inset Formula $\sum_{j=0}^{\infty}$
+\end_inset
+
+
+\begin_inset Formula $\frac{7}{2^{j}}$
+\end_inset
+
+ y 
+\begin_inset Formula $\sum_{j=2}^{\infty}\frac{3}{4^{j}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{j=0}^{\infty}7*2^{-j}=7*2^{0}+7*2^{-1}+...+7*2^{-n}=7(2^{0}+2^{-1}+...+2^{-\infty})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a_{n+1}=a_{n}+\frac{a_{n}}{2};a_{0}=7+7\left(\frac{\frac{1}{2}}{1-\frac{1}{2}}\right)=7+7\left(\frac{1}{2}*\frac{2}{1}\right)=14\rightarrow\mbox{aplicando la suma de términos infinitos de una progresión geométrica}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{j=2}^{\infty}3*4^{-j}=3*\left(4^{-1}+4^{-2}+4^{-3}...+4^{-\infty}-4^{-1}\right)=3*\left(\frac{\frac{1}{4}}{1-\frac{1}{4}}\right)-\frac{3}{4}=3*\left(\frac{\frac{1}{4}}{\frac{4-1}{4}}\right)-\frac{3}{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=3*\left(\frac{1}{4}*\frac{4}{3}\right)-\frac{3}{4}=1-\frac{3}{4}=\frac{1}{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Probar que 
+\begin_inset Formula $\sum_{j=1}^{n}j=\frac{n(n+1)}{2}$
+\end_inset
+
+.
+ Sugerencia: Sumar el primer término con el último, el segundo con el penúltimo,
+ etc.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sum_{j=1}^{n}j=\frac{n(n+1)}{2}=1+2+3+...+n-3+n-2+n-1+n=n+1+n+1+...+n+1+n+1\rightarrow\mbox{hago lo sugerido, quedan }\frac{n}{2}\mbox{ términos}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\sum_{j=1}^{n}j=\frac{n}{2}(n+1)=\frac{n(n+1)}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sea 
+\begin_inset Formula $\{k_{n}\}_{n\in\mathbb{N}}$
+\end_inset
+
+ una sucesión estrictamente creciente de números naturales.
+ Sea
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+a_{n}=\frac{k_{1}+...+k_{n}}{k_{n}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Probar que 
+\begin_inset Formula $\forall\varepsilon>0\exists n_{0}/n\geq n_{0}\Rightarrow a_{n}\leq\frac{1}{2}+\varepsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\forall i\leq n,k_{i}\leq k_{n}\Rightarrow\frac{\sum_{i=1}^{n}k_{i}}{k_{n}^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{¿?¿?¿?¿?¿?¿?¿?¿?}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver las siguientes ecuaciones e einecuaciones en 
+\begin_inset Formula $\mathbb{R}^{2}$
+\end_inset
+
+.
+ Representar las soluciones en el plano.
+\end_layout
+
+\begin_layout Standard
+Esto no tiene mucho sentido resolverlo acá.
+\end_layout
+
+\begin_layout Section
+Para cada 
+\begin_inset Formula $x\in\mathbb{R}^{n}$
+\end_inset
+
+, se define 
+\begin_inset Formula $||x||_{2}=\sqrt{\sum_{i=1}^{n}x_{i}^{2}}$
+\end_inset
+
+ y 
+\begin_inset Formula $||x||_{\infty}=max\{|x_{i}|:i=1,...,n\}$
+\end_inset
+
+.
+ Mostrar que si 
+\begin_inset Formula $x\in\mathbb{R}^{n}$
+\end_inset
+
+, se tiene que
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\left|x_{i}\right|\leq\left|\left|x\right|\right|_{2}$
+\end_inset
+
+, si 
+\begin_inset Formula $i=1,...,n;$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\forall i=1,...,n;\sqrt{x_{1}^{2}+...+x_{i}^{2}+...+x_{n}^{2}}=\left|\left|x\right|\right|_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x_{1}^{2},...,x_{i}^{2},...,x_{n}^{2}\geq0\Rightarrow\left|x_{i}\right|=\sqrt{x_{i}^{2}}\leq\sqrt{x_{1}^{2}+...+x_{i}^{2}+...+x_{n}^{2}}\rightarrow\mbox{Ya que quito términos mayores o iguales que cero}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\left|x_{i}\right|\leq\left|\left|x\right|\right|_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left|\left|x\right|\right|_{2}\leq\sqrt{n}\left|\left|x\right|\right|_{\infty};$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|\left|x\right|\right|_{2}=\sqrt{x_{1}^{2}+...+x_{i}^{2}+...+x_{n}^{2}}\leq\sqrt{\left|\left|x\right|\right|_{\infty}^{2}+...+\left|\left|x\right|\right|_{\infty}^{2}}\rightarrow\mbox{ ya que }\left|\left|x\right|\right|_{\infty}^{2}\mbox{ es mayor o igual que cada }x_{i}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sqrt{\left|\left|x\right|\right|_{\infty}^{2}+...+\left|\left|x\right|\right|_{\infty}^{2}}=\sqrt{n\left|\left|x\right|\right|_{\infty}^{2}}=\sqrt{n}\left|\left|x\right|\right|_{\infty}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\left|\left|x\right|\right|_{2}\leq\sqrt{n}\left|\left|x\right|\right|_{\infty}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\left|\left|x\right|\right|_{\infty}\leq\left|\left|x\right|\right|_{2}\leq\sqrt{n}\left|\left|x\right|\right|_{\infty}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|\left|x\right|\right|_{\infty}\in\{x_{1},...,x_{n}\}\Rightarrow\left|\left|x\right|\right|_{\infty}\leq\left|\left|x\right|\right|_{2}\rightarrow\mbox{ por lo expuesto en el punto (a)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|\left|x\right|\right|_{2}\leq\sqrt{n}\left|\left|x\right|\right|_{\infty}\rightarrow\mbox{ por lo expuesto en el punto (b)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\left|\left|x\right|\right|_{\infty}\leq\left|\left|x\right|\right|_{2}\leq\sqrt{n}\left|\left|x\right|\right|_{\infty}\rightarrow\mbox{ Por definición de orden, o bien propiedad transitiva de la desigualdad.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Representar gráficamente los siguientes conjuntos A.
+\end_layout
+
+\begin_layout Standard
+Tampoco tiene sentido resolverlo en el latex directamente, si luego investigo
+ el tema podría armar los gráficos.
+\end_layout
+
+\begin_layout Section
+Determinar cuáles de los siguientes subconjuntos de 
+\begin_inset Formula $\mathbb{R}^{2}$
+\end_inset
+
+ son abiertos, cerrados y/o acotados:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $K_{1}=B_{1}(0)=\{(x,y)\in\mathbb{R}^{2}:x^{2}+y^{2}<1\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X=(x,y)\in K_{1}\Rightarrow\exists B_{1-||X||}(X)/\forall Y\in B_{1-||X||}(X):||Y||_{2}<||X||+1-||X||=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore||Y||_{2}<1\Rightarrow Y\in K_{1}\Rightarrow K_{1}\mbox{es un conjunto abierto.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+||(x,y)||_{2}=\sqrt{x^{2}+y^{2}}<1\Rightarrow K_{1}\mbox{ es acotado}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $K_{2}=\{(x,y)\in\mathbb{R}^{2}:x^{2}+y^{2}\leq1\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Tomo el complemento }\overline{K_{2}}=\{(x,y)\in\mathbb{R}^{2}:x^{2}+y^{2}>1\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X=(x,y)\in\overline{K_{2}}\Rightarrow\exists B_{||X||-1}(X)/\forall Y\in B_{1-||X||}(X):1<||Y||_{2}<||X||+1=1\rightarrow
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Es decir: su norma es menor a la norma de \ensuremath{X} menos la distancia entre \ensuremath{X} y \ensuremath{K_{2}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore||Y||_{2}>1\Rightarrow Y\in\overline{K_{2}}\Rightarrow\overline{K_{2}}\mbox{ es un conjunto abierto}\Rightarrow K_{2}\mbox{, que es su complemento, es un conjunto cerrado.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\forall X=(x,y)\in K_{2}:||(x,y)||=\sqrt{x^{2}+y^{2}}\leq1\text{\Rightarrow\ensuremath{K_{2}}es acotado.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{¿?¿?¿? creo que falta un argumento no geométrico para la cuestión de }1<||Y||_{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $K_{3}=\{(x,y)\in\mathbb{R}^{2}:x>0\wedge y>0\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+X=(x,y)\in K_{3}\Rightarrow\exists B_{min(|x|,|y|)}(X)/\forall Y=(y_{1},y_{2})\in B_{min(|x|,|y|)}(X):y_{1}>||X||-min(|x|,|y|)\wedge x_{1}>||X||-min(|x|,|y|)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+||X||\geq||X||_{\infty}\geq min(|x|,|y|)\Rightarrow||X||-min(x,y)\Rightarrow y_{1}>0\wedge y_{2}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore Y\in K_{3}\Rightarrow K_{3}\mbox{es un conjunto abierto.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x,y\in(0,+\infty)\Rightarrow\mbox{ no es un conjunto acotado.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $K_{4}=\{(0,\frac{1}{n}):n\in\mathbb{N}\};$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{No es abierto ya que cualquier bola que se tome tendrá números reales dentro, y estos no pertenecen a }K_{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Su complemento es }\overline{K_{4}}=R^{2}-\{(0,\frac{1}{n}):n\in\mathbb{N}\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Se me ocurre como justificación que es un abierto sin algunos puntos, y esto es siempre otro conjunto abierto...}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $K_{5}=\{(x,y)\in\mathbb{R}^{2}:0\leq x\leq1\wedge y=0\}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{No es abierto ya que cualquier bola que se tome tendrá \ensuremath{y\neq0}, y estos no pertenecen a }K_{5}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Su complemento es }\overline{K_{5}}=\{(x,y)\in\mathbb{R}^{2}:0<x\vee x>1\wedge y\neq0\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\forall X\in\overline{K_{5}}:\begin{cases}
+x<0\Rightarrow & \exists B_{min(|x|,|y|)}(X)/\forall Y\in B_{min(|x|,|y|)}(X):||Y||>|X|-min(|x|,|y|)\\
+x>1\Rightarrow & \exists B_{min(|x|-1,|y|)}(X)/\forall Y\in B_{min(|x|-1,|y|)}(X):||Y||>|X|-min(|x|-1,|y|)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+||X||\geq||X||_{\infty}\geq min(|x|,|y|)\Rightarrow|X|>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+UFffffffffffffffffffff
+\end_layout
+
+\begin_layout Section
+Calcular 
+\begin_inset Formula $\partial A,\overline{A},\overline{A}\backslash A$
+\end_inset
+
+ y 
+\begin_inset Formula $A\backslash\partial A$
+\end_inset
+
+ para los conjuntos 
+\begin_inset Formula $A$
+\end_inset
+
+ que aparecen en el ejercicio 21
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(a)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

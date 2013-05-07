@@ -1,0 +1,3788 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Dar el dominio de definición para cada una de las siguientes funciones y
+ graficarlo:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\ln(16-x^{2}-y^{2})(x^{2}+y^{2}-4)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\ln(t)\mbox{ está definido }\forall t\in\mathbb{R}^{+}\Rightarrow16-x^{2}-y^{2}>0\Leftrightarrow16>x^{2}+y^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore D=\{(x,y)\in\mathbb{R}^{2}/16>x^{2}+y^{2}\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\sqrt{6-\left(2x+3y\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sqrt{t}\mbox{ está definido }\forall t\in\mathbb{R}_{0}^{+}\Rightarrow6-\left(2x+3y\right)\geq0\Leftrightarrow6\geq2x+3y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore D=\{(x,y)\in\mathbb{R}^{2}/6\geq2x+3y\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{1}{\sqrt{1-x^{2}-y^{2}}}+\sqrt{y-x^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sqrt{t}\mbox{ está definido }\forall t\in\mathbb{R}_{0}^{+}\wedge\frac{1}{t}\mbox{ está definido }\forall t\neq0\Rightarrow y-x^{2}>0\wedge\sqrt{1-x^{2}-y^{2}}\neq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sqrt{1-x^{2}-y^{2}}\neq0\Leftrightarrow1-x^{2}-y^{2}\neq0\Leftrightarrow1\neq x^{2}+y^{2}\Leftrightarrow1\neq||(x,y)||^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore D=\{(x,y)\in\mathbb{R}^{2}/y-x^{2}>0\wedge1\neq||(x,y)||^{2}\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{1}{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{1}{t}\mbox{ está definido }\forall t\neq0\Rightarrow x\neq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore D=\{(x,y)\in\mathbb{R}^{2}/x\neq0\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{\ln(1-y+x^{2})}{\sin x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\ln(t)\mbox{ está definido }\forall t\in\mathbb{R}^{+}\wedge\frac{1}{t}\mbox{ está definido }\forall t\neq0\Rightarrow1-y+x^{2}>0\wedge\sin x\neq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+1>y-x^{2}\wedge x\neq k\pi,k\in\mathbb{Z}\Leftrightarrow1>y-x^{2}\wedge\neg x\equiv0(\pi)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore D=\{(x,y)\in\mathbb{R}^{2}/1>y-x^{2}\wedge\neg x\equiv0(\pi)\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\int_{x}^{y}\frac{1}{1+t^{2}}dt$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{1}{t}\mbox{ está definido }\forall t\neq0\Rightarrow1+t^{2}\neq0\Rightarrow|t|\neq-1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore D=\mathbb{R}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=$
+\end_inset
+
+
+\begin_inset Formula $\frac{\cos x}{\sqrt{1-x^{2}+y^{2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{1}{t}\mbox{ está definido }\forall t\neq0\Rightarrow\sqrt{1-x^{2}+y^{2}}\neq0\Leftrightarrow1-x^{2}+y^{2}\neq0\Leftrightarrow1\neq x^{2}-y^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore D=\{(x,y)\in\mathbb{R}^{2}/1\neq x^{2}-y^{2}\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{\sin(x^{2}y)}{\ln(1-x^{2})}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\ln(t)\mbox{ está definido }\forall t\in\mathbb{R}^{+}\wedge\frac{1}{t}\mbox{ está definido }\forall t\neq0\Rightarrow1-x^{2}>0\wedge\ln(1-x^{2})\neq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Leftrightarrow x^{2}<1\wedge1-x^{2}\neq1\Leftrightarrow-1<x<1\wedge x\neq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore D=\{(x,y)\in\mathbb{R}^{2}/-1<x<1\wedge x\neq0\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Para distintos valoresw de 
+\begin_inset Formula $c$
+\end_inset
+
+ graficar (nop).
+\end_layout
+
+\begin_layout Section
+Estudiar las superifcies de 
+\begin_inset Formula $\mathbb{R}^{3}$
+\end_inset
+
+ representadas por las siguientes ecuaciones de determinar cuáles de estas
+ superficies son la gráfica de una función 
+\begin_inset Formula $z=f(x,y)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $z=2x^{2}+y^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f:\mathbb{R}^{2}\rightarrow\mathbb{R}/f(x,y)=2x^{2}+y^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $z^{2}=1-x^{2}-\frac{y^{2}}{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|z|=\sqrt{1-x^{2}-\frac{y^{2}}{2}}\Rightarrow z=-z\Rightarrow f(x,y)\mbox{ tendría 2 imágenes para el mismo valor }\therefore\mbox{no es función}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{ej: }x=0,y=0\Rightarrow|z|=\sqrt{1}\Rightarrow z=1\vee z=-1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $z=\frac{1}{x^{2}+y^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f:\mathbb{R}^{2}-\{0\}\rightarrow\mathbb{R}/f(x,y)=\frac{1}{x^{2}+y^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $3x+2y-z=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+z=2y+3x\Rightarrow f:\mathbb{R}^{2}\rightarrow\mathbb{R}/f(x,y)=2y+3x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $z^{2}=\frac{x^{2}}{2}-\frac{y^{3}}{3}-2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|z|=\sqrt{\frac{x^{2}}{2}-\frac{y^{3}}{3}-2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Si }x=4,y=\sqrt[3]{3}\Rightarrow|z|=\sqrt{8-1-2}\Rightarrow z=\pm\sqrt{5}\Rightarrow\nexists f(4,\sqrt[3]{3})=z\Rightarrow\nexists f(x,y)=z
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $6x^{2}+y^{2}-z^{2}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+6x^{2}+y^{2}+1=z^{2}\Leftrightarrow\sqrt{6x^{2}+y^{2}+1}=|z|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Si }x=1,y=\sqrt{2}\Rightarrow\sqrt{6+2+1}=|z|\Leftrightarrow z=\pm3\Rightarrow\nexists f(1,\sqrt{2})=z\Rightarrow\nexists f(x,y)=z
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $x^{2}+y^{2}=4z^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|z|=\frac{\sqrt{x^{2}+y^{2}}}{2}\Rightarrow z=\pm\frac{\sqrt{x^{2}+y^{2}}}{2}\Rightarrow\nexists f(x,y)=z
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Para distintos valores de 
+\begin_inset Formula $u$
+\end_inset
+
+ graficar aproximadamente el conjunto 
+\begin_inset Formula $\{(x,y,z):f(x,y,z)=u\}$
+\end_inset
+
+.
+ En otras palabras, determinar las distintas superficies de nivel.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y,z)=x+y+z$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+- otro de graficar, no -
+\end_layout
+
+\begin_layout Section
+A qué distancia de 16 basta tomar 
+\begin_inset Formula $x$
+\end_inset
+
+ para asegurar que:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\frac{1}{\sqrt{x}}\in\left(0,\frac{1}{2}\right)\text{?}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ninguna distancia bastará, ya que 
+\begin_inset Formula $\frac{1}{\sqrt{16}}\notin\left(0,\frac{1}{2}\right)\Rightarrow\mbox{ cualquier distancia de 16 tendrá puntos donde }\frac{1}{\sqrt{x}}\notin\left(0,\frac{1}{2}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\frac{1}{\sqrt{x}}\in\left(\frac{1}{4}-\frac{1}{10},\frac{1}{4}+\frac{1}{10}\right)\text{?}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como la función es continua 
+\begin_inset Formula $\forall x\neq0$
+\end_inset
+
+ sabemos que 
+\begin_inset Formula $\lim_{x\to16}\frac{1}{\sqrt{x}}=\frac{1}{\sqrt{16}}=\frac{1}{4}\Rightarrow\forall\varepsilon>0\exists\delta>0/\left|\frac{1}{\sqrt{x}}-\frac{1}{4}\right|<\varepsilon(\delta)\wedge|x-16|<\delta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon=\frac{1}{10}\Rightarrow\left|\frac{1}{\sqrt{x}}-\frac{1}{4}\right|<\frac{1}{10}\Leftrightarrow\begin{cases}
+\frac{1}{\sqrt{x}}>\frac{1}{4}\Leftrightarrow x<4^{2}\Rightarrow & \frac{1}{\sqrt{x}}-\frac{1}{4}<\frac{1}{10}\Leftrightarrow\frac{1}{\sqrt{x}}<\frac{7}{20}\Leftrightarrow x>\frac{400}{49}\\
+\frac{1}{\sqrt{x}}<\frac{1}{4}\Leftrightarrow x>4^{2}\Rightarrow & \frac{1}{\sqrt{x}}-\frac{1}{4}>-\frac{1}{10}\Leftrightarrow\frac{1}{\sqrt{x}}>\frac{3}{20}\Leftrightarrow x<\frac{400}{9}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore x\in\left(\frac{400}{49},\frac{400}{9}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\frac{1}{\sqrt{x}}\in\left(\frac{1}{4}-\frac{1}{1000},\frac{1}{4}+\frac{1}{1000}\right)\text{?}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\varepsilon=\frac{1}{1000}\Rightarrow\left|\frac{1}{\sqrt{x}}-\frac{1}{4}\right|<\frac{1}{1000}\Leftrightarrow\begin{cases}
+\frac{1}{\sqrt{x}}>\frac{1}{4}\Leftrightarrow x<4^{2}\Rightarrow & \frac{1}{\sqrt{x}}-\frac{1}{4}<\frac{1}{1000}\Leftrightarrow\frac{1}{\sqrt{x}}<\frac{251}{1000}\Leftrightarrow x>\left(\frac{1000}{251}\right)^{2}\\
+\frac{1}{\sqrt{x}}<\frac{1}{4}\Leftrightarrow x>4^{2}\Rightarrow & \frac{1}{\sqrt{x}}-\frac{1}{4}>-\frac{1}{1000}\Leftrightarrow\frac{1}{\sqrt{x}}>\frac{249}{1000}\Leftrightarrow x<\left(\frac{1000}{249}\right)^{2}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore x\in\left(\left(\frac{1000}{251}\right)^{2},\left(\frac{1000}{249}\right)^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Se define 
+\begin_inset Formula $[x]$
+\end_inset
+
+ la parte entera de 
+\begin_inset Formula $x$
+\end_inset
+
+ como 
+\begin_inset Formula $[x]$
+\end_inset
+
+ = 
+\begin_inset Formula $\max\{n\in\mathbb{Z}:n\leq x\}$
+\end_inset
+
+.
+ Analizar la existencia de 
+\begin_inset Formula $\lim_{x\to a}f(x)\forall a\in\mathbb{R}$
+\end_inset
+
+ siendo:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x)=x-[x]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to a}x-[x]=\lim_{x\to a}x-\lim_{x\to a}[x]=a-\lim_{x\to a}[x]\rightarrow\mbox{ El límite de la resta es la resta de los límites; la función identidad es continua.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\forall a\in\mathbb{R}:\begin{cases}
+a\notin\mathbb{Z}\Rightarrow & \lim_{x\to a}[x]=\max\{n\in\mathbb{Z}:n\leq a\}\\
+a\in\mathbb{Z}\Rightarrow & \max\{n\in\mathbb{Z}:n\leq a\}=\begin{cases}
+\lim_{x\to a^{+}}[x]= & n_{1}>a\rightarrow\mbox{me acerco por valores mayores que a}\\
+\lim_{x\to a^{-}}[x]= & n_{2}=a\rightarrow\mbox{me acerco por valores menores que a}
+\end{cases}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\exists\lim_{x\to a}x-[x]=a-\max\{n\in\mathbb{Z}:n\leq a\}\Leftrightarrow a\notin\mathbb{Z}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x)=\frac{x}{[x]}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to a}\frac{x}{[x]}=\frac{\lim_{x\to a}x}{\lim_{x\to a}[x]}=\frac{a}{\lim_{x\to a}[x]}\rightarrow\mbox{El límite del cociente es el cociente de los límites; la función identidad es continua.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to a}[x]\neq0\Rightarrow x\leq0\vee x>1\rightarrow\mbox{Por def de }[x]:0\leq x<1,[x]=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Por lo dicho antes }\forall a\in\mathbb{Z}:\lim_{x\to a^{+}}[x]\neq\lim_{x\to a^{-}}[x]\Rightarrow\nexists\lim_{x\to a}[x]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\exists\lim_{x\to a}\frac{x}{[x]}=\frac{a}{\max\{n\in\mathbb{Z}:n\leq a\}}\Leftrightarrow a\notin\mathbb{Z}\wedge0\leq a<1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x)=|x|+[x]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to a}f(x)=\lim_{x\to a}|x|+\lim_{x\to a}[x]=|a|+\lim_{x\to a}[x]\rightarrow\mbox{El límite de la suma es la suma de los límites; la función módulo es continua.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Por lo dicho antes }\forall a\in\mathbb{Z}:\lim_{x\to a^{+}}[x]\neq\lim_{x\to a^{-}}[x]\Rightarrow\nexists\lim_{x\to a}[x]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\exists\lim_{x\to a}\frac{x}{[x]}=|a|+\max\{n\in\mathbb{Z}:n\leq a\}\Leftrightarrow a\notin\mathbb{Z}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Calcular, si existen, los siguientes límites:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{x\to+\infty}\frac{e^{x}+\sin x}{e^{x}+\cos x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to+\infty}\frac{e^{x}+\sin x}{e^{x}+\cos x}=\frac{\lim_{x\to+\infty}\left(e^{x}+\sin x\right)}{\lim_{x\to+\infty}\left(e^{x}+\cos x\right)}=1\rightarrow
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Esto se debe a que algo que tiende a infinito no es modificado por algo acotado, es decir }e^{x}+\sin x\to e^{X}\mbox{ cuadno }x\to\infty
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{De la misma manera }e^{x}+\cos x\to e^{X}\mbox{ cuadno }x\to\infty
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\frac{\lim_{x\to+\infty}\left(e^{x}+\sin x\right)}{\lim_{x\to+\infty}\left(e^{x}+\cos x\right)}=\lim_{x\to+\infty}\frac{e^{x}}{e^{x}}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tarea: Demostrarlo por definición, acotando.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{x\to3^{+}}\frac{[x^{2}]-[x]^{2}}{x^{2}-9}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to3^{+}}\frac{[x^{2}]-[x]^{2}}{x^{2}-9}=\frac{\lim_{x\to3^{+}}[x^{2}]-\lim_{x\to3^{+}}[x]^{2}}{\lim_{x\to3^{+}}\left(x^{2}-9\right)}\rightarrow\mbox{Por álgebra de límites}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to3^{+}}[x^{2}]=10;\lim_{x\to3^{+}}[x]^{2}=4^{2};\lim_{x\to3^{+}}\left(x^{2}-9\right)=0\Rightarrow
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\lim_{x\to3^{+}}[x^{2}]-\lim_{x\to3^{+}}[x]^{2}}{\lim_{x\to3^{+}}\left(x^{2}-9\right)}=\frac{10-16}{\lim_{x\to3^{+}}\left(x^{2}-9\right)}=\frac{-6}{\lim_{x\to3^{+}}\left(x^{2}-9\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{-6}{\to0}=-\infty\Rightarrow\lim_{x\to3^{+}}\frac{[x^{2}]-[x]^{2}}{x^{2}-9}=-\infty
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{x\to+\infty}x\sin x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nexists\lim_{x\to+\infty}x\sin x\mbox{ ya que }\sin x\mbox{ oscila entre \ensuremath{-1}y \ensuremath{1}y \ensuremath{x}es continua}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{x\to0}\frac{e^{1/x}}{\ln(|x|)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\frac{e^{1/x}}{\ln(|x|)}\rightarrow\mbox{Aplico L'Hopital y veo los dos casos posibles}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\rightarrow\begin{cases}
+x\to0^{+} & \lim_{x\to0^{+}}\frac{-1x^{-2}e^{x^{-1}}}{x^{-1}}=-x^{-2+1}e^{x^{-1}}=-\frac{e^{x^{-1}}}{x}\\
+x\to0^{-} & \lim_{x\to0^{-}}\frac{-1x^{-2}e^{x^{-1}}}{-x^{-1}}=x^{-2+1}e^{x^{-1}}=\frac{e^{x^{-1}}}{x}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ln(a)=1/x\Leftrightarrow e^{1/x}=a\Leftrightarrow e=a^{x}\Leftrightarrow a=$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ln(|x|)=a\Leftrightarrow e^{a}=|x|$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+INCOMPLETO
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{x\to+\infty}\frac{\sin x}{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to+\infty}\frac{\sin x}{x}=\frac{\lim_{x\to+\infty}\sin x\to(-1,1)}{\lim_{x\to+\infty}x\to\infty}\Rightarrow\lim_{x\to+\infty}\frac{\sin x}{x}=0\rightarrow\mbox{Argumento similar al del punto (a) y álgebra de límites}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{x\to+\infty}\frac{\ln(1+e^{x})}{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to+\infty}\frac{\ln(1+e^{x})}{x}=\lim_{x\to+\infty}\frac{\frac{e^{x}}{1+e^{x}}}{1}\rightarrow\mbox{Aplico L'Hopital}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to+\infty}\frac{\frac{e^{x}}{1+e^{x}}}{1}=\lim_{x\to+\infty}\frac{e^{x}+1-1}{1+e^{x}}=\lim_{x\to+\infty}\left(1-\frac{1}{1+e^{x}}\right)=1-\lim_{x\to+\infty}\frac{1}{1+e^{x}}\to0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\lim_{x\to+\infty}\frac{\ln(1+e^{x})}{x}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\ln(1+e^{x})=a\Leftrightarrow e^{a}=1+e^{x}\rightarrow$
+\end_inset
+
+ Tiene sentido que el límite sea 
+\begin_inset Formula $1$
+\end_inset
+
+ ya que 
+\begin_inset Formula $1+e^{x}\to e^{x}$
+\end_inset
+
+ cuando 
+\begin_inset Formula $x\to\infty$
+\end_inset
+
+ y entonces 
+\begin_inset Formula $\ln(1+e^{x})=a=x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{x\to0}(1+x)^{1/\tan x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}(1+x)^{1/\tan x}=\left(\lim_{x\to0}(1+x)\right)^{\lim_{x\to0}\left(1/\tan x\right)}=1^{\lim_{x\to0}\left(1/\tan x\right)\to+\infty}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+DUDOSO
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{x\to0}\frac{e^{x}-1}{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\frac{e^{x}-1}{x}=\lim_{x\to0}\frac{e^{x}}{1}=1\rightarrow\mbox{Aplico L'Hopital}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim{}_{x\to0}\left(\cos x\right)^{1/x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim{}_{x\to0}\left(\cos x\right)^{1/x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Usando sólo la definición de límite demostrar que:
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset Formula $\lim_{(x,y)\to(1,0)}x+y=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{(x,y)\to(1,0)}x+y=1\Leftrightarrow\forall\varepsilon>0\exists\delta(\varepsilon)/|x+y-1|<\varepsilon\wedge||(x,y)-(1,0)||<\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|x-1+y|\leq||(x-1,y)||<\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\forall\varepsilon\exists\delta(\varepsilon)=\varepsilon/|x-1+1|<\varepsilon\Rightarrow||(x,y)-(1,0)||<\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset Formula $\lim_{(x,y)\to(-1,8)}xy=-8$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{(x,y)\to(-1,8)}xy=-8\Leftrightarrow\forall\varepsilon>0\exists\delta(\varepsilon)/|xy+8|<\varepsilon\wedge||(x,y)-(-1,8)||<\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+||(x,y)-(-1,8)||=||(x+1,y+8)||\leq\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(x+1)*(y-8)=xy+y-8x-8
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|xy+8|\leq|xy+\left(8x-8x\right)+\left(y-y\right)+8|\leq|(x+1)(y-8)+8x-y+16|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|xy-8|\leq|(x+1)(y-8)|+8x-y\leq||(x+1,y-8)||^{2}+8x+8+8-y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|xy-8|\leq||(x+1,y-8)||^{2}+8|x+1|+|8-y|\leq||(x+1,y-8)||^{2}+8||(x+1,y-8)||+||(x+1,y-8)||<\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\delta+8\delta+\delta=10\delta<\varepsilon\rightarrow0<\delta<1\Rightarrow\delta^{2}<\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\delta=\min\left(\frac{\varepsilon}{10},1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Probar por definición que si 
+\begin_inset Formula $(x,y)\to(2,3)\Rightarrow$
+\end_inset
+
+ 
+\begin_inset Formula $y\sin(xy-6)\to0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{(x,y)\to(2,3)}y\sin(xy-6)=0\Leftrightarrow\lim_{(x,y)\to(2,3)}y\sin(xy-6)\forall\varepsilon>0\exists\delta(\varepsilon)/|y\sin(xy-6)|<\varepsilon\wedge||(x,y)-(2,3)||<\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+||(x,y)-(2,3)||<\delta\Leftrightarrow|x-2|<\delta\wedge|y-3|<\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+(x-2)(y-3)=xy-3x-2y+6
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+|y\sin(xy-6)|=|y||\sin(xy-6)|=|y||\sin((x-2)(y-3)+3x+2y-12)|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\leq|y||\sin\left(\delta^{2}+3\delta+2\delta\right)|=|y|\sin(6\delta)\rightarrow0<\delta<1\Rightarrow\delta^{2}<\delta\wedge2<y<4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|y\sin(xy-6)|\leq4\sin(6\delta)<\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\delta<\frac{\sin^{-1}\frac{\varepsilon}{4}}{6}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Probar que:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{\left(x,y\right)\to\left(7,2\right)}x^{2}+y^{2}-xy=39$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(7,2\right)}x^{2}+y^{2}-xy=\lim_{\left(x,y\right)\to\left(7,2\right)}x^{2}+\lim_{\left(x,y\right)\to\left(7,2\right)}y^{2}-\lim_{\left(x,y\right)\to\left(7,2\right)}xy=49+4-14=39
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{\left(x,y\right)\to\left(0,3\right)}\sin\left(x\cos y\right)=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sin\left(\lim_{\left(x,y\right)\to\left(0,3\right)}\left(x\cos y\right)\right)=\sin\left(0*\cos3\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{\left(x,y\right)\to\left(0,1\right)}xe^{xy}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\lim_{\left(x,y\right)\to\left(0,1\right)}x\right)e^{\lim_{\left(x,y\right)\to\left(0,3\right)}xy}=0*e^{0}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{\left(x,y\right)\to\left(0,3\right)}\frac{y^{2}+cos(\pi-x)}{y}=\frac{8}{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,3\right)}\frac{y^{2}+cos(\pi-x)}{y}=\frac{\lim_{\left(x,y\right)\to\left(0,3\right)}y^{2}+\lim_{\left(x,y\right)\to\left(0,3\right)}cos(\pi-x)}{\lim_{\left(x,y\right)\to\left(0,3\right)}y}=\frac{9+cos(\pi)}{3}=\frac{8}{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{\left(x,y\right)\to\left(0,1\right)}ye^{x}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,1\right)}ye^{x}=\left(\lim_{\left(x,y\right)\to\left(0,1\right)}y\right)\left(\lim_{\left(x,y\right)\to\left(0,1\right)}e^{x}\right)=e^{0}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{\left(x,y\right)\to\left(c,0\right)}\frac{\sin(x^{2}y)}{x^{2}-y^{2}}=0$
+\end_inset
+
+ si 
+\begin_inset Formula $c\neq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(c,0\right)}\frac{\sin(x^{2}y)}{x^{2}-y^{2}}=0\Leftrightarrow\forall\varepsilon>0\exists\delta(\varepsilon)/\left|\frac{\sin(x^{2}y)}{x^{2}-y^{2}}\right|<\varepsilon\wedge||(x-c,y)||<\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(c,0\right)}\frac{\sin(x^{2}y)}{x^{2}-y^{2}}=\begin{cases}
+c=0\Rightarrow & \lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin(x^{2}y)}{x^{2}y}\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{x^{2}y}{(x^{2}-y^{2})}=\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{x^{2}y}{(x^{2}-y^{2})}\begin{cases}
+y=\frac{1}{x}\Rightarrow & \lim_{x\to0}\frac{x}{x^{2}-\frac{1}{x^{2}}}\to-\infty\\
+y=2x\Rightarrow & \lim_{x\to0}\frac{2x^{3}}{-3x^{2}}=0
+\end{cases}\\
+c\neq0\Rightarrow & \frac{\lim_{\left(x,y\right)\to\left(c,0\right)}\left(\sin(x^{2}y)\right)}{\lim_{\left(x,y\right)\to\left(c,0\right)}\left(x^{2}-y^{2}\right)}=\frac{\sin(c^{2}0)}{c^{2}}=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Sea 
+\begin_inset Formula $f:B_{r}(a,b)\rightarrow\mathbb{R}$
+\end_inset
+
+ tal que 
+\begin_inset Formula $f$
+\end_inset
+
+ no se anula sobre 
+\begin_inset Formula $B_{r}(a,b)\backslash\{(a,b)\}$
+\end_inset
+
+ y 
+\begin_inset Formula $\lim_{(x,y)\to(a,b)}f(x,y)=0$
+\end_inset
+
+.
+ Probar que :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{(x,y)\to(a,b)}\frac{\sin(f(x,y))}{f(x,y)}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Demostración:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{(x,y)\to(a,b)}f(x,y)=0\Leftrightarrow\forall\varepsilon>0\exists\delta(\varepsilon)/|f(x,y)|<\varepsilon\wedge||(x,y)-(a,b)||<\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\forall\varepsilon\exists\delta/\delta<\varepsilon\therefore||(x,y)-(a,b)||\leq|f(x,y)|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Es decir, para todo 
+\begin_inset Formula $f(x,y)$
+\end_inset
+
+ puedo encontrar una norma que se acerque más a 0.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\lim_{(x,y)\to(a,b)}\frac{\sin(f(x,y))}{f(x,y)}=\lim_{||(x,y)-(a,b)||\to0}\frac{\sin(||(x,y)-(a,b)||)}{||(x,y)-(a,b)||}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Por cálculo elemental sabemos que }\lim_{\alpha\to0}\frac{\sin(\alpha)}{\alpha}=1\Rightarrow\lim_{||(x,y)-(a,b)||\to0}\frac{\sin(||(x,y)-(a,b)||)}{||(x,y)-(a,b)||}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+no me convence del todo, pero me parece bien encaminada...
+\end_layout
+
+\begin_layout Subsection
+Sea 
+\begin_inset Formula $f:B_{r}(a,b)\to\mathbb{R}/\lim_{(x,y)\to(a,b)}f(x,y)=+\infty$
+\end_inset
+
+.
+ Probar que:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{(x,y)\to(a,b)}f(x,y)=\frac{\ln(f(x,y))}{f(x,y)}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es similar a la anterior
+\end_layout
+
+\begin_layout Section
+Calcular:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{(x,y)\to(0,0)}\frac{\sin(x^{2}+y^{2})}{x^{2}+y^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{(x,y)\to(0,0)}\frac{\sin(x^{2}+y^{2})}{x^{2}+y^{2}}=\lim_{(x,y)\to(0,0)}\frac{\sin(||(x,y)||^{2})}{||(x,y)||^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{(x,y)\to(0,0)}f(x,y)=1\Leftrightarrow\forall\varepsilon>0\exists\delta(\varepsilon)/\left|\frac{\sin(||(x,y)||^{2})}{||(x,y)||^{2}}-1\right|<\varepsilon\wedge||(x,y)||<\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(x,y)\to0\Rightarrow||(x,y)||^{2}\to0\Rightarrow\lim_{(x,y)\to(0,0)}\frac{\sin(x^{2}+y^{2})}{x^{2}+y^{2}}=\lim_{(x,y)\to(0,0)}\frac{\sin(g(x,y))}{g(x,y)}\rightarrow g(x,y)=||(x,y)||^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\lim_{(x,y)\to(0,0)}\frac{\sin(x^{2}+y^{2})}{x^{2}+y^{2}}=1\rightarrow\lim_{(x,y)\to(0,0)}\frac{\sin(g(x,y))}{g(x,y)}=1\mbox{ fue demostrado en el punto anterior}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\lim_{(x,y)\to(0,0)}\frac{\sin(xy)}{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{(x,y)\to(0,0)}\frac{\sin(xy)}{x}=\lim_{(x,y)\to(0,0)}\frac{\sin(xy)y}{xy}=\lim_{(x,y)\to(0,0)}\frac{\sin(xy)}{xy}\lim_{(x,y)\to(0,0)}y=1\lim_{(x,y)\to(0,0)}y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Usando lo demostrado en el punto 11-a
+\end_layout
+
+\begin_layout Subsection
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\lim_{(x,y)\to(0,0)}(x^{2}+y^{2})\ln(x^{2}+y^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{(x,y)\to(0,0)}(x^{2}+y^{2})\ln(x^{2}+y^{2})=\lim_{||(x,y)||^{2}\to0}\frac{\ln(||(x,y)||^{2})}{\frac{1}{||(x,y)||^{2}}}=\lim_{||(x,y)||^{2}\to0}\frac{\frac{2}{||(x,y)||}}{-\frac{2}{||(x,y)||^{3}}}=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{||(x,y)||^{2}\to0}\frac{2}{||(x,y)||}*-\frac{||(x,y)||^{3}}{2}=\lim_{||(x,y)||^{2}\to0}-||(x,y)||^{2}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Debería revisar por qué puedo usar álgebra de límites de 
+\begin_inset Formula $\mathbb{R}$
+\end_inset
+
+, a pesar de que sea evidente que es razonable.
+\end_layout
+
+\begin_layout Section
+Analizar la existencia de los límites restringido a los ejes coordenados
+ y del límite doble de las siguientes funciones en el origen:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{x-y}{x+y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}\frac{x-y}{x+y}\right)=1\neq\lim_{y\to0}\left(\lim_{x\to0}\frac{x-y}{x+y}\right)=-1\therefore\mbox{ no existe el límite en }(0,0)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{xy}{x^{2}+y^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}\frac{xy}{x^{2}+y^{2}}\right)=0;\lim_{y\to0}\left(\lim_{x\to0}\frac{xy}{x^{2}+y^{2}}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy}{x^{2}+y^{2}}=\begin{cases}
+x=y & \lim_{x\to0}\frac{x^{2}}{x^{2}+x^{2}}=\frac{1}{2}\\
+2x=y & \lim_{x\to0}\frac{2x^{2}}{x^{2}+4x^{2}}=\frac{2}{5}
+\end{cases}\Rightarrow\nexists\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy}{x^{2}+y^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{\sin x}{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}\frac{\sin x}{y}\right)\rightarrow\mbox{indeterminado };\lim_{y\to0}\left(\lim_{x\to0}\frac{\sin x}{y}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin x}{y}=\begin{cases}
+x=y & \lim_{x\to0}\frac{\sin x}{x}=1\\
+2x=y & \lim_{x\to0}\frac{1}{2}\frac{\sin x}{x}=\frac{1}{2}
+\end{cases}\Rightarrow\nexists\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin x}{y}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{x^{2}y^{2}}{x^{2}y^{2}+\left(x-y\right)^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}\frac{x^{2}y^{2}}{x^{2}y^{2}+\left(x-y\right)^{2}}\right)=0;\lim_{y\to0}\left(\lim_{x\to0}\frac{x^{2}y^{2}}{x^{2}y^{2}+\left(x-y\right)^{2}}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{x^{2}y^{2}}{x^{2}y^{2}+\left(x-y\right)^{2}}\rightarrow\begin{matrix}x=y & \frac{x^{2}y^{2}}{x^{2}y^{2}}=1\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\nexists\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{x^{2}y^{2}}{x^{2}y^{2}+\left(x-y\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{\sin(x^{2}+y^{2})}{xy+y-x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}\frac{\sin(x^{2}+y^{2})}{xy+y-x}\right)=\lim_{x\to0}\frac{\sin(x^{2})}{-x}=\lim_{x\to0}-x\frac{\sin(x^{2})}{x^{2}}=0;\lim_{y\to0}\left(\lim_{x\to0}\frac{\sin(x^{2}+y^{2})}{xy+y-x}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin(x^{2}+y^{2})}{xy+y-x}=\begin{cases}
+x=y & \lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin(2x^{2})}{x^{2}}=2\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin(2x^{2})}{2x^{2}}=2\end{cases}
+\]
+
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula 
+\[
+\therefore\nexists\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin(x^{2}+y^{2})}{xy+y-x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=|x|^{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}|x|^{y}\right)=1;\lim_{y\to0}\left(\lim_{x\to0}|x|^{y}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\nexists\lim_{\left(x,y\right)\to\left(0,0\right)}|x|^{y}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{\sin(x^{3}+y^{3})}{x^{2}+y^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}\frac{\sin(x^{3}+y^{3})}{x^{2}+y^{2}}\right)=\lim_{x\to0}\frac{\sin(x^{3})}{x^{2}}=0;\lim_{y\to0}\left(\lim_{x\to0}\frac{\sin(x^{3}+y^{3})}{x^{2}+y^{2}}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\sin(x^{3}+y^{3})}{x^{2}+y^{2}}=\frac{\sin(x^{3}+y^{3})}{||(x,y)||^{2}}\leq\frac{\sin(2||(x,y)||^{3})}{||(x,y)||^{2}}=\frac{2||(x,y)||\sin(2||(x,y)||^{3})}{2||(x,y)||^{3}}\rightarrow\forall||(x,y)||^{3}<1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow0\leq\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin(x^{3}+y^{3})}{x^{2}+y^{2}}\leq\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{2||(x,y)||\sin(2||(x,y)||^{3})}{2||(x,y)||^{3}}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin(x^{3}+y^{3})}{x^{2}+y^{2}}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+¡Preguntar!
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=(x^{2}+y^{2})^{x^{2}y^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}(x^{2}+y^{2})^{x^{2}y^{2}}\right)=1;\lim_{y\to0}\left(\lim_{x\to0}(x^{2}+y^{2})^{x^{2}y^{2}}\right)=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\forall\varepsilon>0\exists\delta(\varepsilon)/\left|(x^{2}+y^{2})^{x^{2}y^{2}}-1\right|<\varepsilon\wedge||(x,y)||<\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|(x^{2}+y^{2})^{x^{2}y^{2}}-1\right|\leq||(x,y)||^{2||(x,y)||}-1=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+¡PREGUNTAR!
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{x^{2}y^{2}-x^{2}+1}{x^{2}-y^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}\frac{x^{2}y^{2}-x^{2}+1}{x^{2}-y^{2}}\right)=\lim_{x\to0}\frac{-x^{2}+1}{x^{2}}+\infty;\lim_{y\to0}\left(\lim_{x\to0}\frac{x^{2}y^{2}-x^{2}+1}{x^{2}-y^{2}}\right)=-\frac{1}{y^{2}}=-\infty
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\nexists\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{x^{2}y^{2}-x^{2}+1}{x^{2}-y^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{1}{x}+\frac{1}{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}\frac{1}{x}+\frac{1}{y}\right)\rightarrow\mbox{Indeterminado};\lim_{y\to0}\left(\lim_{x\to0}\frac{1}{x}+\frac{1}{y}\right)\rightarrow\mbox{Indeterminado}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+\lim_{\left(x,y\right)\to\left(0,0\right)^{+}} & +\infty\\
+\lim_{\left(x,y\right)\to\left(0,0\right)^{-}} & -\infty
+\end{cases}\therefore\nexists\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{1}{x}+\frac{1}{y}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{xy}{|x|+|y|}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}\frac{xy}{|x|+|y|}\right)=0;\lim_{y\to0}\left(\lim_{x\to0}\frac{xy}{|x|+|y|}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy}{|x|+|y|}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\leq\left|\frac{xy}{|x|+|y|}\right|\leq\frac{||(x,y)||^{2}}{|x|+|y|}\leq||(x,y)||*\frac{||(x,y)||}{|x|+|y|}\leq||(x,y)||\rightarrow\frac{||(x,y)||}{|x|+|y|}\leq1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow0\leq\left|\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy}{|x|+|y|}\right|\leq\lim_{\left(x,y\right)\to\left(0,0\right)}||(x,y)||=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy}{|x|+|y|}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{x^{2}+y^{2}}{\sqrt{x^{2}+y^{2}+1}-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}\frac{x^{2}+y^{2}}{\sqrt{x^{2}+y^{2}+1}-1}\right)=\lim_{x\to0}\frac{x^{2}}{\sqrt{x^{2}+1}-1}=\lim_{y\to0}\frac{y^{2}}{\sqrt{y^{2}+1}-1}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\lim_{y\to0}\frac{y^{2}}{\sqrt{y^{2}+1}-1}*\frac{\sqrt{y^{2}+1}+1}{\sqrt{y^{2}+1}+1}=\frac{y^{2}(1+\sqrt{y^{2}+1})}{y^{2}+1-1}=1+\sqrt{y^{2}+1}=2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{x^{2}+y^{2}}{\sqrt{x^{2}+y^{2}+1}-1}=2\Leftrightarrow\forall\varepsilon>0\exists\delta(\varepsilon)/\left|\frac{x^{2}+y^{2}}{\sqrt{x^{2}+y^{2}+1}-1}-2\right|<\varepsilon\wedge||(x,y)||<\delta
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|\frac{x^{2}+y^{2}}{\sqrt{x^{2}+y^{2}+1}-1}-2\right|=\left|\frac{\left(x^{2}+y^{2}\right)\left(\sqrt{x^{2}+y^{2}+1}+1\right)}{x^{2}+y^{2}+1-1}-2\right|=\sqrt{x^{2}+y^{2}+1}-1\rightarrow\sqrt{x^{2}+y^{2}+1}>1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sqrt{x^{2}+y^{2}+1}-1\leq\sqrt{x^{2}+y^{2}}+1-1=||(x,y)||<\varepsilon
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\forall\varepsilon>0\exists\delta=\varepsilon/\left|\frac{x^{2}+y^{2}}{\sqrt{x^{2}+y^{2}+1}-1}-2\right|<\varepsilon\wedge||(x,y)||<\delta\Rightarrow\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{x^{2}+y^{2}}{\sqrt{x^{2}+y^{2}+1}-1}=2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=x\ln(x^{2}+y^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}x\ln(x^{2}+y^{2})\right)=\lim_{x\to0}x\ln x^{2}=\lim_{x\to0}\frac{\ln x^{2}}{1/x}=\lim_{x\to0}\frac{\frac{2}{x^{2}}}{-\frac{1}{x^{2}}}=-\frac{2x}{x^{2}}*x^{2}=-2x=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{y\to0}\left(\lim_{x\to0}x\ln(x^{2}+y^{2})\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\leq\left|x\ln(x^{2}+y^{2})\right|\leq\left|\ln\left(||(x,y)||^{2||(x,y)||}\right)\right|\to0\mbox{ si }||(x,y)||\to0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aux:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}x^{2x}=\exp^{\lim_{x\to0}2x\ln x}=\exp^{2\lim_{1/t\to+\infty}\frac{\ln\left(t^{-1}\right)}{t}}=\exp^{2\lim_{t\to+\infty}-\frac{1}{t}}=\exp^{0}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=(x^{2}+y^{2})\ln(x^{2}+y^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}(x^{2}+y^{2})\ln(x^{2}+y^{2})\right)=\lim_{x\to0}x^{2}\ln x^{2}=0=\lim_{y\to0}\left(\lim_{x\to0}(x^{2}+y^{2})\ln(x^{2}+y^{2})\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\leq\left|(x^{2}+y^{2})\ln(x^{2}+y^{2})\right|\leq\left|\ln\left(||(x,y)||^{2||(x,y)||}\right)\right|\to0\mbox{ si }||(x,y)||\to0\rightarrow\mbox{Demostrado en el punto anterior}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Uso que }||(x,y)||^{2}\leq||(x,y)||\forall||(x,y)||\leq1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=x\sin\frac{\pi}{y}+y\sin\frac{\pi}{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}x\sin\frac{\pi}{y}+y\sin\frac{\pi}{x}\right),\lim_{y\to0}\left(\lim_{x\to0}x\sin\frac{\pi}{y}+y\sin\frac{\pi}{x}\right)\rightarrow\mbox{Indeterminados}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}x\sin\frac{\pi}{y}+y\sin\frac{\pi}{x}=\lim_{\left(x,y\right)\to\left(0,0\right)}\left(x\sin\frac{\pi}{y}\frac{\frac{\pi}{y}}{\frac{\pi}{y}}\right)+\lim_{\left(x,y\right)\to\left(0,0\right)}\left(y\sin\frac{\pi}{x}\frac{\frac{\pi}{x}}{\frac{\pi}{x}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}\left(\frac{\pi}{y}x\right)+\lim_{\left(x,y\right)\to\left(0,0\right)}\left(\frac{\pi}{x}y\right)\begin{cases}
+x=y & \lim_{\left(x,y\right)\to\left(0,0\right)}\left(\frac{\pi}{x}x\right)+\lim_{\left(x,y\right)\to\left(0,0\right)}\left(\frac{\pi}{x}x\right)=2\pi\\
+2x=y & \lim_{\left(x,y\right)\to\left(0,0\right)}\left(\frac{\pi}{x}2x\right)+\lim_{\left(x,y\right)\to\left(0,0\right)}\left(\frac{\pi}{x}2x\right)=4\pi
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\nexists\lim_{\left(x,y\right)\to\left(0,0\right)}x\sin\frac{\pi}{y}+y\sin\frac{\pi}{x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\sin\frac{x}{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\left(\lim_{y\to0}\sin\frac{x}{y}\right)\rightarrow\mbox{Indeterminado};\lim_{y\to0}\left(\lim_{x\to0}\sin\frac{x}{y}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}\sin\frac{x}{y}:\begin{matrix}x=y\Rightarrow & \lim_{\left(x,y\right)\to\left(0,0\right)}\sin1=\sin1\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sin1\neq0\therefore\nexists\lim_{\left(x,y\right)\to\left(0,0\right)}\sin\frac{x}{y}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Demostrar que las siguientes funciones tienden a cero si 
+\begin_inset Formula $(x,y)$
+\end_inset
+
+ se aproxima al origen a lo largo de cualqueir recta, pero que para ninguna
+ de ellas existe el límite cuando 
+\begin_inset Formula $(x,y)\to(0,0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{x^{4}y^{4}}{(x^{2}+y^{4})^{3}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=kx\Rightarrow\lim_{x\to0}\frac{x^{4}\left(kx\right)^{4}}{(x^{2}+\left(kx\right)^{4})^{3}}=\lim_{x\to0}\frac{k^{4}x^{8}}{(x^{2}+k^{4}x^{4})^{3}}=\lim_{x\to0}\frac{k^{4}x^{8}}{x^{6}+3x^{4}k^{4}x^{4}+3x^{2}k^{8}x^{8}+k^{12}x^{12}}\to0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{\mbox{Por ser cociente de polinomios con}el denominador de mayor grado.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=y^{2}\Rightarrow\frac{y^{8}y^{4}}{(y^{4}+y^{4})^{3}}=\frac{y^{12}}{8y^{12}}=\frac{1}{8}\neq0\therefore\nexists\lim_{(x,y)\to(0,0)}\frac{x^{4}y^{4}}{(x^{2}+y^{4})^{3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{x^{2}}{x^{2}+y^{2}-x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=kx\Rightarrow\lim_{x\to0}\frac{x^{2}}{x^{2}+k^{2}x^{2}-x}=\lim_{x\to0}\frac{x^{2}}{x^{2}+k^{2}x^{2}-x}=\lim_{x\to0}\frac{x^{2}}{x(x(k+1)-1)}=-\frac{0}{1}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=\sqrt{x}\Rightarrow\lim_{x\to0}\frac{x^{2}}{x^{2}+x-x}=1\neq0\therefore\nexists\lim_{(x,y)\to(0,0)}\frac{x^{2}}{x^{2}+y^{2}-x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\frac{xy^{2}}{x^{2}+y^{4}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=kx\Rightarrow\lim_{x\to0}\frac{x\left(kx\right)^{2}}{x^{2}+\left(kx\right)^{4}}=\lim_{x\to0}\frac{xk^{2}x^{2}}{x^{2}+k^{4}x^{4}}=\lim_{x\to0}\frac{x^{3}}{x^{2}(1+k^{4}x^{2}}=\lim_{x\to0}\frac{x}{1+k^{4}x^{2}}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=\sqrt{x}\Rightarrow\lim_{x\to0}\frac{xx}{x^{2}+x^{2}}=\frac{1}{2}\neq0\therefore\nexists\lim_{(x,y)\to(0,0)}\frac{xy^{2}}{x^{2}+y^{4}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\begin{cases}
+\frac{(x^{2}-y)y}{x^{4}} & \mbox{si }0<y<x^{2}\\
+0 & \mbox{en otro caso}
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0<y=kx<x^{2}\Rightarrow\lim_{x\to0}\frac{(x^{2}-kx)kx}{x^{4}}=\lim_{x\to0}\frac{x(x-k)kx}{x^{4}}=\lim_{x\to0}\frac{kx-k^{2}}{x^{2}}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=x\Rightarrow\lim_{x\to0}\frac{x(x-1)x}{x^{4}}=\lim_{x\to0}\frac{x(x-1)x}{x^{4}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+¿Esto no tiende a cero?
+\end_layout
+
+\begin_layout Section
+Para cada una de las siguientes funciones: 
+\end_layout
+
+\begin_layout Itemize
+Calcular su dominio natural.
+\end_layout
+
+\begin_layout Itemize
+Estudiar la continuidad en cada cunto de su dominio.
+ 
+\end_layout
+
+\begin_layout Itemize
+En los puntos de discontinuidad indicar de qué tipo se trata.
+ En los puntos que no pertenezcan al dominio definirla (si es posible )
+ de modo que resulte continua.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x)=\frac{1}{2}\sin^{2}(x)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D=\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+No presenta discontinuidades: 
+\begin_inset Formula $\sin$
+\end_inset
+
+ es una función continua y solo usa operaciones algebraicas continuas.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x)=x^{2}-[x^{2}]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D=\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Es discontinua en 
+\begin_inset Formula $\mathbb{Z}$
+\end_inset
+
+, continua en todo el resto del dominio.
+\end_layout
+
+\begin_layout Itemize
+Habría que redefinir el operador [] para subsanar la disconuidad.
+ No es posible redefinirla, los límites laterales son diferentes y cualquier
+ valor que se le asigne mantendrá la discontinuidad.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x)=\begin{cases}
+x & \mbox{si }x\in\mathbb{Q}\\
+-x & \mbox{si }x\notin\mathbb{Q}
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D=\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Es discontinua en todos los puntos, en cualquiera de ellos cualquier bola
+ tendrá puntos pertenecientes y no pertenecientes al dominio.
+\end_layout
+
+\begin_layout Itemize
+Habría que redefinir una de las dos parte de la función.
+ No es posible redefinirla, siempre habrá puntos no pertenecientes al dominio.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x)=\begin{cases}
+\cos(\pi x/2) & \mbox{si }|x|\leq1\\
+|x-1| & \mbox{si }|x|>1
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D=\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Será continua 
+\begin_inset Formula $\Leftrightarrow\lim_{x\to1^{+}}|x-1|=\lim_{x\to1^{-}}\cos(\pi x/2)\wedge\lim_{x\to-1^{-}}|x-1|=\lim_{x\to-1^{+}}\cos(\pi x/2)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to1^{+}}|x-1|=0=\lim_{x\to1^{-}}\cos(\pi x/2)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to-1^{-}}|x-1|=\left|-2\right|\neq\lim_{x\to-1^{+}}\cos(\pi x/2)=0\Rightarrow\mbox{No es continua en }-2\mbox{, es continua en los demás puntos del dominio}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Se podría salvar al discontinuidad redefiniendo el valor en un entorno de
+ -2
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x)=\begin{cases}
+\frac{\sin x}{x} & \mbox{si }x>0\\
+x^{2}+1 & \mbox{si }x\leq0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $D=\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Es continua 
+\begin_inset Formula $\Leftrightarrow\lim_{x\to0^{+}}\frac{\sin x}{x}=\lim_{x\to0^{-}}x^{2}+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0^{+}}\frac{\sin x}{x}=1=\lim_{x\to0^{-}}x^{2}+1\therefore\mbox{Es continua en todo su dominio}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $f:\mathbb{R}^{2}\to\mathbb{R}$
+\end_inset
+
+ la siguiente función:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+\frac{y^{4}(x+1)}{|x+1|^{3}+2|y|^{3}} & (x,y)\neq(-1,0)\\
+1 & (x,y)=(-1,0)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Probar que 
+\begin_inset Formula $f$
+\end_inset
+
+ no es continua en 
+\begin_inset Formula $(-1,0)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{y^{4}(x+1)}{|x+1|^{3}+2|y|^{3}}\leq\frac{y^{4}(x+1)}{|x+1|^{3}}\leq sg(x+1)\frac{y^{4}}{\left(x+1\right){}^{2}}\leq sg(x+1)\frac{||(x+1,y)||^{4}}{||(x+1,y)||^{2}}=sg(x+1)||(x+1,y)||^{2}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow0\leq\left|\lim_{\left(x,y\right)\to\left(-1,0\right)}\frac{y^{4}(x+1)}{|x+1|^{3}+2|y|^{3}}\right|\leq\lim_{\left(x,y\right)\to\left(-1,0\right)}||(x+1,y)||^{2}\leq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\lim_{\left(x,y\right)\to\left(-1,0\right)}\frac{y^{4}(x+1)}{|x+1|^{3}+2|y|^{3}}=0\neq1\Rightarrow f\mbox{ no es continua}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Redefinirla en 
+\begin_inset Formula $(x,y)=(-1,0)$
+\end_inset
+
+, si es posible, de manera tal que resulte continua en 
+\begin_inset Formula $\mathbb{R}^{2}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+\frac{y^{4}(x+1)}{|x+1|^{3}+2|y|^{3}} & (x,y)\neq(-1,0)\\
+0 & (x,y)=(-1,0)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Consideremos la función 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=xy\sin\left(\frac{1}{x}\right)\sin\left(\frac{1}{y}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Calcular su dominio
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D=\{(x,y)\in\mathbb{R}^{2}/x\neq0\vee y\neq0\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Determinar si es posible extenderla a 
+\begin_inset Formula $\mathbb{R}^{2}$
+\end_inset
+
+ de modo que resulte continua.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+xy\sin\left(\frac{1}{x}\right)\sin\left(\frac{1}{y}\right) & x\neq0\wedge y\neq0\\
+0 & \mbox{ en los demás casos}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Esto se debe a que el límite de 
+\begin_inset Formula $f(x,y)$
+\end_inset
+
+ en 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+ es 
+\begin_inset Formula $0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Estudiar la continudad de las siguientes funciones en los puntos indicados
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\begin{cases}
+\frac{x-y}{x^{2}+y^{2}} & \mbox{si }(x,y)\neq(0,0);\\
+0 & \mbox{si }(x,y)=(0,0);
+\end{cases}$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(1,0\right)$
+\end_inset
+
+ y 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(1,0\right)}\frac{x-y}{x^{2}+y^{2}}=\frac{1}{1}=1=f(1,0)\Rightarrow\mbox{ Es continua en }(1,0)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+y=2x & \lim_{x\to0}\frac{x-2x}{x^{2}+4x^{2}}=\lim_{x\to0}\frac{-x}{5x^{2}}=\lim_{x\to0}-\frac{1}{5x}=\infty\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore f(x,y)\mbox{ no es continua en }(0,0)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $f(x,y)=\begin{cases}
+|y|^{x}(1+x)^{y} & \mbox{si }(x,y)\neq(0,0)\wedge y>-1;\\
+0 & \mbox{si }(x,y)=(0,0);
+\end{cases}$
+\end_inset
+
+ en 
+\begin_inset Formula $(1,0)$
+\end_inset
+
+ y 
+\begin_inset Formula $(0,2)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En entornos de los puntos pedidos la función está definida y no presenta
+ discontinuidades:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(1,0\right)}|y|^{x}(1+x)^{y}=f(1,0)=|0|^{1}(1+1)^{0}=1\Rightarrow\mbox{ Es continua en }(1,0)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,2\right)}|y|^{x}(1+x)^{y}=f(0,2)=|2|^{0}(1+0)^{2}=1\Rightarrow\mbox{ Es continua en }(0,2)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\sin(x\cos y)$
+\end_inset
+
+ en 
+\begin_inset Formula $(1,1)$
+\end_inset
+
+ y 
+\begin_inset Formula $(0,2)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sin\mbox{ y }\cos\mbox{ son funciones continuas en }\mathbb{R}\Rightarrow f(x,y)=\sin(x\cos y)\mbox{ es continua en }(1,1)\mbox{ y }(0,2)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\begin{cases}
+x+y & \mbox{si }x\neq0\mbox{ e }y\neq0;\\
+1 & \mbox{en otro caso}
+\end{cases}$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+ y 
+\begin_inset Formula $\left(1,1\right);$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(1,1\right)}x+y=f(x,y)=2\Rightarrow f(x,y)\mbox{ es continua en }\left(1,1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}x+y=0\neq f(x,y)\Rightarrow\mbox{ no es continua en }\left(0,0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\begin{cases}
+1 & \mbox{si }xy\neq0;\\
+0 & \mbox{si }xy=0;
+\end{cases}$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(1,0\right)$
+\end_inset
+
+ 
+\begin_inset Formula $\left(-1,2\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(1,0\right)}1=1\neq f(1,0)\Rightarrow\mbox{ no es continua en }\left(1,0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(-1,2\right)}1=f(-1,2)\Rightarrow\mbox{ es continua en }\left(-1,2\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Probar que la siguiente función no tiene límite cuando 
+\begin_inset Formula $\left(x,y\right)\to\left(0,0\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=\frac{\sin(xy)}{\left|x-y\right|}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin(xy)}{\left|x-y\right|}=\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin(xy)xy}{\left|x-y\right|xy}=\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy}{\left|x-y\right|}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula 
+\[
+\mbox{Si }y=\frac{x}{x+1}\Rightarrow x>y\Rightarrow\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy}{\left|x-y\right|}=\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy}{x-y}=\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\frac{x^{2}}{x+1}}{\left|x-\frac{x}{x+1}\right|}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\frac{x^{2}}{x+1}}{\left|\frac{x\left(x+1\right)-x}{x+1}\right|}=\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{x^{2}}{x+1}*\left|\frac{x+1}{x\left(x+1-1\right)}\right|=\lim_{\left(x,y\right)\to\left(0,0\right)}\left|\frac{x}{x}\right|=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\rightarrow\mbox{Puedo agrandar el módulo porque es producto y }\frac{x^{2}}{x+1}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Si }x=2y\Rightarrow\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy}{\left|x-y\right|}=\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{2y^{2}}{\left|y\right|}=\frac{2|y|^{2}}{2|y|}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\nexists\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin(xy)}{\left|x-y\right|}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Analizar la existencia del límite en el origen para
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=\frac{e^{\left(x^{2}+y^{3}\right)}-1}{xy-x+y^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\leq\left|\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{e^{\left(x^{2}+y^{3}\right)}-1}{xy-x+y^{2}}\right|\leq\lim_{\left(x,y\right)\to\left(0,0\right)}\left|\frac{e^{\left(x^{2}+y^{3}\right)}-1}{x(y-1)}\right|\leq\lim_{\left(x,y\right)\to\left(0,0\right)}\left|\frac{e^{2||(x,y)||}-1}{x(y-1)}\right|\leq\frac{\left(e^{||(x,y)||}+1\right)\left(e^{||(x,y)||}-1\right)}{x(y-1)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+e^{||(x,y)||}>1>y\Rightarrow\left|\frac{\left(e^{||(x,y)||}-1\right)}{(y-1)}\right|>1\Rightarrow
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+preguntar
+\end_layout
+
+\begin_layout Section
+Estudiar la continuidad de 
+\begin_inset Formula $f$
+\end_inset
+
+ en el puinto 
+\begin_inset Formula $\left(1,0\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+\frac{\left(x-1\right)^{\frac{4}{3}}y}{\left(x-1\right)^{2}+y^{2}\left|x\right|} & \mbox{ si }\left(x,y\right)\neq\left(1,0\right)\\
+0 & \mbox{ si }\left(x,y\right)=\left(1,0\right)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\leq\lim_{\left(x,y\right)\to\left(1,0\right)}\left|\frac{\left(x-1\right)^{\frac{4}{3}}y}{\left(x-1\right)^{2}+y^{2}\left|x\right|}\right|\leq\lim_{\left(x,y\right)\to\left(1,0\right)}\left|\frac{\left(x-1\right)^{\frac{4}{3}}y}{\left(x-1\right)^{2}+y^{2}\frac{1}{2}}\right|\rightarrow x\in(-\frac{1}{2},\frac{1}{2})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(1,0\right)}\left|\frac{\left(x-1\right)^{\frac{4}{3}}y}{\frac{1}{2}\left|\left|(x-1,y)\right|\right|^{2}}\right|\leq\lim_{\left(x,y\right)\to\left(1,0\right)}\left|\frac{\left|\left|(x-1,y)\right|\right|^{\frac{7}{3}}}{\frac{1}{2}\left|\left|(x-1,y)\right|\right|^{2}}\right|=\lim_{\left(x,y\right)\to\left(1,0\right)}2\left|\left|(x-1,y)\right|\right|^{\frac{1}{3}}\leq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\left|\lim_{\left(x,y\right)\to\left(1,0\right)}\frac{\left(x-1\right)^{\frac{4}{3}}y}{\left(x-1\right)^{2}+y^{2}\left|x\right|}\right|=0\Rightarrow\lim_{\left(x,y\right)\to\left(1,0\right)}\frac{\left(x-1\right)^{\frac{4}{3}}y}{\left(x-1\right)^{2}+y^{2}\left|x\right|}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Estudiar la continuidad de 
+\begin_inset Formula $f$
+\end_inset
+
+ en el origen de coordenadas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(x,y\right)=\begin{cases}
+\frac{xy^{2}-\tan\left(x^{2}y\right)}{\frac{1}{2}x^{2}+y^{2}} & \mbox{si }\left(x,y\right)\neq\left(0,0\right)\\
+0 & \mbox{si }\left(x,y\right)=\left(0,0\right)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\leq\left|\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy^{2}-\tan\left(x^{2}y\right)}{\frac{1}{2}x^{2}+y^{2}}\right|\leq\lim_{\left(x,y\right)\to\left(0,0\right)}\left|\frac{xy^{2}-\tan\left(x^{2}y\right)}{\frac{1}{2}\left|\left|x^{2}+y^{2}\right|\right|^{2}}\right|\leq\lim_{\left(x,y\right)\to\left(0,0\right)}2\left|\frac{\left|\left|x^{2}+y^{2}\right|\right|^{3}+\frac{\sin\left(\left|\left|x^{2}+y^{2}\right|\right|^{3}\right)}{\cos\left(\left|\left|x^{2}+y^{2}\right|\right|^{3}\right)}}{\left|\left|x^{2}+y^{2}\right|\right|^{2}}\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}2\left|\left|\left|x^{2}+y^{2}\right|\right|+\frac{\sin\left(\left|\left|x^{2}+y^{2}\right|\right|^{3}\right)}{\cos\left(\left|\left|x^{2}+y^{2}\right|\right|^{3}\right)\left|\left|x^{2}+y^{2}\right|\right|^{2}}\frac{\left|\left|x^{2}+y^{2}\right|\right|}{\left|\left|x^{2}+y^{2}\right|\right|}\right|=\lim_{\left(x,y\right)\to\left(0,0\right)}2\left|\left|\left|x^{2}+y^{2}\right|\right|+\frac{\left|\left|x^{2}+y^{2}\right|\right|}{\cos\left(\left|\left|x^{2}+y^{2}\right|\right|^{3}\right)}\right|=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy^{2}-\tan\left(x^{2}y\right)}{\frac{1}{2}x^{2}+y^{2}}\right|=0\Rightarrow\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy^{2}-\tan\left(x^{2}y\right)}{\frac{1}{2}x^{2}+y^{2}}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Probar que la función
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=\begin{cases}
+\frac{2xy}{x^{2}+y^{2}} & \mbox{si }\left(x,y\right)\neq\left(0,0\right)\\
+0 & \mbox{si }\left(x,y\right)=\left(0,0\right)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+es continua respecto de cada una de las variables por separado pero no lo
+ es como función de ambas.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{La afirmación equivale a }\left(\lim_{x\to0}\frac{2xy}{x^{2}+y^{2}}=\lim_{y\to0}\frac{2xy}{x^{2}+y^{2}}=0\right)\wedge\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{2xy}{x^{2}+y^{2}}\neq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}\frac{2xy}{x^{2}+y^{2}}=\frac{0}{y^{2}}=0;\lim_{y\to0}\frac{2xy}{x^{2}+y^{2}}=\frac{0}{x^{2}}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=y\Rightarrow\lim_{x\to0}\frac{2x^{2}}{x^{2}+x^{2}}=1\neq0\rightarrow\nexists\lim_{x\to0}\frac{2x^{2}}{x^{2}+x^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\left(\lim_{x\to0}\frac{2xy}{x^{2}+y^{2}}=\lim_{y\to0}\frac{2xy}{x^{2}+y^{2}}=0\right)\wedge\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{2xy}{x^{2}+y^{2}}\neq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Demostrar que si 
+\begin_inset Formula $g:\mathbb{R}\to\mathbb{R}$
+\end_inset
+
+ es continua en 
+\begin_inset Formula $x=a$
+\end_inset
+
+ y la función 
+\begin_inset Formula $f:\mathbb{R}^{2}\to\mathbb{R}$
+\end_inset
+
+ está dada por 
+\begin_inset Formula $f(x,y)=g(x)$
+\end_inset
+
+, entonces 
+\begin_inset Formula $f$
+\end_inset
+
+ es continua en todo punto de la recta 
+\begin_inset Formula $(a,y)$
+\end_inset
+
+.
+ Usar esto para probar que las siguientes funciones son continuas en todo
+ 
+\begin_inset Formula $\mathbb{R}^{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=g(x)\Rightarrow\lim_{(x,y)\to\left(a,b\right)}f(x,y)=\lim_{x\to a}g(x)=g(a)\Rightarrow\lim_{(x,y)\to\left(a,b\right)}f(x,y)=g(a)=f(a,b)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\lim_{(x,y)\to\left(a,b\right)}f(x,y)=f(a,b)\rightarrow f\mbox{ es continua }\forall b\in\mathbb{R}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\sin(x)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sin(x)\mbox{ es continua en }\mathbb{R}\Rightarrow\lim_{x\to a}\sin(x)=\sin(a)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(a,b\right)}f(x,y)=\lim_{\left(x,y\right)\to\left(a,b\right)}\sin(x)=\lim_{x\to a}\sin(x)=\sin(a)=f(a,b)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\lim_{\left(x,y\right)\to\left(a,b\right)}f(x,y)=f(a,b)\Rightarrow f\mbox{ es continua}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\sin(x^{2})+e^{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(a,b\right)}f(x,y)=\lim_{\left(x,y\right)\to\left(a,b\right)}\sin(x^{2})+\lim_{\left(x,y\right)\to\left(a,b\right)}e^{y}\rightarrow\mbox{ El límite de la suma es la suma de los límites}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sin(x^{2}),e^{y}\mbox{ son continuas }\Rightarrow\lim_{\left(x,y\right)\to\left(a,b\right)}\sin(x^{2})+\lim_{\left(x,y\right)\to\left(a,b\right)}e^{y}=\sin a^{2}+e^{b}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\lim_{\left(x,y\right)\to\left(a,b\right)}f(x,y)=\sin a^{2}+e^{b}=f(a,b)\Rightarrow f\mbox{ es continua en todo }\mathbb{R}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Estudiar la continuidad de las siguientes funciones
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\left(x^{2},e^{x}\right)$
+\end_inset
+
+
+\begin_inset Formula 
+\[
+x^{2},e^{x}\mbox{ son continuas }\forall x\in\mathbb{R}\Rightarrow f(x,y)=\left(x^{2},e^{x}\right)\mbox{ es continua en todo }\mathbb{R}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Fundamentalmente por lo demostrado en el punto anterior}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\left(\frac{\sin\left(x^{2}+y^{2}\right)}{x^{2}+y^{2}},\frac{e^{x^{2}+y^{2}}-1}{x^{2}+y^{2}}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\sin\left(x^{2}+y^{2}\right)}{x^{2}+y^{2}}\mbox{ es cociente de funciones continuas, pero se indefine en }\left(0,0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin\left(x^{2}+y^{2}\right)}{x^{2}+y^{2}}=0\Rightarrow\frac{\sin\left(x^{2}+y^{2}\right)}{x^{2}+y^{2}}\mbox{ es continua }\forall\left(x,y\right)\in\mathbb{R}^{2}\mbox{ si se redefine el valor en \ensuremath{0} a \ensuremath{0}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{e^{x^{2}+y^{2}}-1}{x^{2}+y^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver:
+\end_layout
+
+\begin_layout Subsection
+Hallar todas las funciones continuas 
+\begin_inset Formula $f:\mathbb{R}\to\mathbb{R}/f(x)^{2}-e^{x}=0$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

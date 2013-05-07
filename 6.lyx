@@ -1,0 +1,1200 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Sabemos que 
+\begin_inset Formula $\nabla f(x,y,z)$
+\end_inset
+
+ es la normal a 
+\begin_inset Formula $S={(x,y,z)\in\mathbb{R}^{3}:f(x,y,z)=1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore v=\left(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)\bot S_{\left(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)}\Leftrightarrow\nabla f(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2})=\lambda v
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y,z)=\left(\begin{matrix}2x & 2y & 2z\end{matrix}\right)\Rightarrow\nabla f(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2})=(0,\sqrt{2},\sqrt{2})=\frac{1}{2}v\blacksquare
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $S={(x,y,z)\in\mathbb{R}^{3}:f(x,y,z)=1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{¿}L_{1}:t(0,1,1)+(1,0,0);L_{2}:t(0,1,-1)+(1,0,0)\in S\mbox{ y son ortogonales?}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(1,t,t)=1+t^{2}-t^{2}=1\forall t\therefore L_{1}\in S
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(1,t,-t)=1+t^{2}-(-t)^{2}=1\forall t\therefore L_{2}\in S
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\vec{v_{1}}\bot\vec{v_{2}}\Leftrightarrow\vec{v_{1}}*\vec{v_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(0,1,1)*(0,1,-1)=0+1-1=0\blacksquare
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\text{¿}T:x=1?
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Calcular la ecuación del plano tangente (T) y de la recta normal (N), si
+ existen, a las superficies en los puntos indicados.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y,z)=x^{10}y-cos(z)x=-7$
+\end_inset
+
+ 
+\begin_inset Formula $x_{0}=(7,0,0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\nabla f(7,0,0)=\left(\begin{matrix}-cos(0) & 7^{10} & sen(0)*7\end{matrix}\right)=(-1,7^{10},0)=(-1,7^{10},0)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+N=t(-1,7^{10},0)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T:(-1,7^{10},0)*(x-7,y,z)=0\Rightarrow T=-x+7+7^{10}y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y,z)=xy-zln(y)+e^{xy}=1$
+\end_inset
+
+ 
+\begin_inset Formula $x_{0}=(0,1,1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(0,1,1)=\left(\begin{matrix}y+ye^{xy} & x-\frac{z}{y}+xe^{xy} & -ln(y)\end{matrix}\right)=\left(\begin{matrix}2 & -1 & 0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+N_{(0,1,1)}=\left\{ \begin{matrix}x=t\\
+y=-t+1\\
+z=1
+\end{matrix}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+T:(2,-1,0)*(x,y-1,z-1)=2x-y+1=0\Rightarrow T:x=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y,z)=xy*sen(y)+ze^{xy}-z^{2}=0$
+\end_inset
+
+ 
+\begin_inset Formula $x_{0}=(4,0,1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(4,0,1)=\left(\begin{matrix}y*sen(y)+zye^{xy} & sen(y)*x+xy*cos(y)+zxe^{xy} & e^{xy}-2z\end{matrix}\right)=\left(\begin{matrix}0 & 4 & -1\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+N_{(4,0,1)}=\left\{ \begin{matrix}x=t+4\\
+y=4t\\
+z=-1t+1
+\end{matrix}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T:<(1,4,-1),(x,y,z)-(4,0,1)>=0\Rightarrow x-4+4y-z+1=x+4y-3=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y,z)=cos(x)*cos(y)e^{z}=0$
+\end_inset
+
+ 
+\begin_inset Formula $x_{0}=(\frac{\pi}{2},1,0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(\frac{\pi}{2},1,0)=\left(\begin{matrix}-sen(x)cos(y)e^{z} & -sen(y)cos(x)e^{z} & cos(x)*cos(y)e^{z}\end{matrix}\right)=\left(\begin{matrix}-cos(1) & 0 & 0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+N_{(\frac{\pi}{2},1,0)}=\left\{ \begin{matrix}x=-cos(1)t+\frac{\pi}{2}\\
+y=1\\
+z=0
+\end{matrix}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T:<(-cos(1),0,0),(x,y,z)-(\frac{\pi}{2},1,0)>=0\Rightarrow-cos(1)(x+\frac{\pi}{2})=x+\frac{\pi}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $f:\mathbb{R}^{2}\rightarrow\mathbb{R}$
+\end_inset
+
+ diferenciable en 
+\begin_inset Formula $(x_{0},y_{0})$
+\end_inset
+
+ y sea 
+\begin_inset Formula $h:\mathbb{R}^{3}\rightarrow\mathbb{R}:h(x,y,z)=f(x,y)-z$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+h(x_{0},y_{0},f(x_{0},y_{0}))=f(x_{0},y_{0})-f(x_{0},y_{0})=0\forall(x_{0},y_{0})\in\mathbb{R}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{El plano tangente T a \ensuremath{f} en \ensuremath{(x_{0},y_{0})} está dado por }<\nabla f(x_{0},y_{0}),(x,y)+(x_{0},y_{0})>=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow T:\frac{df}{dx}(x_{0},y_{0})*(x-x_{0})+\frac{df}{dy}(x_{0},y_{0})*(y-y_{0})+f(x_{0},y_{0})=z
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow T:\frac{df}{dx}(x_{0},y_{0})*(x-x_{0})+\frac{df}{dy}(x_{0},y_{0})*(y-y_{0})+h(x_{0},y_{0},f(x_{0},y_{0}))=0\Leftrightarrow\nabla f(x_{0},y_{0})=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore h(x_{0},y_{0},f(x_{0},y_{0}))=\mbox{ es entonces el caso particular en que las derivadas son 0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Encontrar 
+\begin_inset Formula $P=(x_{0},y_{0},z_{0})\mbox{ donde }S=\left\{ (x,y,z)\in\mathbb{R}^{3}:f(x,y,z)=x^{2}+2y^{2}+3z^{2}=21\right\} $
+\end_inset
+
+ es paralelo a 
+\begin_inset Formula $\prod:x+4y+6z=8$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T\mbox{ tangente en \ensuremath{P} a }S\Leftrightarrow T:<\nabla f(P),(x,y,z)+P)>=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+<\nabla f(P),(x,y,z)+P)>=<(2x_{0},4y_{0},6z_{0}),(x+x_{0},y+y_{0},z+z_{0})>=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $E:\frac{x^{2}}{9}+\frac{y^{2}}{16}+z^{2}=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Tesis: }P=(a,b,c)\in E\Rightarrow-P\in E
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Es trivial porque 
+\begin_inset Formula $\frac{a^{2}}{9}+\frac{b^{2}}{16}+c^{2}=\frac{(-a)^{2}}{9}+\frac{(-b)^{2}}{16}+(-c)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Los planos son paralelos si sus normales son paralelas:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(P)=\lambda\nabla f(-P)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{2}{9}a(x+a)+\frac{1}{8}b(y+b)+2c(z+c)\mbox{ y }-\frac{2}{9}a(x-a)-\frac{1}{8}b(y-b)-2c(z-c)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+N_{1}=\left(\frac{2}{9},\frac{1}{8},2\right)\mbox{ y }N_{2}=\left(-\frac{2}{9},-\frac{1}{8},-2\right)=N_{1}*-1\blacksquare
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+La unica manera en que 
+\begin_inset Formula $\nabla f(P)=\lambda\nabla f(Q)$
+\end_inset
+
+ es que 
+\begin_inset Formula $P=-Q$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{matrix}a=\lambda a'\\
+b=\lambda b'\\
+c=\lambda c'
+\end{matrix}\Rightarrow\lambda=-1\mbox{ ya que no hay otras soluciones que pertenzcan a E (se ve al reemplazar en la def de E).}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore Q=-P\mbox{ }\blacksquare
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+¿
+\begin_inset Formula $f(x)=x^{5}+x^{3}+x$
+\end_inset
+
+ biyectiva? ¿
+\begin_inset Formula $f^{-1}(x)$
+\end_inset
+
+ es diferenciable? Encontrar la ecuación de la recta tangente al gráfico
+ 
+\begin_inset Formula $f^{-1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{5}+x^{3}+x\in R\mbox{ es biyectiva}\Rightarrow f(x)\mbox{ es biyectiva.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Por el teorema de la función inversa, }f(x)\mbox{ es inversible en un entorno  }U\subseteq D,V\subseteq Im
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Como es un poliniomio biyectivo }U=D=R\mbox{ y}V=Im=R
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D(f^{-1}(x))=\frac{1}{5y^{4}+3y^{2}+1}\Rightarrow D(f^{-1}(3))=\frac{1}{9}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T:f^{-1}(3)+D(f^{-1}(3))*(x-3)=1+\frac{1}{9}(x-3)=\frac{2}{3}+\frac{1}{9}x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $f(x)=-3x^{7}-x^{5}+6x^{\text{3}}-x+e^{x}+1\rightarrow$
+\end_inset
+
+tiende a menos infinito cuando
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'(x)=-21x^{6}-5x^{4}+18x^{2}-1+e^{x}\mbox{ Si tomo un x suficientemente grande e crece más rápido por ser exponencial}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x>M=22\mbox{ es una función estrictamente creciente}\therefore\exists f^{-1}\mbox{ con el dominio de f acotado a ese intervalo}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sea
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T(x,y)=\left(\begin{matrix}3x-2y & 5x-2y\end{matrix}\right)\Rightarrow\begin{matrix}u=3x-2y & v=5x-2y\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=\frac{3x-u}{2}\Rightarrow v=5x-\Rightarrow x=\frac{v-u}{2}\therefore y=\frac{3(\frac{v-u}{2})-\frac{2u}{2}}{2}=\frac{3v-3u-2u}{2*2}=\frac{3v-5u}{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+T^{-1}(u,v)=\left(\begin{matrix}\frac{v-u}{2} & \frac{3v-5u}{4}\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+DT(a)=\left(\begin{matrix}3 & -2\\
+5 & -2
+\end{matrix}\right)\Rightarrow DT^{-1}(a)=\frac{1}{det(DT(a))}*\left(\begin{matrix}-2 & 2\\
+-5 & 3
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore DT^{-1}(a)=\frac{1}{-6+10}*\left(\begin{matrix}3 & 2\\
+-5 & -2
+\end{matrix}\right)=\left(\begin{matrix}-\frac{1}{2} & \frac{1}{2}\\
+-\frac{5}{4} & \frac{3}{4}
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Corroboro derivando la inversa que calculé: }DT^{-1}(a)=\left(\begin{matrix}-\frac{1}{2} & \frac{1}{2}\\
+-\frac{5}{4} & \frac{3}{4}
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Determinar si son localmente inversibles de clase 
+\begin_inset Formula $C^{1}$
+\end_inset
+
+ en 
+\begin_inset Formula $a$
+\end_inset
+
+ y calcular la diferencial de 
+\begin_inset Formula $F^{-1}$
+\end_inset
+
+en 
+\begin_inset Formula $F(a)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $F(x,y)=(x^{2}-y^{2},2xy)\mbox{ en }a=(x,y)\neq(0,0)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+DF(x,y)=\left(\begin{matrix}2x & -2y\\
+2y & 2x
+\end{matrix}\right)\Rightarrow\mbox{Tiene \ensuremath{det\neq0\forall(x,y)\neq(0,0)} y derivadas continuas en todo R}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+DF^{-1}(x,y)=\left(\begin{matrix}\frac{2x}{4x^{2}+4y^{2}} & \frac{2y}{4x^{2}+4y^{2}}\\
+-\frac{2y}{4x^{2}+4y^{2}} & \frac{2x}{4x^{2}+4y^{2}}
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $F(x,y)=(senx,cos(xy))\mbox{ en }a=(\pi,\pi/2)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+DF(x,y)=\left(\begin{matrix}cosx & 0\\
+-ysen(xy) & -xsen(xy)
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Pendiente por apuro}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Encontrar 
+\begin_inset Formula $y=f(x,z)$
+\end_inset
+
+ para 
+\begin_inset Formula $x^{2}+y^{2}-z^{3}=0$
+\end_inset
+
+ en:
+\end_layout
+
+\begin_layout Subsection
+(0,1,1)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+|y|=\sqrt{z^{3}-x^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D\subseteq U=B_{0,1}(0,1) y>0,z^{\text{3}}>x^{2}\Rightarrow y=\sqrt{z^{3}-x^{2}}\mbox{ es continua}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+1=\sqrt{1-0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+D\subseteq U=B_{0,1}(2,2)\wedge Im=B_{0,1}(1)\subseteq\Rightarrow y<0\wedge z^{3}>x^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore y=-\sqrt{2^{3}-2^{2}}=-2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+...
+ voy a empezar a saltear ejercicios ...
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $f:\mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$
+\end_inset
+
+dada por 
+\begin_inset Formula $F(x,y)=(e^{x}cosy,e^{x}seny)$
+\end_inset
+
+ Probar que 
+\begin_inset Formula $\forall(x,y)\in\mathbb{R}^{2}\rightarrow f(x,y)$
+\end_inset
+
+ 
+\begin_inset Formula $det(DF(x,y))\neq0$
+\end_inset
+
+ y no es inyectiva.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\forall y=\frac{\pi}{2}+2k\pi\mbox{ }F(x,y)=(0,0)\therefore\mbox{no es inyectiva}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+det(DF(x,y))=\left|\begin{matrix}e^{x}cosy & -e^{x}seny\\
+e^{x}seny & e^{x}cosy
+\end{matrix}\right|=(e^{x}cosy)^{2}+(e^{x}seny)^{2}\neq0\forall(x,y)\in\mathbb{R}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ya que no se pueden anular simultáneamente el coseno y el seno de un ángulo
+ y ambos términos son positivos.
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $f:\mathbb{R}^{2}\rightarrow\mathbb{R}^{2}$
+\end_inset
+
+ definida como
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y,z)=x^{3}-2y^{2}+z^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Demostrar que 
+\begin_inset Formula $f(x,y,z)=0$
+\end_inset
+
+ define una función implícita 
+\begin_inset Formula $x=\varphi(y,z)$
+\end_inset
+
+ en 
+\begin_inset Formula $(1,1,1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{3}-2y^{2}+z^{2}=0\Rightarrow x=\sqrt[3]{2y^{2}-z^{2}}=\varphi(y,z)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Encontrar 
+\begin_inset Formula $\frac{\partial\varphi}{\partial y}(1,1)$
+\end_inset
+
+ y 
+\begin_inset Formula $\frac{\partial\varphi}{\partial z}(1,1)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial\varphi}{\partial y}(1,1)=\frac{1}{3}4y(2y^{2}-z^{2})^{-\frac{2}{3}}\Bigg|_{(1,1)}=\frac{1}{3}4(2-1)^{-\frac{2}{3}}=\frac{4}{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial\varphi}{\partial z}(1,1)=-\frac{1}{3}2z(2y^{2}-z^{2})^{-\frac{2}{3}}\Bigg|_{(1,1)}=-\frac{2}{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+salteado
+\end_layout
+
+\begin_layout Section
+salteado
+\end_layout
+
+\begin_layout Section
+salteado
+\end_layout
+
+\begin_layout Section
+salteado
+\end_layout
+
+\begin_layout Section
+Dadas dos superficies 
+\begin_inset Formula $S_{1}$
+\end_inset
+
+ y 
+\begin_inset Formula $S_{2}\subset\mathbb{R}^{3}$
+\end_inset
+
+ definidas implícitamente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+S_{1}: & F(x,y,z)=0\\
+S_{2}: & G(x,y,z)=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+con 
+\begin_inset Formula $F,G:\mathbb{R}\text{³}\rightarrow\mathbb{R}$
+\end_inset
+
+ funciones 
+\begin_inset Formula $C^{1}$
+\end_inset
+
+.
+ 
+\begin_inset Formula $S_{1}\cap S_{2}$
+\end_inset
+
+ es una curva 
+\begin_inset Formula $\sigma(t)=\left(x(t),y(t),z(t)\right)$
+\end_inset
+
+, y sea 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\sigma(t_{0})=P_{0}\in S_{1}\cap S_{2}$
+\end_inset
+
+.
+ Probar que si el J parcial 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial(F,G)}{\partial(y,z)}(P_{0})=det\left(\begin{matrix}F_{y} & F_{z}\\
+G_{y} & G_{z}
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+entonces se puede despejar 
+\begin_inset Formula $y=y(x)$
+\end_inset
+
+ y 
+\begin_inset Formula $z=z(x)$
+\end_inset
+
+ en un entorno de 
+\begin_inset Formula $P_{0}$
+\end_inset
+
+ de modo diferenciable y valen las fórmulas
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial y}{\partial x}=\frac{\frac{\partial(F,G)}{\partial(x,z)}}{\frac{\partial(F,G)}{\partial(y,z)}}\mbox{ y }\frac{\partial z}{\partial x}=-\frac{\frac{\partial(F,G)}{\partial(y,x)}}{\frac{\partial(F,G)}{\partial(y,z)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+J(
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

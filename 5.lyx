@@ -1,0 +1,2395 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\def\thesubsection{\alph{subsection}}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Ej
+\end_layout
+
+\begin_layout Section
+Ej
+\end_layout
+
+\begin_layout Section
+Ej
+\end_layout
+
+\begin_layout Section
+Ej
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $f(x,y)=(y-3x\text{²})(y-x\text{²})=y^{2}-4x^{2}y+3x^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=-x^{2}\Rightarrow x^{4}+4x^{4}+3x^{4}\Rightarrow(0,0)\mbox{ Tiene un mínimo absoluto en (0,0)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=kx^{2}\Rightarrow x^{4}-4kx^{4}+3x^{4}=4x^{4}(1-k)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\therefore$
+\end_inset
+
+a) Es positiva en un entorno de 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+ con 
+\begin_inset Formula $k<1$
+\end_inset
+
+ y negativa con 
+\begin_inset Formula $k>1\Rightarrow(0,0)$
+\end_inset
+
+ es un punto de ensilladura.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{array}{cc}
+-6x*(y-x\text{²})-2x*(y-3x\text{²}) & y-x\text{²}+y-3x\text{²}\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left\{ \begin{array}{c}
+-8xy+12x^{3}=0\\
+2y-4x\text{²}=0
+\end{array}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-8xy+12x\text{³}=0\Rightarrow x=0\vee12x^{2}=8y\Rightarrow x=0\vee\sqrt{y\frac{3}{2}}=|x|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2y-4x\text{²}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sqrt{\frac{1}{2}y}=|x|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Como }\left\{ (x,y):y=\frac{1}{2}x^{2}\wedge y=\frac{2}{3}x^{2}\right\} =\left\{ (0,0)\right\} \Rightarrow\mbox{tengo puntos críticos solo en }(x,y)=(0,0)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf(x,y)=\left(\begin{array}{cc}
+-6(y-x\text{²})+2x*6x-2*(y-3x\text{²})+2x*6x & -2x-6x\\
+-2x-6x & 1+1
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHf(0,0)=\left|\begin{array}{cc}
+0 & 0\\
+0 & 2
+\end{array}\right|=\mbox{b) }0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g(x,y)=mx-y\mbox{ ; \ensuremath{s=\{(x,y)/g(x,y)=0\}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=mx\Rightarrow f_{s}(x,y)=(f\circ g)(x,y)=f(x,mx)=m^{2}x{}^{2}-4x^{2}mx+3x^{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Defino \ensuremath{f_{1}:\mathbb{R\rightarrow R}/f_{1}(x)=m^{2}x^{2}-4x^{3}m+3x^{4}\mbox{ y derivo}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'_{1}(x)=2xm^{2}-12x^{2}m+12x\text{³}\mbox{ se anula en \ensuremath{(0)}}\mbox{ (es un punto crítico, no me importan los demás)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f''_{1}(x)=2m^{2}-24xm+36x^{2}\Rightarrow f''_{1}(0)=2m^{2}\therefore f''_{1}(0)>0\forall m\neq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore f_{1}(x)\mbox{ tiene un mínimo relativo en (0,0)}\Rightarrow f_{s}(x,y)\mbox{ tiene un mínimo relativo en (0,0)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Las siguientes afirmaciones me parecían útiles pero hay que suponer 
+\begin_inset Formula $\nabla g\neq0$
+\end_inset
+
+ ¿Entonces no me sirven?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(0,0)\mbox{ es un máximo o mínimo de \ensuremath{f_{s}}}\Leftrightarrow\nabla f=\lambda\nabla g
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(0,0)\mbox{ es un máximo o mínimo de \ensuremath{f_{s}}}\Leftrightarrow\nabla f\bot S\mbox{ en \ensuremath{(0,0)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{En \ensuremath{(0,0)}}\nabla f=0=\lambda\nabla g\mbox{ por lo tanto existe un mínimo o máximo sin importar m}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $f:\mathbb{R}^{2}\rightarrow\mathbb{R}/f(x,y)=x^{4}+y^{4}-2(x-y)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x,y)=x^{4}+y^{4}-2x^{2}+4xy-2y^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{df}{dx}=4x^{3}-4x+4y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{df}{dy}=4y^{3}-4y+4x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\begin{array}{c}
+4x^{3}-4x+4y=0\\
+4y^{3}-4y+4x=0
+\end{array}\Rightarrow(0,0)\mbox{ es un punto crítico.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Busco otros puntos críticos: }y=\frac{4x-4x^{3}}{4}=x-x^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{reemplazo en }\frac{df}{dy}=4(x-x^{3})^{3}-4x+4x^{3}+4x=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+4(x^{3}-3x^{2}x^{3}+3xx^{6}-x^{9})+4x^{3}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+4x^{3}(2-3x^{2}+3x^{4}-x^{6})=0\Rightarrow x=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2-3x^{2}+3x^{4}-x^{6}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+z=x^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+-z^{3}+3z^{2}-3z+2=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+(z-2)(-z^{2}+z-1)=0\rightarrow\mbox{por ruffini}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+z-2=0\Leftrightarrow x=|\sqrt{2}|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Vuelvo a }\frac{df}{dx}:4|\sqrt{2}|^{3}-4|\sqrt{2}|+4y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=2|\sqrt{2}|-|\sqrt{2}|=-|\sqrt{2}|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf(x,y)=\left(\begin{array}{cc}
+12x^{2}-4 & 4\\
+4 & 12y^{2}-4
+\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|Hf(0,0)\right|=\left|\begin{array}{cc}
+4 & 4\\
+4 & 4
+\end{array}\right|=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|Hf(\sqrt{2},-\sqrt{2})\right|=\left|\begin{array}{cc}
+24-4 & 4\\
+4 & 24-4
+\end{array}\right|=400-16>0\Rightarrow\mbox{ mínimo local}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|Hf(-\sqrt{2},\sqrt{2})\right|=\left|\begin{array}{cc}
+24-4 & 4\\
+4 & 24-4
+\end{array}\right|=400-16>0\Rightarrow\mbox{ mínimo local}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{matrix}f(0,0)=0 & \wedge & f(\sqrt{2},-\sqrt{2})=f(-\sqrt{2},\sqrt{2})=4+4-2*8=-8 & \Rightarrow(0,0)\mbox{ no es mínimo absoluto}\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(10,10)=2*10^{4}-2*(0)^{2}=20^{4}>f(0,0)\therefore(0,0)\mbox{ no es extremo \emph{(a)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{\emph{(b)}Como no hay más puntos críticos}\pm\sqrt{2}(1,-1)\mbox{ son mínimos absolutos.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Encontrar puntos críticos y analizar máximos y mínimos locales o puntos
+ de ensilladura.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=(2x+1-y)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=(2x+1-y)(2x+1-y)=4x^{2}+2x-2xy+2x+1-y-2xy-y+y^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+4x^{2}+4x-4xy+1-2y+y^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}8x+4-4y & 2y-2-4x)\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}8x+4-4y=0 & 2y-2-4x=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{matrix}y=2x+1 & x=\frac{1}{2}y-\frac{1}{2}\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=\frac{1}{2}(2x+1)-\frac{1}{2}=x+\frac{1}{2}-\frac{1}{2}=x\Rightarrow\mbox{Son puntos críticos los de la forma }y=2x+1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf=\left(\begin{matrix}8 & -4\\
+-4 & 2
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHf=\left|\begin{matrix}8 & -4\\
+-4 & 2
+\end{matrix}\right|=16-16=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{La función evidentemente tiene mínimos absolutos en toda la recta }2x+1=y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{y no tiene máximos}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=x^{2}-y^{2}-xy+3x+3y+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}2x-y+3 & -2y-x+3\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}2x-y+3=0 & -2y-x+3=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=2x+3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-2(2x+3)-x+3=0\rightarrow\mbox{Reemplazo en la segunda ecuación}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-4x-6-x+3=-5x-3=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=-\frac{3}{5}\Rightarrow y=-\frac{6}{5}+3=\frac{9}{5}\therefore(-\frac{3}{5},\frac{9}{5})\mbox{ es un punto crítico}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf(x,y)=\left(\begin{matrix}2 & -1\\
+-1 & -2
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHf(x,y)=\left|\begin{matrix}2 & -1\\
+-1 & -2
+\end{matrix}\right|=-4-1<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detH_{1}f(x,y)=|2|=2>0\therefore f(x,y)\mbox{ tiene un punto silla en}(-\frac{3}{5},\frac{9}{5})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=10x^{2}+10y^{2}+12xy+2x+6y+1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}20x+12y+2 & 20y+12x+6\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}20x+12y+2=0 & 20y+12x+6=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+20x=-12y-2\Rightarrow x=-\frac{3}{5}y-\frac{1}{10}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+5y+3(-\frac{3}{5}y-\frac{1}{10})=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+5y-\frac{9}{5}y=\frac{3}{10}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+(25-9)y=\frac{3}{2}\Rightarrow y=\frac{3}{32}\Rightarrow x=-\frac{5}{32}\therefore\left(\frac{3}{32},-\frac{5}{32}\right)\mbox{ es un punto crítico}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf(x,y)=\left(\begin{matrix}20 & 12\\
+12 & 20
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHf(x,y)=\left|\begin{matrix}20 & 12\\
+12 & 20
+\end{matrix}\right|=256>0\wedge detH_{1}f(x,y)=|20|=20>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\left(\frac{3}{32},-\frac{5}{32}\right)\mbox{ es un mínimo local, absoluto por ser el único punto crítico.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=e^{1+x^{2}+y^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}2xe^{1+x^{2}+y^{2}} & 2ye^{1+x^{2}+y^{2}}\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}2xe^{1+x^{2}+y^{2}}=0 & 2ye^{1+x^{2}+y^{2}}=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2xe^{1+x^{2}+y^{2}}=0\Rightarrow x=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2ye^{1+x^{2}+y^{2}}=0\Rightarrow y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\mbox{El único punto crítico es \ensuremath{(0,0)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf(x,y)=\left(\begin{matrix}2e^{1+x^{2}+y^{2}}+4x^{2}e^{1+x^{2}+y^{2}} & 2x2ye^{1+x^{2}+y^{2}}\\
+2x2ye^{1+x^{2}+y^{2}} & 2e^{1+x^{2}+y^{2}}+4y^{2}e^{1+x^{2}+y^{2}}
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+detHf(0,0)=\left|\begin{matrix}2e & 0\\
+0 & 2e
+\end{matrix}\right|=2e*2e>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+detH_{1}f(0,0)=\left|\begin{matrix}2e\end{matrix}\right|=2e>0\therefore(0,0)\mbox{ es un mínimo relativo y absoluto.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=\sqrt{x^{2}+y^{2}}+xy$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}\frac{x}{\sqrt{x^{2}+y^{2}}}+1 & \frac{y}{\sqrt{x^{2}+y^{2}}}+1\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}\frac{x}{\sqrt{x^{2}+y^{2}}}+1=0 & \frac{y}{\sqrt{x^{2}+y^{2}}}+1=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=-\sqrt{x^{2}+y^{2}}\Rightarrow\sqrt{x^{2}+y^{2}}+x=0\Rightarrow x\leq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{De la otra ecuación: }\sqrt{x^{2}+y^{2}}+y=0\Rightarrow y\leq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{x}{\sqrt{x^{2}+y^{2}}}=\frac{y}{\sqrt{x^{2}+y^{2}}}=-1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=(x-y)^{2}+1+2(x-y)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}2(x-y)+2 & -2(x-y)-2\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}2(x-y)+2=0 & -2(x-y)-2=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2x=2y-2\Rightarrow x=y-1
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y=x+1\mbox{ es decir, no plantea otra restricción (son la misma ecuación)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\mbox{ toda la recta y=x+1 es de puntos críticos}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf(x,y)=\left(\begin{matrix}2 & -2\\
+-2 & 2
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+detHf(x,y)=\left|\begin{matrix}2 & -2\\
+-2 & 2
+\end{matrix}\right|=4-4=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Reviso esa recta: }f(x,x+1)=(1)^{2}+1+2(1)=4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(0,0)=1;f(2,0)=4+1+4=9\Rightarrow\mbox{La curva }y=x+1\mbox{ es de puntos silla}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=e^{x-y}(x^{2}-2y^{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}e^{x-y}(x^{2}-2y^{2})+2xe^{x-y} & e^{x-y}(x^{2}-2y^{2})-4ye^{x-y}\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}e^{x-y}(x^{2}-2y^{2})+2xe^{x-y}=0 & -e^{x-y}(x^{2}-2y^{2})-4ye^{x-y}=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+x^{2}-2y^{2}+2x=0\rightarrow\mbox{saco \ensuremath{e^{x-y}\neq0}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{x^{2}}{2}+x=y^{2}\Rightarrow\left|y\right|=\sqrt{\frac{x^{2}}{2}+x}\Rightarrow x(\frac{x}{2}+1)>0\Rightarrow x>0\vee\frac{x}{2}+1>0\Rightarrow x>-2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sqrt{2y^{2}-4y}=\left|x\right|\Rightarrow2y^{2}-4y>0\Rightarrow y>0\vee y-2>0\Rightarrow y>2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y,z)=xy+z^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y,z)=\left(\begin{matrix}y & x & 2z\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y,z)=0\Leftrightarrow\left(\begin{matrix}y=0 & x=0 & z=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Punto crítico único: \ensuremath{\left(0,0,0\right)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf(x,y)=\left(\begin{matrix}0 & 1 & 0\\
+1 & 0 & 0\\
+0 & 0 & 2
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+detHf(x,y)=\left|\begin{matrix}0 & 1 & 0\\
+1 & 0 & 0\\
+0 & 0 & 2
+\end{matrix}\right|=0-1*1*2=-2<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+detH_{1}f(x,y)=\left|\begin{matrix}0\end{matrix}\right|=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+detH_{2}f(x,y)=\left|\begin{matrix}0 & -1\\
+-1 & 0
+\end{matrix}\right|=-1<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Con z=0 es evidente que la función \ensuremath{xy}no es acotada\therefore es un punto silla}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y,z)=2x^{2}+y^{2}+z^{2}-xy+2xz+z$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y,z)=\left(\begin{matrix}4x-y+2z & 2y-x & 2z+2x+1\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y,z)=0\Leftrightarrow\left(\begin{matrix}4x-y+2z=0 & 2y-x=0 & 2z+2x+1=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=y
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+y=4x+2z\Rightarrow z=\frac{-3}{2}x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2\frac{-3}{2}x+2x+1=-3x+2x+1=0\Rightarrow x=1\wedge y=1\wedge z=-\frac{3}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Punto crítico único: \ensuremath{\left(1,1,-\frac{3}{2}\right)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf(x,y)=\left(\begin{matrix}4 & -1 & 2\\
+-1 & 2 & 0\\
+2 & 0 & 2
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+detHf(x,y)=\left|\begin{matrix}4 & -1 & 2\\
+-1 & 2 & 0\\
+2 & 0 & 2
+\end{matrix}\right|=4*2*2+(-1)*0*2+2*(-1)*0-2*2*2-(-1)*(-1)*2-4*0*0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+16-2=14>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+detH_{1}f(x,y)=\left|\begin{matrix}4\end{matrix}\right|=4>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+detH_{2}f(x,y)=\left|\begin{matrix}4 & -1\\
+-1 & 2
+\end{matrix}\right|=8-1>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Como todos los determinantes principales son positivos la matriz es definida positiva\therefore hay un mínimo local}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=x^{2}-2xy^{2}+y^{4}-y^{5}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}2x-2y^{2} & -4yx+4y^{3}-5y^{4}\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2x-2y^{2}=0\Rightarrow x=y^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+-4y^{3}+4y^{3}-5y^{4}=-5y^{4}=0\Rightarrow y=0\wedge x=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Único punto crítico: (0,0)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf(x,y)=\left(\begin{matrix}2 & -4y\\
+-4y & -4x+12y^{2}-20y^{3}
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+detHf(0,0)=\left|\begin{matrix}2 & 0\\
+0 & 0
+\end{matrix}\right|=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Tomo la curva \ensuremath{x=0\Rightarrow f(0,y)=y^{4}-y^{5}}que claramente no está acotada \therefore\ensuremath{(0,0)}es punto silla}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x)=\frac{1}{1+||x||^{2}}$
+\end_inset
+
+ con 
+\begin_inset Formula $x\in\Re^{n}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\forall1\leq i\leq n:\frac{df}{dx_{i}}=-\frac{2x_{i}}{(1+||x||^{2})^{2}}\rightarrow\mbox{se anula sí y sólo sí \ensuremath{x_{i}=0}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore0\mbox{ es el único punto crítico. Como \ensuremath{||x||^{2}\geq0\mbox{ 0 es máximo absoluto.}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $f:\mathbb{R}^{2}\rightarrow\mathbb{R}\in C^{2}\mbox{; }g:\mathbb{R}^{2}\rightarrow\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(0,1)=0,\nabla f(0,1)=(0,2)\mbox{ y \ensuremath{\mathbb{H}f(0,1)=\left|\begin{matrix}1 & -1\\
+-1 & 2
+\end{matrix}\right|}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g(x,y)=3x^{2}y+e^{f(x,y)}-2y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla g(x,y)=\left(\begin{matrix}6xy+\frac{df}{dx}(x,y)*e^{f(x,y)} & 3x^{2}-2+\frac{df}{dy}(x,y)*e^{f(x,y)}\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla g(x,y)=0\Leftrightarrow\left(\begin{matrix}6xy+\frac{df}{dx}(x,y)*e^{f(x,y)}=0 & 3x^{2}-2+\frac{df}{dy}(x,y)*e^{f(x,y)}=0\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{En }(0,1)\rightarrow\begin{matrix}6xy+\frac{df}{dx}(x,y)*e^{f(x,y)}=\frac{df}{dx}(0,1)*e^{f(0,1)}=0\\
+3x^{2}-2+\frac{df}{dy}(x,y)*e^{f(x,y)}=-2+\frac{df}{dy}(0,1)*e^{f(0,1)}=0
+\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore(0,1)\mbox{ es un punto crítico.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathbb{H}g(0,1)=\left(\begin{matrix}6+\left(\frac{df}{dx}(0,1)\right)^{2}*e^{f(0,1)}+\frac{d^{2}f}{dx^{2}}(0,1)*e^{f(0,1)} & \frac{d^{2}f}{dydx}(0,1)*e^{f(0,1)}+\left(\frac{df}{dy}(0,1)\right)^{2}*e^{f(0,1)}\\
+6x+\frac{d^{2}f}{dxdy}(0,1)*e^{f(0,1)}+\left(\frac{df}{dx}(0,1)\right)^{2}*e^{f(0,1)} & \left(\frac{df}{dy}(0,1)\right)^{2}*e^{f(0,1)}+\frac{d^{2}f}{dy^{2}}(0,1)*e^{f(0,1)}
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathbb{H}g(0,1)=\left(\begin{matrix}6+\left(0\right)^{2}*e^{0}+2*e^{0}=8 & -1*e^{0}+\left(1\right)^{2}*e^{0}=0\\
+6*0+-1*e^{0}+\left(0\right)^{2}*e^{0}=-1 & \left(1\right)^{2}*e^{0}+2*e^{0}=3
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\mathbb{H}g(0,1)=\left(\begin{matrix}8 & 0\\
+-1 & 3
+\end{matrix}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+¿Tiene 
+\begin_inset Formula $g$
+\end_inset
+
+ un extremo relativo en (0,1)? Sí, 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+ es un punto crítico.
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $f(x,y)=2x^{4}+y^{2}-3yx^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}8x^{3}-6xy & 2y-3x^{2}\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Rightarrow\left(\begin{matrix}\frac{4x^{2}}{3}=y & \frac{2*4x^{2}}{3}-3x^{2}=0\end{matrix}\right)\Rightarrow-\frac{1}{3}x^{2}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore x=0\Rightarrow y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathbb{H}f(0,0)=\left(\begin{matrix}24x^{2}-6y & -6x\\
+-6x & 2
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula $\mathbb{H}f(0,0)=\left(\begin{matrix}0 & 0\\
+0 & 2
+\end{matrix}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=mx\Rightarrow f_{1}(x)=2x^{4}+(mx)^{2}-4(mx)x^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{df{}_{1}}{dx}(x)=8x^{3}+2m^{2}x-12mx^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{d^{2}f{}_{1}}{dx^{2}}(x)=24x^{2}+2m^{2}-24mx
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{d^{2}f_{1}}{dx^{2}}(0)=2m^{2}>0\forall m
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+La 
+\begin_inset Formula $d^{2}f_{y=mx}(0)>0\forall m\Rightarrow$
+\end_inset
+
+es un mínimo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Pruebo}y=\frac{3}{2}x^{2}\Rightarrow f_{2}(x)=2x^{4}+(\frac{3}{2}x^{2})^{2}-4(\frac{3}{2}x^{2})x^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f_{2}(x)=2x^{4}+\frac{9}{4}x^{4}-6x^{4}=\frac{9x^{4}-16x^{4}}{4}=-\frac{7}{4}x^{4}<0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Pruebo }y=0\Rightarrow f(x,0)=x^{4}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula 
+\[
+\therefore(0,0)\mbox{ es un punto silla.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $f(x,y)=e^{y^{4}-x^{2}}+a(x-y)+b(x-2)(y-1)$
+\end_inset
+
+¿Existen a y b reales con mínimo en 
+\begin_inset Formula $\left(2,1\right)$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{matrix}-2xe^{y^{4}-x^{2}}+a+b(y-1) & 4y^{3}e^{y^{4}-x^{2}}-a+b(x-2)\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Mínimo en }(2,1)\Leftrightarrow\nabla f(2,1)=0\wedge detHf(2,1)>0\wedge detH_{1}f(2,1)>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(2,1)=0\Leftrightarrow\begin{cases}
+\begin{matrix}-2*2e^{1^{4}-2^{2}}+a+b(1-1)=0\Rightarrow a=4e^{-3}\\
+4*1^{3}e^{1^{4}-2^{2}}-a+b(2-2)=0\Rightarrow a=4e^{-3}
+\end{matrix}\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHf(x,y)=\left|\begin{matrix}-2e^{y^{4}-x^{2}}+4x^{2}e^{y^{4}-x^{2}} & -2x4y^{3}e^{y^{4}-x^{2}}+b\\
+-2x4y^{\text{3}}e^{y^{4}-x^{2}}+b & 12y^{2}e^{y^{4}-x^{2}}+16y^{6}e^{y^{4}-x^{2}}
+\end{matrix}\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHf(2,1)=\left|\begin{matrix}-2e^{1^{4}-2^{2}}+4*2^{2}e^{1^{4}-2^{2}} & -2*2*4*1^{3}e^{1^{4}-2^{2}}+b\\
+-2*2*4*1^{3}e^{1^{4}-2^{2}}+b & 12*1^{2}e^{1^{4}-2^{2}}+16*1^{6}e^{1^{4}-2^{2}}
+\end{matrix}\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+detHf(2,1)=\left|\begin{matrix}-2e^{-3}+16e^{-3} & -16e^{-3}+b\\
+-16e^{-3}+b & 12e^{-3}+16e^{-3}
+\end{matrix}\right|=\left|\begin{matrix}14e^{-3} & -16e^{-3}+b\\
+-16e^{-3}+b & 28e^{-3}
+\end{matrix}\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+14e^{-3}*28e^{-3}-(-16e^{-3}+b)^{2}=392e^{-6}-256e^{-6}-32e^{-3}b+b^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+b^{2}-32e^{-3}b-136e^{-6}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Rta: como
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ 
+\begin_inset Formula $detH_{1}f(2,1)=14e^{-3}>0$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ basta tomar 
+\begin_inset Formula $b>3,5179$
+\end_inset
+
+ para que haya un mínimo relativo en (2,1)
+\end_layout
+
+\begin_layout Section
+\begin_inset Formula $f(x,y)\text{≃}P(x,y)=1+2x-y+xy-x^{2}+y^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g(x,y)=f(x,y)-2x+y+x^{2}y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore Hf(0,0)=\left(\begin{matrix}-2 & 1\\
+1 & 2
+\end{matrix}\right)\wedge\nabla f(0,0)=\left(\begin{matrix}2 & -1\end{matrix}\right)\wedge f(0,0)=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla g(0,0)=\left(\begin{matrix}\frac{df}{dx}(0,0)+2xy-2 & \frac{df}{dy}(0,0)+x^{2}+1\end{matrix}\right)\Rightarrow(0,0)\mbox{ es punto crítico}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hg(0,0)=\left(\begin{matrix}\frac{d^{2}f}{dx^{2}}(0,0)+2y & \frac{d^{2}f}{dydx}(0,0)+2x\\
+\frac{d^{2}f}{dxdy}(0,0)+2x & \frac{d^{2}f}{dy^{2}}(0,0)
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+detHg(0,0)=\left|\begin{matrix}-2 & 1\\
+1 & 2
+\end{matrix}\right|=-2*2-1<0\Rightarrow(0,0)\mbox{ es punto silla}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
