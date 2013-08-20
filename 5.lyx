@@ -4,7 +4,7 @@
 \begin_header
 \textclass article
 \begin_preamble
-\def\thesubsection{\alph{subsection}}
+\usepackage[charter]{mathdesign}
 \end_preamble
 \use_default_options true
 \maintain_unincluded_children false
@@ -19,8 +19,8 @@
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 200
+\font_tt_scale 200
 
 \graphics default
 \default_output_format default
@@ -29,7 +29,19 @@
 \index_command default
 \paperfontsize default
 \spacing single
-\use_hyperref false
+\use_hyperref true
+\pdf_title "Guía 5 de análisis matemático, 2013"
+\pdf_author "Joaquín Omar Tumas"
+\pdf_subject "Matemática, Cálculo"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
 \papersize default
 \use_geometry true
 \use_amsmath 1
@@ -46,10 +58,10 @@
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 2cm
-\topmargin 2cm
-\rightmargin 2cm
-\bottommargin 2cm
+\leftmargin 0cm
+\topmargin 0cm
+\rightmargin 0cm
+\bottommargin 0cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -68,33 +80,22 @@
 \begin_body
 
 \begin_layout Section
-Ej
-\end_layout
-
-\begin_layout Section
-Ej
-\end_layout
-
-\begin_layout Section
-Ej
-\end_layout
-
-\begin_layout Section
-Ej
-\end_layout
-
-\begin_layout Section
 Sea 
-\begin_inset Formula $f(x,y)=(y-3x\text{²})(y-x\text{²})=y^{2}-4x^{2}y+3x^{4}$
+\begin_inset Formula $f\left(x\right)=x^{4}-\frac{1}{3}x^{3}-\frac{3}{2}x^{2}$
 \end_inset
 
+, calcular máximos y mínimos absolutos en el intervalo 
+\begin_inset Formula $\left[-5,5\right]$
+\end_inset
 
+.
+ Hacer un gráfico aproximado de la función.
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-y=-x^{2}\Rightarrow x^{4}+4x^{4}+3x^{4}\Rightarrow(0,0)\mbox{ Tiene un mínimo absoluto en (0,0)}
+f'\left(x\right)=4x^{3}-x^{2}-3x\rightarrow f''\left(x\right)=12x^{2}-2x-3
 \]
 
 \end_inset
@@ -105,7 +106,642 @@ y=-x^{2}\Rightarrow x^{4}+4x^{4}+3x^{4}\Rightarrow(0,0)\mbox{ Tiene un mínimo a
 \begin_layout Standard
 \begin_inset Formula 
 \[
-y=kx^{2}\Rightarrow x^{4}-4kx^{4}+3x^{4}=4x^{4}(1-k)
+f'\left(x\right)=0\Leftrightarrow4x^{3}-x^{2}-3x=0\Leftrightarrow x=0\vee4x^{2}-x-3=\bigg\{\begin{matrix}x=1\\
+x=-\frac{3}{4}
+\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f''\left(0\right)=-3<0\rightarrow\mbox{Máximo local}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f''\left(1\right)=12-2-3=9>0\rightarrow\mbox{Mínimo local}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f''\left(-\frac{3}{4}\right)=12\frac{9}{16}+2\frac{3}{4}-3=\frac{27+6}{4}-3=\frac{21}{4}>0\rightarrow\mbox{Mínimo local}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\{ -\frac{3}{4},1\right\} \mbox{ son mínimos locales, }0\mbox{ es un máximo}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\forall x\in[-5,-\frac{3}{4})\cup(1,5]\mbox{ la función crece}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\begin{cases}
+\max\left(f\left(x\right)\right)= & \max\left(f\left(-5\right),f\left(5\right),f\left(0\right)\right)=\max\left(629+\frac{1}{6},545+\frac{5}{6},0\right)=629+\frac{1}{6}\mbox{ en }x=-5\\
+\min\left(f\left(x\right)\right)= & \min\left(f\left(-\frac{3}{4}\right),f\left(1\right)\right)=\min\left(-0,3867,-\frac{5}{6}\right)=-\frac{5}{6}\mbox{ en }x=1
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+La empresa Pepsi quiere fabricar 
+\begin_inset Quotes eld
+\end_inset
+
+Narajsi
+\begin_inset Quotes erd
+\end_inset
+
+ un nuevo producto sabor naranja al mercado envasado de latitas.
+ ¿Cuál debe ser la relación entre el radio de la base y la altura de la
+ lata para que Pepsi minimice el costo de aluminio?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(h,r)=\frac{V}{SB+SC}\rightarrow r_{0}/h_{0}=k:f(h_{0},r_{0})=\max\left(f(h,r)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V=\pi r^{2}h=1;SC=2\pi rh;SB=2\pi r^{2}\Rightarrow SB+SC=2\pi r\left(h+r\right)=f(r)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2\pi r\left(\frac{1}{\pi r^{2}}+r\right)=\frac{2+2\pi r^{3}}{r}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'(r)=0\Leftrightarrow4\pi r=\frac{2}{r^{2}}\Leftrightarrow r=\sqrt[3]{\frac{1}{2\pi}}\vee r=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f''\left(\sqrt[3]{\frac{1}{2\pi}}\right)=4\left(\frac{1}{r^{3}}+\pi\right)\bigg|_{\sqrt[3]{\frac{1}{2\pi}}}=4\left(2\pi+\pi\right)=12\pi>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(h)=\frac{hr}{2\left(h+r\right)}\Rightarrow f'(h)=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+PREGUNTAR
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Calcular los extremos de 
+\begin_inset Formula $f\left(x,y\right)=x^{2}+y^{4}$
+\end_inset
+
+ y de 
+\begin_inset Formula $g\left(x,y\right)=x^{4}+y^{4}$
+\end_inset
+
+ y sus hessianos en dichos puntos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f\left(x,y\right)=\left(\begin{matrix}2x & 4y^{3}\end{matrix}\right)\Rightarrow Hf\left(x,y\right)=\left|\begin{matrix}2 & 0\\
+0 & 12y^{2}
+\end{matrix}\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f\left(x,y\right)=0\Leftrightarrow x=0\wedge y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf\left(0,0\right)=2>0\Rightarrow\mbox{ es definido positivo \ensuremath{\Rightarrow f\left(0,0\right)=0}es un mínimo}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla g\left(x,y\right)=\left(\begin{matrix}4x^{3} & 4y^{3}\end{matrix}\right)\Rightarrow Hg\left(x,y\right)=\left|\begin{matrix}12x^{2} & 0\\
+0 & 12y^{2}
+\end{matrix}\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla g\left(x,y\right)=0\Leftrightarrow x=0\wedge y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hg\left(0,0\right)=0\mbox{ es indefinido.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Se puede ver que \ensuremath{f\left(0,0\right)=0}es un mínimo absoluto ya que }x^{4}\geq0\wedge y^{4}\geq0\Rightarrow x^{4}+y^{4}\geq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sea 
+\begin_inset Formula $f$
+\end_inset
+
+ de clase 
+\begin_inset Formula $C^{2}$
+\end_inset
+
+ tal que tiene un extremo estricto en 
+\begin_inset Formula $a\in\mathbb{R}^{n}$
+\end_inset
+
+.
+ ¿Es necesariamente 
+\begin_inset Formula $Hf\left(a\right)$
+\end_inset
+
+ definida positiva o negativa?
+\end_layout
+
+\begin_layout Standard
+No, pero debe ser semi-definida positiva o negativa.
+\end_layout
+
+\begin_layout Section
+Encontrar los puntos críticos de las siguientes funciones y analizar cuáles
+ son puntos de ensilladura:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=x^{2}-y^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f\left(x,y\right)=\left(\begin{matrix}2x & -2y\end{matrix}\right)\Rightarrow Hf\left(x,y\right)=\left|\begin{matrix}2 & 0\\
+0 & -2
+\end{matrix}\right|=-4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f\left(x,y\right)=0\Leftrightarrow x=0\wedge y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf\left(0,0\right)=-4<0\Rightarrow\mbox{Es indefinido}\Rightarrow\mbox{Es un punto de ensilladura.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=x^{3}+y^{3}-3x=x\left(x^{2}-3\right)+y^{3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f\left(x,y\right)=\left(\begin{matrix}3x^{2}-3 & 3y^{2}\end{matrix}\right)\Rightarrow Hf\left(x,y\right)=\left|\begin{matrix}6x & 0\\
+0 & 6y
+\end{matrix}\right|=6x*6y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f\left(x,y\right)=0\Leftrightarrow3x^{2}=3\wedge3y^{2}=0\Leftrightarrow x=\pm1\wedge y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore P_{1}=\left(1,0\right);P_{2}=\left(-1,0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+6x*6y\bigg|_{\left(1,0\right)}=0;6x*6y\bigg|_{\left(-1,0\right)}=0\rightarrow\mbox{El criterio no me dice nada}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Preguntar por la definición de punto silla de la rotonda, es muy rara!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=1\Rightarrow x\left(x^{2}-3\right)+y^{3}=1\left(-2\right)+y^{3}=y^{3}-2\rightarrow\mbox{no tiene máximo ni mínimo local en }y=0\Rightarrow\mbox{Es punto de ensilladura}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x=-1\Rightarrow x\left(x^{2}-3\right)+y^{3}=-1\left(-2\right)+y^{3}=y^{3}+2\rightarrow\mbox{no tiene máximo ni mínimo local en }y=0\Rightarrow\mbox{Es punto de ensilladura}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Preguntar si está bien este criterio
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=xy$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f\left(x,y\right)=\left(\begin{matrix}y & x\end{matrix}\right)\Rightarrow Hf\left(x,y\right)=\left|\begin{matrix}0 & 1\\
+1 & 0
+\end{matrix}\right|=-2\Rightarrow\mbox{Es indefinido}\Rightarrow\mbox{Cualquier punto crítico será de ensilladura.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f\left(x,y\right)=0\Leftrightarrow x=0\wedge y=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore P_{1}=\left(0,0\right)\mbox{ es un punto de ensilladura}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+BUG
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(x,y\right)=\begin{cases}
+e^{\frac{1}{x^{2}y}} & \mbox{si }xy\neq0\\
+0 & \mbox{si }xy=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f\left(x,y\right)=\begin{cases}
+\left(\begin{matrix}-\frac{2xy}{\left(x^{2}y\right)^{2}}e^{\frac{1}{x^{2}y}} & -\frac{x^{2}}{\left(x^{2}y\right)^{2}}e^{\frac{1}{x^{2}y}}\end{matrix}\right) & \mbox{si }xy\neq0\\
+\left(\begin{matrix}0 & 0\end{matrix}\right) & \mbox{si }xy=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f\left(x,y\right)=0\Leftrightarrow xy=0\vee\left(-\frac{2xy}{\left(x^{2}y\right)^{2}}e^{\frac{1}{x^{2}y}}=0\wedge-\frac{x^{2}}{\left(x^{2}y\right)^{2}}e^{\frac{1}{x^{2}y}}=0\right)\rightarrow\mbox{Nunca pueden ser 0, solo miro }xy=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{x}=\left(x,0\right);P_{y}=\left(0,y\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{2}y\to0^{+}\Rightarrow e^{\frac{1}{x^{2}y}}\to+\infty
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{2}y\to0^{-}\Rightarrow e^{\frac{1}{x^{2}y}}\to-\infty
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(x,0\right)=f\left(0,y\right)=0\mbox{ son todos puntos silla}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $f(x,y)=(y-3x^{2})(y-x^{2})=y^{2}-4x^{2}y+3x^{4}$
+\end_inset
+
+.
+ Probar que:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+ es un punto de ensilladura.
+\end_layout
+
+\begin_layout Subsection
+El determinante de la matriz 
+\begin_inset Formula $Hf\left(0,0\right)$
+\end_inset
+
+ es 0.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f$
+\end_inset
+
+ tiene un mínimo relativo en 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+ sobre cada recta que pase por 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+ es decir, si 
+\begin_inset Formula $g\left(t\right)=\left(at,bt\right)$
+\end_inset
+
+ entonces 
+\begin_inset Formula $f\circ g:\mathbb{R\to\mathbb{R}}$
+\end_inset
+
+ tiene un mínimo relativo en 0 para cada elección de 
+\begin_inset Formula $a,b$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(\begin{array}{cc}
+-8xy+12x^{3} & 2y-4x^{2}\end{array}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=0\Leftrightarrow\left\{ \begin{array}{c}
+12x^{3}=8xy\\
+2y=4x^{2}
+\end{array}\right\} 
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=2x^{2}\Rightarrow12x^{3}=16x^{3}\Rightarrow x=0\wedge y=0\Rightarrow P_{1}=\left(0,0\right)\mbox{ es el único punto crítico}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=kx^{2}\Rightarrow x^{2}(k-3)x^{2}(k-1)=x^{4}\left(k^{2}-4k+3\right)
 \]
 
 \end_inset
@@ -126,101 +762,30 @@ y=kx^{2}\Rightarrow x^{4}-4kx^{4}+3x^{4}=4x^{4}(1-k)
 \uwave off
 \noun off
 \color none
-\begin_inset Formula $\therefore$
+\begin_inset Formula $x^{4}>0\Rightarrow$
 \end_inset
 
-a) Es positiva en un entorno de 
+Es positiva en un entorno de 
 \begin_inset Formula $(0,0)$
 \end_inset
 
  con 
-\begin_inset Formula $k<1$
+\begin_inset Formula $k^{2}-4k>-3$
 \end_inset
 
  y negativa con 
-\begin_inset Formula $k>1\Rightarrow(0,0)$
+\begin_inset Formula $k^{2}-4k<-3\therefore(0,0)$
 \end_inset
 
  es un punto de ensilladura.
- 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\nabla f(x,y)=\left(\begin{array}{cc}
--6x*(y-x\text{²})-2x*(y-3x\text{²}) & y-x\text{²}+y-3x\text{²}\end{array}\right)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\nabla f(x,y)=0\Leftrightarrow\left\{ \begin{array}{c}
--8xy+12x^{3}=0\\
-2y-4x\text{²}=0
-\end{array}\right\} 
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
--8xy+12x\text{³}=0\Rightarrow x=0\vee12x^{2}=8y\Rightarrow x=0\vee\sqrt{y\frac{3}{2}}=|x|
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-2y-4x\text{²}=0
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\sqrt{\frac{1}{2}y}=|x|
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\mbox{Como }\left\{ (x,y):y=\frac{1}{2}x^{2}\wedge y=\frac{2}{3}x^{2}\right\} =\left\{ (0,0)\right\} \Rightarrow\mbox{tengo puntos críticos solo en }(x,y)=(0,0)
-\]
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
 Hf(x,y)=\left(\begin{array}{cc}
--6(y-x\text{²})+2x*6x-2*(y-3x\text{²})+2x*6x & -2x-6x\\
--2x-6x & 1+1
+36x^{2}-8y & -8x\\
+-8x & 2
 \end{array}\right)
 \]
 
@@ -235,7 +800,7 @@ Hf(x,y)=\left(\begin{array}{cc}
 detHf(0,0)=\left|\begin{array}{cc}
 0 & 0\\
 0 & 2
-\end{array}\right|=\mbox{b) }0
+\end{array}\right|=0
 \]
 
 \end_inset
@@ -350,12 +915,33 @@ Las siguientes afirmaciones me parecían útiles pero hay que suponer
 
 \end_layout
 
+\begin_layout Standard
+Pensarlo más.
+\end_layout
+
 \begin_layout Section
 Sea 
 \begin_inset Formula $f:\mathbb{R}^{2}\rightarrow\mathbb{R}/f(x,y)=x^{4}+y^{4}-2(x-y)^{2}$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Subsection
+Probar que 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+ es un punto crítico pero no extremo
+\end_layout
+
+\begin_layout Subsection
+Probar que 
+\begin_inset Formula $\pm\sqrt{2}\left(1,-1\right)$
+\end_inset
+
+ son mínimos absolutos.
+ ¿Hay máximos relativos?
 \end_layout
 
 \begin_layout Standard
@@ -504,7 +1090,7 @@ z=x^{2}
 \lang spanish
 \begin_inset Formula 
 \[
-z-2=0\Leftrightarrow x=|\sqrt{2}|
+z-2=0\Leftrightarrow\left|x\right|=\sqrt{2}
 \]
 
 \end_inset
@@ -515,7 +1101,7 @@ z-2=0\Leftrightarrow x=|\sqrt{2}|
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\mbox{Vuelvo a }\frac{df}{dx}:4|\sqrt{2}|^{3}-4|\sqrt{2}|+4y=0
+\mbox{Vuelvo a }\frac{df}{dx}:4\left(\pm\sqrt{2}\right){}^{3}-4\left(\pm\sqrt{2}\right)+4y=0
 \]
 
 \end_inset
@@ -526,7 +1112,21 @@ z-2=0\Leftrightarrow x=|\sqrt{2}|
 \begin_layout Standard
 \begin_inset Formula 
 \[
-y=2|\sqrt{2}|-|\sqrt{2}|=-|\sqrt{2}|
+y=2\left(\pm\sqrt{2}\right)-\left(\pm\sqrt{2}\right)=-\left(\pm\sqrt{2}\right)=\begin{cases}
+x=\sqrt{2} & y=-\sqrt{2}\\
+x=-\sqrt{2} & y=\sqrt{2}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{0}=\left(0,0\right);P_{1}=\left(\sqrt{2},-\sqrt{2}\right);P_{2}=\left(-\sqrt{2},\sqrt{2}\right)
 \]
 
 \end_inset
@@ -552,8 +1152,8 @@ Hf(x,y)=\left(\begin{array}{cc}
 \begin_inset Formula 
 \[
 \left|Hf(0,0)\right|=\left|\begin{array}{cc}
-4 & 4\\
-4 & 4
+-4 & 4\\
+4 & -4
 \end{array}\right|=0
 \]
 
@@ -565,7 +1165,7 @@ Hf(x,y)=\left(\begin{array}{cc}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\left|Hf(\sqrt{2},-\sqrt{2})\right|=\left|\begin{array}{cc}
+\left|Hf(\sqrt{2},-\sqrt{2})\right|=\left|Hf(-\sqrt{2},\sqrt{2})\right|=\left|\begin{array}{cc}
 24-4 & 4\\
 4 & 24-4
 \end{array}\right|=400-16>0\Rightarrow\mbox{ mínimo local}
@@ -579,10 +1179,8 @@ Hf(x,y)=\left(\begin{array}{cc}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\left|Hf(-\sqrt{2},\sqrt{2})\right|=\left|\begin{array}{cc}
-24-4 & 4\\
-4 & 24-4
-\end{array}\right|=400-16>0\Rightarrow\mbox{ mínimo local}
+y=kx\Rightarrow x^{4}+k^{4}x^{4}-2(x-kx)^{2}=x^{4}\left(k+1\right)-2x\left(1-k\right)^{2}=\begin{cases}
+k=-1 & -8x\rightarrow\mbox{no tiene extremo en 0}\end{cases}
 \]
 
 \end_inset
@@ -593,7 +1191,7 @@ Hf(x,y)=\left(\begin{array}{cc}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\begin{matrix}f(0,0)=0 & \wedge & f(\sqrt{2},-\sqrt{2})=f(-\sqrt{2},\sqrt{2})=4+4-2*8=-8 & \Rightarrow(0,0)\mbox{ no es mínimo absoluto}\end{matrix}
+\therefore\left(0,0\right)\mbox{ es punto silla.}
 \]
 
 \end_inset
@@ -602,25 +1200,7 @@ Hf(x,y)=\left(\begin{array}{cc}
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula 
-\[
-f(10,10)=2*10^{4}-2*(0)^{2}=20^{4}>f(0,0)\therefore(0,0)\mbox{ no es extremo \emph{(a)}}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\mbox{\emph{(b)}Como no hay más puntos críticos}\pm\sqrt{2}(1,-1)\mbox{ son mínimos absolutos.}
-\]
-
-\end_inset
-
-
+corroborar
 \end_layout
 
 \begin_layout Section
@@ -671,7 +1251,7 @@ Encontrar puntos críticos y analizar máximos y mínimos locales o puntos
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}8x+4-4y=0 & 2y-2-4x=0\end{matrix}\right)
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}2x+1-y=0 & y-1-2x=0\end{matrix}\right)\Leftrightarrow\left(\begin{matrix}2x+1=y & 2x+1=y\end{matrix}\right)\rightarrow\mbox{Tengo 1 sola ecuación distinta}
 \]
 
 \end_inset
@@ -682,18 +1262,7 @@ Encontrar puntos críticos y analizar máximos y mínimos locales o puntos
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\begin{matrix}y=2x+1 & x=\frac{1}{2}y-\frac{1}{2}\end{matrix}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-x=\frac{1}{2}(2x+1)-\frac{1}{2}=x+\frac{1}{2}-\frac{1}{2}=x\Rightarrow\mbox{Son puntos críticos los de la forma }y=2x+1
+2x+1=y\Rightarrow\mbox{Son puntos críticos los de la forma }y=2x+1
 \]
 
 \end_inset
@@ -730,7 +1299,7 @@ detHf=\left|\begin{matrix}8 & -4\\
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\mbox{La función evidentemente tiene mínimos absolutos en toda la recta }2x+1=y
+\forall a\in\mathbb{R}:a^{2}\in\mathbb{R}_{0}^{+}\wedge\left(f\left(x,y\right)=0\Leftrightarrow2x+1=y\right)\Rightarrow\mbox{La función tiene mínimos absolutos en esa recta }
 \]
 
 \end_inset
@@ -770,7 +1339,7 @@ detHf=\left|\begin{matrix}8 & -4\\
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}2x-y+3=0 & -2y-x+3=0\end{matrix}\right)
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}2x-y+3=0 & -2y-x+3=0\end{matrix}\right)\Leftrightarrow\left(\begin{matrix}2x+3=y & 3-2y=x\end{matrix}\right)
 \]
 
 \end_inset
@@ -781,29 +1350,7 @@ detHf=\left|\begin{matrix}8 & -4\\
 \begin_layout Standard
 \begin_inset Formula 
 \[
-y=2x+3
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
--2(2x+3)-x+3=0\rightarrow\mbox{Reemplazo en la segunda ecuación}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
--4x-6-x+3=-5x-3=0
+\Rightarrow2\left(3-2y\right)+3=y\Leftrightarrow6-4y+3=y\Leftrightarrow-5y=-9\Leftrightarrow y=\frac{9}{5}\Rightarrow x=3-2*\frac{9}{5}=-\frac{3}{5}
 \]
 
 \end_inset
@@ -902,18 +1449,7 @@ detH_{1}f(x,y)=|2|=2>0\therefore f(x,y)\mbox{ tiene un punto silla en}(-\frac{3}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-5y+3(-\frac{3}{5}y-\frac{1}{10})=0
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-5y-\frac{9}{5}y=\frac{3}{10}
+5y+3\left(-\frac{3}{5}y-\frac{1}{10}\right)=0\Leftrightarrow5y-\frac{9}{5}y=\frac{3}{10}
 \]
 
 \end_inset
@@ -1013,7 +1549,7 @@ detHf(x,y)=\left|\begin{matrix}20 & 12\\
 \begin_layout Standard
 \begin_inset Formula 
 \[
-2xe^{1+x^{2}+y^{2}}=0\Rightarrow x=0
+2xe^{1+x^{2}+y^{2}}=0\Leftrightarrow x=0
 \]
 
 \end_inset
@@ -1024,7 +1560,7 @@ detHf(x,y)=\left|\begin{matrix}20 & 12\\
 \begin_layout Standard
 \begin_inset Formula 
 \[
-2ye^{1+x^{2}+y^{2}}=0\Rightarrow y=0
+2ye^{1+x^{2}+y^{2}}=0\Leftrightarrow y=0
 \]
 
 \end_inset
@@ -1114,7 +1650,7 @@ detH_{1}f(0,0)=\left|\begin{matrix}2e\end{matrix}\right|=2e>0\therefore(0,0)\mbo
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\nabla f(x,y)=\left(\begin{matrix}\frac{x}{\sqrt{x^{2}+y^{2}}}+1 & \frac{y}{\sqrt{x^{2}+y^{2}}}+1\end{matrix}\right)
+\nabla f(x,y)=\left(\begin{matrix}\frac{x}{\sqrt{x^{2}+y^{2}}}+y & \frac{y}{\sqrt{x^{2}+y^{2}}}+x\end{matrix}\right)
 \]
 
 \end_inset
@@ -1125,7 +1661,7 @@ detH_{1}f(0,0)=\left|\begin{matrix}2e\end{matrix}\right|=2e>0\therefore(0,0)\mbo
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}\frac{x}{\sqrt{x^{2}+y^{2}}}+1=0 & \frac{y}{\sqrt{x^{2}+y^{2}}}+1=0\end{matrix}\right)
+\nabla f(x,y)=0\Leftrightarrow\left(\begin{matrix}\frac{x}{\sqrt{x^{2}+y^{2}}}+y=0 & \frac{y}{\sqrt{x^{2}+y^{2}}}+x=0\end{matrix}\right)\rightarrow\left(x,y\right)\neq\left(0,0\right)
 \]
 
 \end_inset
@@ -1136,7 +1672,7 @@ detH_{1}f(0,0)=\left|\begin{matrix}2e\end{matrix}\right|=2e>0\therefore(0,0)\mbo
 \begin_layout Standard
 \begin_inset Formula 
 \[
-x=-\sqrt{x^{2}+y^{2}}\Rightarrow\sqrt{x^{2}+y^{2}}+x=0\Rightarrow x\leq0
+x=0\Rightarrow y=0\mbox{ y viceversa}\therefore x\neq0\wedge y\neq0
 \]
 
 \end_inset
@@ -1147,7 +1683,7 @@ x=-\sqrt{x^{2}+y^{2}}\Rightarrow\sqrt{x^{2}+y^{2}}+x=0\Rightarrow x\leq0
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\mbox{De la otra ecuación: }\sqrt{x^{2}+y^{2}}+y=0\Rightarrow y\leq0
+\sqrt{x^{2}+y^{2}}=-\frac{x}{y}\rightarrow y*\left(-\frac{y}{x}\right)+x=0\Rightarrow\frac{x^{2}-y^{2}}{x}=0\Leftrightarrow x^{2}=y^{2}\therefore\left|x\right|=\left|y\right|
 \]
 
 \end_inset
@@ -1158,12 +1694,62 @@ x=-\sqrt{x^{2}+y^{2}}\Rightarrow\sqrt{x^{2}+y^{2}}+x=0\Rightarrow x\leq0
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\frac{x}{\sqrt{x^{2}+y^{2}}}=\frac{y}{\sqrt{x^{2}+y^{2}}}=-1
+Hf\left(x,y\right)=\left|\begin{matrix}\frac{y^{2}}{\left(x^{2}+y^{2}\right)^{3/2}} & 1-\frac{xy}{\left(x^{2}+y^{2}\right)^{3/2}}\\
+1-\frac{xy}{\left(x^{2}+y^{2}\right)^{3/2}} & \frac{x^{2}}{\left(x^{2}+y^{2}\right)^{3/2}}
+\end{matrix}\right|=\frac{y^{2}x^{2}}{\left(x^{2}+y^{2}\right)^{6/2}}-\left(-\frac{2xy}{\left(x^{2}+y^{2}\right)^{3/2}}+1+\frac{x^{2}y^{2}}{\left(x^{2}+y^{2}\right)^{6/2}}\right)=\frac{2xy}{\left(x^{2}+y^{2}\right)^{3/2}}-1
 \]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Si }\left|x\right|=\left|y\right|\Rightarrow\frac{2xy}{\left(\left|x\right|^{2}+\left|x\right|^{2}\right)^{3/2}}-1=\frac{xy}{2^{1/2}\left|x\right|^{3}}-1>0\Leftrightarrow xy>\sqrt{2}\left|x\right|^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+xy\leq|xy|\Rightarrow|xy|>\sqrt{2}\left|x\right|^{3}\Rightarrow|x|^{2}>\sqrt{2}\left|x\right|^{3}\Leftrightarrow\frac{1}{\sqrt{2}}>\left|x\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Si }\left|x\right|=\left|y\right|:det\left(\frac{y^{2}}{\left(x^{2}+y^{2}\right)^{3/2}}\right)>0\Leftrightarrow\frac{|y|^{2}}{\left(2^{3/2}|y|^{3}\right)}>0\Leftrightarrow\frac{1}{2^{3/2}|y|}>0\therefore\forall\left(x,y\right)\in\mathbb{R}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\left\{ P_{x}\left(x,y\right)/\left|x\right|=\left|y\right|\right\} \mbox{ son máximos locales si }\frac{1}{\sqrt{2}}>\left|x\right|\mbox{ y puntos silla si }\frac{1}{\sqrt{2}}<\left|x\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bardoooooooooo
 \end_layout
 
 \begin_layout Subsection
@@ -1301,7 +1887,7 @@ detHf(x,y)=\left|\begin{matrix}2 & -2\\
 \begin_layout Standard
 \begin_inset Formula 
 \[
-f(0,0)=1;f(2,0)=4+1+4=9\Rightarrow\mbox{La curva }y=x+1\mbox{ es de puntos silla}
+f(0,0)=1;f(2,0)=4+1+4=9\Rightarrow\mbox{La recta }y=x+1\mbox{ es de puntos silla}
 \]
 
 \end_inset
@@ -1963,9 +2549,18 @@ g(x,y)=3x^{2}y+e^{f(x,y)}-2y
 \end_layout
 
 \begin_layout Subsection
-\begin_inset Formula $\mathbb{H}g(0,1)=\left(\begin{matrix}8 & 0\\
+Problema con lyx: matrices y secciones no se llevan bien.
+ =(
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hg(0,1)=\left(\begin{matrix}8 & 0\\
 -1 & 3
-\end{matrix}\right)$
+\end{matrix}\right)
+\]
+
 \end_inset
 
 
@@ -2037,21 +2632,18 @@ g(x,y)=3x^{2}y+e^{f(x,y)}-2y
 \end_layout
 
 \begin_layout Subsection
+Problema con lyx: matrices y secciones no se llevan bien.
+ =(
+\end_layout
 
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Formula $\mathbb{H}f(0,0)=\left(\begin{matrix}0 & 0\\
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Hf(0,0)=\left(\begin{matrix}0 & 0\\
 0 & 2
-\end{matrix}\right)$
+\end{matrix}\right)
+\]
+
 \end_inset
 
 
@@ -2143,11 +2735,7 @@ f_{2}(x)=2x^{4}+\frac{9}{4}x^{4}-6x^{4}=\frac{9x^{4}-16x^{4}}{4}=-\frac{7}{4}x^{
 \end_layout
 
 \begin_layout Subsection
-\begin_inset Formula 
-\[
-\therefore(0,0)\mbox{ es un punto silla.}
-\]
-
+\begin_inset Formula $\therefore(0,0)\mbox{ es un punto silla.}$
 \end_inset
 
 
@@ -2324,7 +2912,7 @@ Rta: como
 \end_layout
 
 \begin_layout Section
-\begin_inset Formula $f(x,y)\text{≃}P(x,y)=1+2x-y+xy-x^{2}+y^{2}$
+\begin_inset Formula $f(x,y)\cong P(x,y)=1+2x-y+xy-x^{2}+y^{2}$
 \end_inset
 
 

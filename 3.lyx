@@ -1,0 +1,2260 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Part
+Aplicación de algunas resultados de diferenciación en una variable.
+\end_layout
+
+\begin_layout Section
+Verificar que se cumple el teorema de Rolle para las siguientes funciones
+ en los intervalos indicados:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x)=x^{2}-3x+2$
+\end_inset
+
+ en el intervalo 
+\begin_inset Formula $[1,2]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\mbox{ es continua en }\mathbb{R}\wedge f(1)=0=f(2)\wedge\left(f'(x)=2x-3=0\Leftrightarrow x=\frac{3}{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{3}{2}\in(1,2)\therefore\mbox{Se cumple el teorema de Rolle}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x)=(x-1)(x-2)(x-3)$
+\end_inset
+
+ en el intervalo 
+\begin_inset Formula $[1,3]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\mbox{ es continua en }\mathbb{R}\wedge f(1)=0=f(3)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'(x)=D\left(\left(x^{2}-3x+2\right)\left(x-3\right)\right)=D\left(x^{3}-3x^{2}+2x-3x^{2}+9x-6\right)=D\left(x^{3}-6x^{2}+11x-6\right)=3x^{2}-12x+11
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'(x)=0\Leftrightarrow x=2,577..\vee x=1,422...
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+2,577...\in[1,3]\therefore\mbox{Se cumple el teorema de Rolle}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x)=\sin^{2}x$
+\end_inset
+
+ en el intervalo 
+\begin_inset Formula $[0,\pi]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\mbox{ es continua en }\mathbb{R}\wedge f(0)=0=f(\pi)\wedge\left(f'(x)=2\cos x=0\Leftrightarrow x=\frac{\pi}{2}+k\pi\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+k=0:f'(\frac{\pi}{2})=2\cos\frac{\pi}{2}=0\wedge\frac{\pi}{2}\in(0,\pi)\therefore\mbox{Se cumple el teorema de Rolle}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Probar que la función 
+\begin_inset Formula $f(x)=\sqrt[3]{\left(x-3\right)^{2}}$
+\end_inset
+
+ satisface 
+\begin_inset Formula $f(1)=f(5)$
+\end_inset
+
+ pero no existe 
+\begin_inset Formula $c\in\left(1,5\right)$
+\end_inset
+
+ tal que 
+\begin_inset Formula $f'(c)=0$
+\end_inset
+
+ ¿Por qué no se puede aplicar el teorema de Rolle?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(1)=\sqrt[3]{\left(-2\right)^{2}}=\sqrt[3]{\left(2\right)^{2}}=f(5)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'(x)=\frac{2}{3}x^{-1/3}=\frac{2}{3\sqrt[3]{x}}\neq0\forall x\in\mathbb{R}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{La función no es derivable en }3\Rightarrow\mbox{no es derivable en }\left(1,5\right)\Rightarrow\mbox{ no se cumplen las condiciones que exige el teorema}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Sea 
+\begin_inset Formula $f$
+\end_inset
+
+ un polinomio con al menos 
+\begin_inset Formula $k$
+\end_inset
+
+ raíces distintas, probar que 
+\begin_inset Formula $f'$
+\end_inset
+
+ tiene al menos 
+\begin_inset Formula $k-1$
+\end_inset
+
+ raíces distintas.
+\end_layout
+
+\begin_layout Standard
+Es inmediato por el teorema de Rolle, si tiene 
+\begin_inset Formula $k$
+\end_inset
+
+ raíces distintas puedo armar 
+\begin_inset Formula $k-1$
+\end_inset
+
+ intervalos donde la derivada se anualará, entonces habrá 
+\begin_inset Formula $k-1$
+\end_inset
+
+ raíces distintas.
+\end_layout
+
+\begin_layout Subsection
+Probar que la ecuación 
+\begin_inset Formula $3x^{5}+15x-8=0$
+\end_inset
+
+ tiene sólo una raíz real.
+\end_layout
+
+\begin_layout Standard
+Es una función estrictamente creciente, entonces es inyectiva entonces no
+ se puede establecer ningun intervalo para aplicar el teorema de Rolle.
+\end_layout
+
+\begin_layout Subsection
+Sea 
+\begin_inset Formula $a\in\mathbb{R}$
+\end_inset
+
+ y 
+\begin_inset Formula $f:\mathbb{R}\rightarrow\mathbb{R}/f(x)=e^{a^{2}x}+x^{3}+x$
+\end_inset
+
+ si 
+\begin_inset Formula $x\in\mathbb{R}$
+\end_inset
+
+.
+ Probar que la ecuación 
+\begin_inset Formula $f(x)=0$
+\end_inset
+
+ tiene exactamente una solución en el intervalo 
+\begin_inset Formula $[-1,0]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'(x)=a^{2}e^{a^{2}x}+3x^{2}+1\neq0\rightarrow\forall x,a:a^{2}e^{a^{2}x}\geq0\wedge3x^{2}>0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x)\mbox{ es continua }\Rightarrow\nexists f(x')=0\Leftrightarrow x=x'\rightarrow\mbox{Sino sería aplicable el teorema de Rolle.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sean 
+\begin_inset Formula $f$
+\end_inset
+
+ y 
+\begin_inset Formula $g$
+\end_inset
+
+ funciones continuas en 
+\begin_inset Formula $[a,b]$
+\end_inset
+
+ y derivables en 
+\begin_inset Formula $(a,b)$
+\end_inset
+
+.
+ Demostrar las siguientes afirmaciones:
+\end_layout
+
+\begin_layout Subsection
+Si 
+\begin_inset Formula $f'=g'$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(a,b\right)$
+\end_inset
+
+, entonces 
+\begin_inset Formula $f(x)=g(x)+c$
+\end_inset
+
+ donde 
+\begin_inset Formula $c$
+\end_inset
+
+ es una constante.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'=g'\Leftrightarrow D(f(x)+c')=D(g(x)+c'')\Rightarrow f(x)+c'=g(x)+c''\Leftrightarrow f(x)=g(x)+c''-c'
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{sea }c=c''-c'\Rightarrow f(x)=g(x)+c
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Si 
+\begin_inset Formula $f'(x)>0\forall x\in\left(a,b\right)$
+\end_inset
+
+ , entonces 
+\begin_inset Formula $f$
+\end_inset
+
+ es estrictamente creciente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'(x)>0\forall x\in\left(a,b\right)\Leftrightarrow\lim_{t\to0}\frac{f(x+t)-f(x)}{t}>0\Leftrightarrow f(x+t)-f(x)>t\Leftrightarrow f(x+t)-t>f(x)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x+t)-t>f(x)\rightarrow f(x+t)\mbox{ es mayor a }f(x)\mbox{ para cualquier }t\wedge x+t>t\Rightarrow f\mbox{ es estrictamente creciente.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Si 
+\begin_inset Formula $f'(x)<0\forall x\in\left(a,b\right)$
+\end_inset
+
+ , entonces 
+\begin_inset Formula $f$
+\end_inset
+
+ es estrictamente decreciente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Análogo al anterior pero con }<\mbox{ en lugar de }>
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Como consecuencia del Teorema de Lagrange, mostrar que son válidas las suguiente
+s acotaciones
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\left|\sin x-\sin y\right|\leq\left|x-y\right|\forall x,y\in\mathbb{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\left|1/x-1/y\right|\leq\left|x-y\right|\forall x,y>1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\left|\arctan a-\arctan b\right|\leq\frac{1}{2}\left|a-b\right|\forall a,b\geq1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+¡Preguntar!
+\end_layout
+
+\begin_layout Section
+Encontrar explícitamente el punto intermedio cuya existencia está garantizada
+ por el teorema de Cauchy en el caso de las funciones 
+\begin_inset Formula $f(x)=x^{2}$
+\end_inset
+
+ y 
+\begin_inset Formula $g(x)=x^{3}$
+\end_inset
+
+ en el segmento 
+\begin_inset Formula $[1,2]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{f'(c)}{g'(c)}=\frac{f(2)-f(1)}{g(2)-g(1)}\rightarrow\mbox{Por el teorema de Cauchy}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Leftrightarrow\frac{3}{7}=\frac{2c}{3c^{2}}\Leftrightarrow9c^{2}=14c\Leftrightarrow9c^{2}-14c=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\left(c=0\vee9c-14=0\right)\Rightarrow c=\frac{14}{9}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\notin[1,2];\frac{14}{9}\in[1,2]\therefore c=\frac{14}{9}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Utilizando el teorema de Cauchy, calcular:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\lim_{\left(x,y\right)\to\left(0,0\right)}f(x,y)$
+\end_inset
+
+ donde 
+\begin_inset Formula $f(x,y)=\begin{cases}
+\frac{\cos x-\cos y}{x^{2}-y^{2}} & \mbox{si }x\neq y\\
+-\frac{1}{2} & \mbox{si }x=y
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x)=\cos x;g(x)=x^{2};c\in[x,y]\Rightarrow\frac{\cos x-\cos y}{x^{2}-y^{2}}=\frac{f'(c)}{g'(c)}\rightarrow\mbox{Por el teorema de Cauchy}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Leftrightarrow\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\cos x-\cos y}{x^{2}-y^{2}}=\lim_{c\to0}\frac{-\sin c}{2c}=-\frac{1}{2}\rightarrow\mbox{Si el límite existe entonces mantiene la igualdad, por ser cociente de funciones continuas}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\cos x-\cos y}{x^{2}-y^{2}}=-\frac{1}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\sup_{x,y\in[0,2]}f(x,y)$
+\end_inset
+
+ donde 
+\begin_inset Formula $f(x,y)=\begin{cases}
+\frac{x^{4}-y^{4}-4(x^{3}-y^{3})+4\left(x^{2}-y^{2}\right)}{y^{2}-x^{2}} & \mbox{si }x\neq y\\
+0 & \mbox{si }x=y
+\end{cases}$
+\end_inset
+
+ ¿Cuánto vale 
+\begin_inset Formula $\sup_{x,y\in[0,2]}f(x,y)$
+\end_inset
+
+?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x)=x^{4}-4x^{3}-4x^{2};g(x)=x^{2};c\in[x,y]\Rightarrow\frac{x^{4}-y^{4}-4(x^{3}-y^{3})+4\left(x^{2}-y^{2}\right)}{y^{2}-x^{2}}=\frac{4c^{3}-12c^{2}-8c}{2c}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\frac{4c^{2}-12c-8}{2}=2c^{2}-6c-4=\begin{cases}
+c=0 & -4\\
+c=2 & 8-12-4=-8
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+??
+\end_layout
+
+\begin_layout Part
+Derivadas parciales y direccionales
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $f:\mathbb{R}\to\mathbb{R}$
+\end_inset
+
+ una función continua en 
+\begin_inset Formula $x=a$
+\end_inset
+
+.
+ Probar que 
+\begin_inset Formula $f$
+\end_inset
+
+ es derivable en 
+\begin_inset Formula $x=a\Leftrightarrow\exists L(x)=m(x-a)+b$
+\end_inset
+
+ única tal que:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to a}\frac{f(x)-L(x)}{x-a}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Calcular el valor de 
+\begin_inset Formula $m$
+\end_inset
+
+ y de 
+\begin_inset Formula $b$
+\end_inset
+
+.
+ Al gráfico de 
+\begin_inset Formula $L(x)$
+\end_inset
+
+ se la denomina la 
+\series bold
+recta tangente
+\series default
+ a 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ en 
+\begin_inset Formula $x=a$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to a}\frac{f(x)-L(x)}{x-a}=0\Rightarrow L(x)\to f(a)\mbox{ si }x\to a
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Sabemos que la función que mejor aproxima }f(x)\mbox{ es }f'(x)\Rightarrow L(x)=f'(x)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to a}\frac{f(x)-f'(x)}{x-a}=0;f'(x)=\lim_{x\to a}\frac{f(x)-f(a)}{x-a}\Rightarrow\lim_{x\to a}\frac{f(x)-\frac{f(x)-f(a)}{x-a}}{x-a}=\frac{f(x)-\frac{f(x)-f(a)}{x-a}}{x-a}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\mbox{ es derivable en }x=a\Leftrightarrow\exists\lim_{t\to0}\frac{f(x+t)-f(x)}{t}=m
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+????
+\end_layout
+
+\begin_layout Section
+Para cada una de las siguientes funciones 
+\begin_inset Formula $f(x,y)$
+\end_inset
+
+, calcular la derivada direccional en la dirección de 
+\begin_inset Formula $v$
+\end_inset
+
+ en el punto 
+\begin_inset Formula $(x_{0},y_{0})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=x^{2}+y^{2}$
+\end_inset
+
+, 
+\begin_inset Formula $v=\left(1,0\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\left(x_{0},y_{0}\right)=\left(1,2\right)$
+\end_inset
+
+ y 
+\begin_inset Formula $v=\left(0,1\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\left(x_{0},y_{0}\right)=\left(1,2\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{f(\left(1,2\right)+t(0,1))-f(1,2)}{t}=\lim_{t\to0}\frac{1+4+4t+t^{2}-1-4}{t}=\lim_{t\to0}\frac{2t+t^{2}}{t}=\lim_{t\to0}4+t=4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=2xy-3x^{2}+y-5$
+\end_inset
+
+, 
+\begin_inset Formula $v=\left(1,1\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\left(x_{0},y_{0}\right)=\left(2,3\right)$
+\end_inset
+
+ y 
+\begin_inset Formula $v=\left(1,2\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\left(x_{0},y_{0}\right)=\left(0,1\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v'=\left(\frac{1}{\sqrt{5}},\frac{2}{\sqrt{5}}\right)\rightarrow\mbox{normalizo el vector}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{f\left(\left(0,1\right)+t\left(\frac{1}{\sqrt{5}},\frac{2}{\sqrt{5}}\right)\right)-f\left(0,1\right)}{t}=\lim_{t\to0}\frac{1+t\frac{2}{\sqrt{5}}-5-\left(1-5\right)}{t}=\lim_{t\to0}\frac{1+t\frac{2}{\sqrt{5}}-5-1+5}{t}=\lim_{t\to0}\frac{t2}{t\sqrt{5}}=\frac{2}{\sqrt{5}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y,z\right)=e^{z}\left(xy+z^{2}\right)$
+\end_inset
+
+, 
+\begin_inset Formula $v=\left(0,1,0\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\left(x_{0},y_{0},z_{0}\right)=\left(1,1,2\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{f\left(\left(1,1,2\right)+t\left(0,1,0\right)\right)-f\left(1,1,2\right)}{t}=\lim_{t\to0}\frac{e^{2}\left(1+t+2^{2}\right)-e^{2}\left(1+2^{2}\right)}{t}=\lim_{t\to0}\frac{e^{2}+e^{2}t+4e^{2}-e^{2}-4e^{2}}{t}=\frac{te^{2}}{t}=e^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=\left(x+1\right)\sin y-2$
+\end_inset
+
+, 
+\begin_inset Formula $v=\left(1,0\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\left(x_{0},y_{0}\right)$
+\end_inset
+
+cualquiera
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{f\left(\left(x_{0},y_{0}\right)+t\left(1,0\right)\right)-f\left(x_{0},y_{0}\right)}{t}=\lim_{t\to0}\frac{\left(x_{0}+t+1\right)\sin y_{0}-2-\left(\left(x_{0}+1\right)\sin y_{0}-2\right)}{t}=\lim_{t\to0}\frac{t\sin y_{0}}{t}=\sin y_{0}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=\left|\left|\left(x,y\right)\right|\right|$
+\end_inset
+
+, 
+\begin_inset Formula $v=\left(a,b\right)$
+\end_inset
+
+, 
+\begin_inset Formula $\left(x_{0},y_{0}\right)$
+\end_inset
+
+ con 
+\begin_inset Formula $\left|\left|\left(a,b\right)\right|\right|\neq0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{f\left(\left(x_{0},y_{0}\right)+t\left(a,b\right)\right)-f\left(x_{0},y_{0}\right)}{t}=\lim_{t\to0}\frac{\left|\left|\left(x_{0}+ta,y_{0}+tb\right)\right|\right|-\left|\left|\left(x_{0},y_{0}\right)\right|\right|}{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\left|\left|\left(x_{0}+ta,y_{0}+tb\right)\right|\right|-\left|\left|\left(x_{0},y_{0}\right)\right|\right|=\lim_{t\to0}\sqrt{\left(x_{0}+ta\right)^{2}+\left(y_{0}+tb\right)^{2}}-\sqrt{\left(x_{0}\right)^{2}+\left(y_{0}\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\lim_{t\to0}\sqrt{x_{0}^{2}+2x_{0}ta+t^{2}a^{2}+y_{0}^{2}+2y_{0}tb+t^{2}b^{2}}-\sqrt{x_{0}^{2}+y_{0}^{2}}=\lim_{t\to0}\frac{x_{0}^{2}+2x_{0}ta+t^{2}a^{2}+y_{0}^{2}+2y_{0}tb+t^{2}b^{2}-x_{0}^{2}-y_{0}^{2}}{t\left(\left|\left|\left(x_{0}+ta,y_{0}+tb\right)\right|\right|+\left|\left|\left(x_{0},y_{0}\right)\right|\right|\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{2x_{0}ta+t^{2}a^{2}+2y_{0}tb+t^{2}b^{2}}{t\left|\left|\left(x_{0}+ta,y_{0}+tb\right)\right|\right|+\left|\left|\left(x_{0},y_{0}\right)\right|\right|}=\lim_{t\to0}\frac{2x_{0}a+ta^{2}+2y_{0}b+tb^{2}}{\left|\left|\left(x_{0}+ta,y_{0}+tb\right)\right|\right|+\left|\left|\left(x_{0},y_{0}\right)\right|\right|}=\frac{x_{0}a+y_{0}b}{\left|\left|\left(x_{0},y_{0}\right)\right|\right|}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Sea 
+\begin_inset Formula $f\left(x,y\right)=\sqrt{xy+\frac{x}{y}}$
+\end_inset
+
+ y 
+\begin_inset Formula $v=\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)$
+\end_inset
+
+.
+ Calcular 
+\begin_inset Formula $\frac{\partial f}{\partial y}\left(2,1\right)$
+\end_inset
+
+ y 
+\begin_inset Formula $\frac{\partial f}{\partial v}\left(2,1\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}(2,1)=\lim_{t\to0}\frac{f(2,1+t)-f(2,1)}{t}=\lim_{t\to0}\frac{\sqrt{2(1+t)+\frac{2}{1+t}}-\sqrt{2+2}}{t}=\lim_{t\to0}\frac{2(1+t)+\frac{2}{1+t}-4}{t\left(\sqrt{2(1+t)+\frac{2}{1+t}}+2\right)}=\lim_{t\to0}\frac{\frac{2(1+t)^{2}+2-4-4t}{1+t}}{t\left(\sqrt{2(1+t)+\frac{2}{1+t}}+2\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\lim_{t\to0}\frac{2(1+t)^{2}-2-4t}{t\left(\sqrt{2(1+t)+\frac{2}{1+t}}+2\right)\left(1+t\right)}=\lim_{t\to0}\frac{2+4t+2t^{2}-2-4t}{t\left(\sqrt{2(1+t)+\frac{2}{1+t}}+2\right)\left(1+t\right)}=\lim_{t\to0}\frac{2t^{2}}{t\left(\sqrt{2(1+t)+\frac{2}{1+t}}+2\right)\left(1+t\right)}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\frac{\partial f}{\partial y}\left(2,1\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}(2,1)=\lim_{t\to0}\frac{f(2+t,1)-f(2,1)}{t}=\lim_{t\to0}\frac{\sqrt{2+t+2+t}-\sqrt{2+2}}{t}=\lim_{t\to0}\frac{\sqrt{4+2t}-2}{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\lim_{t\to0}\frac{4+2t-4}{t\left(\sqrt{2(2+t)}+2\right)}=\lim_{t\to0}\frac{2t}{t\left(\sqrt{2(2+t)}+2\right)}=\lim_{t\to0}\frac{2}{\sqrt{2(2+t)}+2}=\frac{2}{\sqrt{4}+2}=\frac{1}{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\frac{\partial f}{\partial v}\left(2,1\right)=\left\langle \nabla f\left(2,1\right),\left(\frac{1}{\sqrt{2}},\frac{1}{\sqrt{2}}\right)\right\rangle =0+\frac{1}{2}*\frac{1}{\sqrt{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Calcular 
+\begin_inset Formula $\frac{\partial f}{\partial z}(1,1,1)$
+\end_inset
+
+ para 
+\begin_inset Formula $f(x,y,z)=\sqrt{x^{2}+z^{2}}+\ln(y)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial a}(1,1,1)=\lim_{t\to0}\frac{f(1,1,1+t)-f(1,1,1)}{t}=\lim_{t\to0}\frac{\sqrt{1+(1+t)^{2}}+\ln(1)-\sqrt{2}-\ln(1)}{t}=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{1+(1+t)^{2}-2}{t\left(\sqrt{1+(1+t)^{2}}+\sqrt{2}\right)}=\lim_{t\to0}\frac{t^{2}+2t}{t\left(\sqrt{1+(1+t)^{2}}+\sqrt{2}\right)}=\lim_{t\to0}\frac{t+2}{\left(\sqrt{1+(1+t)^{2}}+\sqrt{2}\right)}=\frac{2}{2\sqrt{2}}=\frac{1}{\sqrt{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sea 
+\begin_inset Formula $f(x,y)=\begin{cases}
+\frac{x^{3}}{x^{2}+y^{2}} & \mbox{si }\left(x,y\right)\neq\left(0,0\right)\\
+0 & \mbox{si }\left(x,y\right)=\left(0,0\right)
+\end{cases}$
+\end_inset
+
+ Calcular 
+\begin_inset Formula $\frac{\partial f}{\partial v}\left(0,0\right)\forall v=(a,b)/\left|\left|v\right|\right|=1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{f(a,b)-f(0,0)}{t}=\lim_{t\to0}\frac{\frac{t^{3}a^{3}}{t^{2}\left(a^{2}+b^{2}\right)}}{t}=\lim_{t\to0}\frac{\frac{ta^{3}}{a^{2}+b^{2}}}{t}=\lim_{t\to0}\frac{ta^{3}}{\left(a^{2}+b^{2}\right)t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{a^{3}}{a^{2}+b^{2}}=\frac{a^{3}}{a^{2}+b^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Calcular las derivadas parciales de las siguientes funciones.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=x^{4}+2xy+y^{3}x-1$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}=4x^{3}+2y+y^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}=2x+2y^{2}x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y,z\right)=ye^{x}+z$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}=ye^{x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}=e^{x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial z}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=x^{2}\sin^{2}y$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}=2x\sin^{2}y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}=2x^{2}\sin y\cos y=x^{2}\sin\left(2y\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=\sin x$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}=\cos x
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y,z\right)=z\left(\cos\left(xy\right)+\ln\left(x^{2}+y^{2}+1\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}=z\left(y\sin xy+\frac{2x}{x^{2}+y^{2}+1}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}=z\left(x\sin xy+\frac{2y}{x^{2}+y^{2}+1}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial z}=\cos\left(xy\right)+\ln\left(x^{2}+y^{2}+1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=xe^{x^{2}+y^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}=e^{x^{2}+y^{2}}+2x^{2}e^{x^{2}+y^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}=2yxe^{x^{2}+y^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=\arctan\frac{y}{x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}=-\frac{1}{\left(\frac{y}{x}\right)^{2}+1}*x^{-2}=-\frac{1}{\left(\frac{y^{2}+x^{2}}{x^{2}}\right)x^{2}}=-\frac{1}{y^{2}+x^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}=\frac{1}{\left(\frac{y}{x}\right)^{2}+1}*\frac{1}{x}=\frac{1}{\left(\frac{y^{2}+x^{2}}{x^{2}}\right)x}=\frac{x}{y^{2}+x^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Probar que al función 
+\begin_inset Formula $f\left(x,y\right)=\left|x\right|+\left|y\right|$
+\end_inset
+
+ es continua pero no admite derivadas parciales en el origen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(a,b\right)}\left|x\right|+\left|y\right|=\lim_{\left(x,y\right)\to\left(a,b\right)}\left|x\right|+\lim_{\left(x,y\right)\to\left(a,b\right)}\left|y\right|=\left|a\right|+\left|b\right|=f(a,b)\Rightarrow\mbox{ es continua}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}\left(0,0\right)=\lim_{t\to0}\frac{f\left(t,0\right)-f(0,0)}{t}=\lim_{t\to0}\frac{\left|t\right|}{t}\Rightarrow\nexists\lim_{t\to0}\frac{f\left(t,0\right)-f(0,0)}{t}\Rightarrow\nexists\frac{\partial f}{\partial x}\left(0,0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}\left(0,0\right)=\lim_{t\to0}\frac{f\left(0,t\right)-f(0,0)}{t}=\lim_{t\to0}\frac{\left|t\right|}{t}\Rightarrow\nexists\lim_{t\to0}\frac{f\left(0,t\right)-f(0,0)}{t}\Rightarrow\nexists\frac{\partial f}{\partial y}\left(0,0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Consideremos la siguiente función:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(x,y\right)=\begin{cases}
+\frac{xy}{x^{2}+y^{2}} & \mbox{si }\left(x,y\right)\neq\left(0,0\right)\\
+0 & \mbox{si }\left(x,y\right)\neq\left(0,0\right)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Probar que las únicas direcciones 
+\begin_inset Formula $v\in\mathbb{R}^{2}$
+\end_inset
+
+ para las que existe la derivada direcciones en 
+\begin_inset Formula $f_{v}$
+\end_inset
+
+en el origen son 
+\begin_inset Formula $v=\left(1,0\right)$
+\end_inset
+
+y 
+\begin_inset Formula $v=\left(0,1\right)$
+\end_inset
+
+.
+ Probar, además, que la función no es continua en el origen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\left(1,0\right)\Rightarrow\frac{\partial f}{\partial v}\left(0,0\right)=\lim_{t\to0}\frac{f\left(t,0\right)-f(0,0)}{t}=\lim_{t\to0}\frac{\frac{0}{t^{2}}}{t}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\left(0,1\right)\Rightarrow\frac{\partial f}{\partial v}\left(0,0\right)=\lim_{t\to0}\frac{f\left(0,t\right)-f(0,0)}{t}=\lim_{t\to0}\frac{\frac{0}{t^{2}}}{t}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\left(a,b\right)\Rightarrow\frac{\partial f}{\partial v}\left(0,0\right)=\lim_{t\to0}\frac{f\left(at,bt\right)-f(0,0)}{t}=\lim_{t\to0}\frac{\frac{abt^{2}}{t^{2}\left(a^{2}+b^{2}\right)}}{t}=\lim_{t\to0}\frac{ab}{t\left(a^{2}+b^{2}\right)}=\lim_{t\to0}\frac{ab}{t}\to\infty\forall a,b\neq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{nota: }||v||=1\wedge a^{2}+b^{2}=||v||^{2}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{si }y=mx\Rightarrow\lim_{x\to0}\frac{mx^{2}}{x^{2}\left(1+m^{2}\right)}=\lim_{x\to0}\frac{m}{1+m^{2}}\neq f\left(0,0\right)\forall m\Rightarrow f\mbox{ no es continua en }\left(0,0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Consideremos la siguiente función
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(x,y\right)=\begin{cases}
+\frac{x^{3}y}{x^{6}+y^{2}} & \mbox{si }\left(x,y\right)\neq\left(0,0\right)\\
+0 & \mbox{si }\left(x,y\right)=\left(0,0\right)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Probar que 
+\begin_inset Formula $f$
+\end_inset
+
+ admite derivadas direccionales en el origen para todo vector unitario 
+\begin_inset Formula $v\in R^{2}$
+\end_inset
+
+.
+ Sin embargo, 
+\begin_inset Formula $f$
+\end_inset
+
+ tampoco es continua en el origen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\left(a,b\right);||v||=1\Rightarrow\frac{\partial f}{\partial v}\left(0,0\right)=\lim_{t\to0}\frac{f\left(at,bt\right)-f(0,0)}{t}=\lim_{t\to0}\frac{t^{4}a^{3}b}{t\left(t^{6}a^{6}+bt^{2}\right)}=\lim_{t\to0}\frac{t^{4}a^{3}b}{t^{3}\left(t^{4}a^{6}+b\right)}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\lim_{t\to0}\frac{ta^{3}b}{t^{4}a^{6}+b}=0\forall a,b
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{si }y=x^{3}\Rightarrow\lim_{x\to0}\frac{x^{6}}{x^{6}+x^{6}}=\lim_{x\to0}\frac{1}{2}\neq f\left(0,0\right)\Rightarrow f\mbox{ no es continua en }\left(0,0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $f\left(x,y\right)=x^{1/3}y^{1/3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Usando la definición de derivada direccional mostrar que:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}\left(0,0\right)=\frac{\partial f}{\partial y}\left(0,0\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y que 
+\begin_inset Formula $\pm e_{1},\pm e_{2}$
+\end_inset
+
+son las únicas direcciones para las cuales existe la derivada direccional
+ en el origen.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\left(a,b\right)\wedge||v||=1:\frac{\partial f}{\partial v}\left(0,0\right)=\lim_{t\to0}\frac{f\left(ta,tb\right)-f\left(0,0\right)}{t}=\lim_{t\to0}\frac{\left(tatb\right)^{1/3}}{t}=\begin{cases}
+a,b\neq0 & \to\infty\\
+a=0\vee b=0 & 0
+\end{cases}\lim_{t\to0}\frac{\left(ab\right)^{1/3}}{t^{1/3}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\left(\frac{\partial f}{\partial v}\left(0,0\right)=0\Leftrightarrow a=0\vee b=0\Leftrightarrow v=(\pm1,0)\vee v=(0,\pm1)\right)\wedge\left(\nexists\frac{\partial f}{\partial v}\left(0,0\right)\forall a,b\neq0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Mostrar que 
+\begin_inset Formula $f$
+\end_inset
+
+ es continua en 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+x^{1/3}\mbox{ es continua en }\mathbb{R}^{2}\wedge y^{1/3}\mbox{ es continua en }\mathbb{R}^{2}\Rightarrow x^{1/3}y^{1/3}\mbox{ es continua en }\mathbb{R}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Diferenciabilidad
+\end_layout
+
+\begin_layout Section
+Estudiar la continuidad, existencia de derivadas parciales y diferenciablidad
+ de la siguientes funciones en el origen:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y,z\right)=\sqrt{\left|xyz\right|}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+xyz\mbox{ es continua }\Rightarrow\left|xyz\right|\mbox{ es continua }\Rightarrow\sqrt{\left|xyz\right|}\mbox{ es continua}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\left(a,b,c\right)/||v||=1:\frac{\partial f}{\partial v}\left(0,0,0\right)=\lim_{t\to0}\frac{f(at,bt,ct)-f\left(0,0,0\right)}{t}=\lim_{t\to0}\frac{\sqrt{\left|t^{3}abc\right|}}{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{\sqrt{t^{2}\left|tabc\right|}}{t}=\lim_{t\to0}\sqrt{\left|tabc\right|}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(x,y,z\right)\mbox{ diferenciable }\Leftrightarrow\lim_{\left(x,y,z\right)\to\left(0,0,0\right)}\frac{f(x,y,z)-f(0,0,0)-\frac{\partial f}{\partial x}\left(0,0,0\right)(x)-\frac{\partial f}{\partial y}\left(0,0,0\right)(y)-\frac{\partial f}{\partial z}\left(0,0,0\right)(z)}{||(x,y,z)||}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\sqrt{\left|xyz\right|}}{||(x,y,z)||}\leq\frac{\sqrt{\left|xyz\right|}}{||(x,y,z)||}\leq\frac{\sqrt{||(x,y,z)||^{3}}}{||(x,y,z)||}=\sqrt{||(x,y,z)||}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\leq\lim_{\left(x,y,z\right)\to\left(0,0,0\right)}\frac{\sqrt{\left|xyz\right|}}{||(x,y,z)||}\leq\lim_{\left(x,y,z\right)\to\left(0,0,0\right)}\sqrt{||(x,y,z)||}\leq0\rightarrow\sqrt{\left|xyz\right|}\geq0\wedge||(x,y,z)||\geq0\Rightarrow\frac{\sqrt{\left|xyz\right|}}{||(x,y,z)||}\ge0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\lim_{\left(x,y,z\right)\to\left(0,0,0\right)}\frac{\sqrt{\left|xyz\right|}}{||(x,y,z)||}=0\Rightarrow f\left(x,y,z\right)\mbox{ es diferenciable}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=\begin{cases}
+x\sin\left(4\arctan\frac{y}{x}\right) & \mbox{si }x\neq0\\
+0 & \mbox{si }x=0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{x\to0}x\sin\left(4\arctan\frac{y}{x}\right)=\left(\to0\right)*\sin\left(4\arctan\left(\to\infty\right)\right)=\left(\to0\right)*\sin\left(4\left(\to\frac{\pi}{2}\right)\right)=0=f\left(0,y\right)\Rightarrow\mbox{ es continua}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\left(a,b\right)/||v||=1:\frac{\partial f}{\partial v}\left(0,0\right)=\lim_{t\to0}\frac{f(at,bt)-f\left(0,0\right)}{t}=\lim_{t\to0}\frac{at\sin(4\arctan\frac{bt}{at})}{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}a\sin(4\arctan\frac{b}{a})=a\sin(4\arctan\frac{b}{a})\Rightarrow\begin{cases}
+\nexists\frac{\partial f}{\partial x}\left(0,0\right):a=1,b=0 & \sin(4\arctan0)=0\\
+\frac{\partial f}{\partial y}\left(0,0\right):a=0,b=1 & 0\sin(4\arctan\frac{1}{0})\mbox{ no está definida la división por 0}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\mbox{ no es diferenciable ya que }\nexists\frac{\partial f}{\partial y}\left(0,0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+¿Puede ser que la derivada parcial en x tampoco esté definida? No veo como,
+ pero wolfamalpha dice eso.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=\begin{cases}
+\frac{x^{3}-y^{3}}{x^{2}+y^{2}} & \mbox{si }\left(x,y\right)\neq\left(0,0\right)\\
+0 & \mbox{si }\left(x,y\right)=\left(0,0\right)
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{si }y=\sqrt[3]{x}\Rightarrow\lim_{x\to0}\frac{x^{3}-x}{x^{2}+x^{\frac{2}{3}}}=\lim_{x\to0}\frac{x\left(x^{2}-1\right)}{x\left(x+x^{\frac{1}{3}}\right)}=\lim_{x\to0}\frac{x^{2}-1}{x+x^{\frac{1}{3}}}=\infty\Rightarrow\mbox{No es continua en }\left(0,0\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\left(a,b\right)/||v||=1:\frac{\partial f}{\partial v}\left(0,0\right)=\lim_{t\to0}\frac{f(at,bt)-f\left(0,0\right)}{t}=\lim_{t\to0}\frac{\frac{t^{3}\left(a^{3}-b^{3}\right)}{t^{2}\left(a^{2}+b^{2}\right)}}{t}=\lim_{t\to0}\frac{a^{3}-b^{3}}{a^{2}+b^{2}}=\begin{cases}
+a=1,b=0: & \frac{\partial f}{\partial x}\left(0,0\right)=1\\
+a=0,b=1: & \frac{\partial f}{\partial y}\left(0,0\right)=-1
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{No es continua por lo tanto no será diferenciable.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=\begin{cases}
+\frac{xy}{\sqrt{x^{2}+y^{2}}}\sin\left(\frac{1}{\sqrt{x^{2}+y^{2}}}\right) & \mbox{si }\left(x,y\right)\neq\left(0,0\right)\\
+0 & \mbox{si }\left(x,y\right)=\left(0,0\right)
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\leq\left|\frac{xy}{\sqrt{x^{2}+y^{2}}}\sin\left(\frac{1}{\sqrt{x^{2}+y^{2}}}\right)\right|\leq\left|\frac{xy}{\sqrt{x^{2}+y^{2}}}\right|\left|\sin\left(\frac{1}{\sqrt{x^{2}+y^{2}}}\right)\right|\leq\frac{\left|xy\right|}{\sqrt{x^{2}+y^{2}}}\leq\frac{\left|\left|(x,y)\right|\right|^{2}}{\left|\left|(x,y)\right|\right|}=\left|\left|(x,y)\right|\right|
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\left|\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy}{\sqrt{x^{2}+y^{2}}}\sin\left(\frac{1}{\sqrt{x^{2}+y^{2}}}\right)\right|\leq\lim_{\left(x,y\right)\to\left(0,0\right)}\left|\left|(x,y)\right|\right|=0\Rightarrow\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{xy}{\sqrt{x^{2}+y^{2}}}\sin\left(\frac{1}{\sqrt{x^{2}+y^{2}}}\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\mbox{Es continua}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\left(a,b\right)/||v||=1:\frac{\partial f}{\partial v}\left(0,0\right)=\lim_{t\to0}\frac{f(at,bt)-f\left(0,0\right)}{t}=\lim_{t\to0}\frac{\frac{abt^{2}}{t\sqrt{a^{2}+b^{2}}}\sin\left(\frac{1}{t\sqrt{a^{2}+b^{2}}}\right)}{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{ab}{\sqrt{a^{2}+b^{2}}}\sin\left(\frac{1}{t\sqrt{a^{2}+b^{2}}}\right)=\begin{cases}
+a=0\vee b=0\Rightarrow & 0*\lim_{t\to0}\sin\left(\frac{1}{t\sqrt{a^{2}+b^{2}}}\right)=0\\
+a,b\neq0\Rightarrow & \mbox{oscila}
+\end{cases}\rightarrow\mbox{ya que }\nexists\lim_{t\to0}\sin\left(\frac{1}{t\sqrt{a^{2}+b^{2}}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}\left(0,0\right)=\frac{\partial f}{\partial y}\left(0,0\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{No es diferenciable porque no todas sus derivadas direccionales existen.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=\begin{cases}
+\frac{x}{y}\sin\left(\frac{1}{y}\right) & \mbox{si }y\neq0\\
+0 & \mbox{si }y=0
+\end{cases}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{si }x=y:\lim_{x\to0}\frac{x}{x}\sin\left(\frac{1}{x}\right)=\lim_{x\to0}\sin\left(\frac{1}{x}\right)\rightarrow\nexists\therefore\mbox{no es continua}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\left(a,b\right)/||v||=1:\frac{\partial f}{\partial v}\left(0,0\right)=\lim_{t\to0}\frac{f(at,bt)-f\left(0,0\right)}{t}=\lim_{t\to0}\frac{a}{b}\sin\left(\frac{1}{bt}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\frac{a}{b}\lim_{t\to0}\sin\left(\frac{1}{bt}\right)\rightarrow\nexists\therefore\mbox{No tiene derivadas direccionales \ensuremath{\Rightarrow} no es diferenciable.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $f\left(x,y\right)=\begin{cases}
+\frac{|x|y}{\sqrt{x^{2}+y^{2}}} & \mbox{si }\left(x,y\right)\neq\left(0,0\right)\\
+0 & \mbox{si }\left(x,y\right)\neq\left(0,0\right)
+\end{cases}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Probar que en el origen 
+\begin_inset Formula $f$
+\end_inset
+
+ es continua, admite todas las derivadas direccionales pero no es diferenciable.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+0\leq\left|\lim_{\left(x,y\right)\to(0,0)}\frac{|x|y}{\sqrt{x^{2}+y^{2}}}\right|\leq\lim_{\left(x,y\right)\to(0,0)}\frac{\left||x|y\right|}{\sqrt{x^{2}+y^{2}}}\leq\lim_{\left(x,y\right)\to(0,0)}\frac{\left|\left|\left(x,y\right)\right|\right|^{2}}{\left|\left|\left(x,y\right)\right|\right|}\leq\lim_{\left(x,y\right)\to(0,0)}\left|\left|\left(x,y\right)\right|\right|\leq0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\lim_{\left(x,y\right)\to(0,0)}\frac{|x|y}{\sqrt{x^{2}+y^{2}}}=0\Rightarrow\mbox{Es continua}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v=\left(a,b\right)/||v||=1:\frac{\partial f}{\partial v}\left(0,0\right)=\lim_{t\to0}\frac{f(at,bt)-f\left(0,0\right)}{t}=\lim_{t\to0}\frac{\frac{|at|bt}{t\sqrt{a^{2}+b^{2}}}}{t}=\lim_{t\to0}\frac{|at|b}{t}=\lim_{t\to0}\frac{|t||a|b}{t}\rightarrow\nexists
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\mbox{No tiene derivada direccional\Rightarrow no es diferenciable}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $f\left(x,y\right)=x^{2}-3xy+y^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Encontrar las ecuaciones paramétricas de las rectas tangentes a las siguientes
+ curvas en 
+\begin_inset Formula $t_{0}=0:$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\sigma_{1}\left(t\right)=\left(t+1,3,f\left(t+1,3\right)\right)\mbox{ y }\sigma_{2}\left(t\right)=\left(t+1,t+3,f\left(t+1,t+3\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Resolución 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+tangente 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\sigma_{1}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial\sigma_{1}}{\partial t}\left(t_{0}=0\right)=\left(1,0,\frac{df}{dt}\left(1,3\right)\right);f\left(1,3\right)=1-9+9=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{df}{dt}\left(1,3\right)=\lim_{t\to0}\frac{f\left(1+t,3\right)-f\left(1,3\right)}{t}=\lim_{t\to0}\frac{\left(1+t\right)^{2}-3\left(1+t\right)3+3^{2}-1}{t}=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{\left(1+t\right)^{2}-9t-1}{t}=\lim_{t\to0}\frac{t^{2}+2t+1-9t-1}{t}=-7
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{tangente }\sigma_{1}(1,3,1):\left(1,3,1\right)+\lambda\left(1,0,-7\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Resolución 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+tangente 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula $\sigma_{2}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial\sigma_{2}}{\partial t}\left(t_{0}=0\right)=\left(1,1,\frac{df}{dt}\left(1,3\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{df}{dt}\left(1,3\right)=\lim_{t\to0}\frac{f\left(1+t,3+t\right)-f\left(1,3\right)}{t}=\lim_{t\to0}\frac{\left(1+t\right)^{2}-3\left(3+t\right)\left(1+t\right)+\left(3+t\right)^{2}-1}{t}=\lim_{t\to0}\frac{1+2t+t^{2}-3\left(3+4t+t^{2}\right)+9+6t+t^{2}-1}{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{t\to0}\frac{2t+t^{2}-9-12t-3t^{2}+9+6t+t^{2}}{t}=\lim_{t\to0}2-12+6+5t=-4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{tangente }\sigma_{2}(1,3,1):\left(1,3,1\right)+\lambda\left(1,1,-4\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Encontrar la ecuación de un plano 
+\begin_inset Formula $z=T\left(x,y\right)$
+\end_inset
+
+ que contenga ambas rectas y mostrar que
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\lim_{\left(x,y\right)\to\left(1,3\right)}\frac{f\left(x,y\right)-T\left(x,y\right)}{\left|\left|\left(x,y\right)-\left(1,3\right)\right|\right|}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

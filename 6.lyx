@@ -60,6 +60,39 @@
 \begin_body
 
 \begin_layout Section
+Sea 
+\begin_inset Formula $S\subset\mathbb{R}^{3}$
+\end_inset
+
+ la esfera de radio 1 centrada en el origen; es decir 
+\begin_inset Formula $S$
+\end_inset
+
+ en la superficie de 
+\begin_inset Formula $\mathbb{R}^{3}$
+\end_inset
+
+ definida por 
+\begin_inset Formula $S=\left\{ \left(x,y,z\right)\in\mathbb{R}^{3}:x^{2}+y^{2}+z^{2}=1\right\} $
+\end_inset
+
+.
+ Mostrar que el vector 
+\begin_inset Formula $v=\left(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)$
+\end_inset
+
+ es normal a la superficie 
+\begin_inset Formula $S$
+\end_inset
+
+ en el punto 
+\begin_inset Formula $\left(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)$
+\end_inset
+
+ e interpretar este hecho geométricamente.
+\end_layout
+
+\begin_layout Paragraph
 Sabemos que 
 \begin_inset Formula $\nabla f(x,y,z)$
 \end_inset
@@ -72,9 +105,23 @@ Sabemos que
 \end_layout
 
 \begin_layout Standard
+Geométricamente se puede pensar que 
+\begin_inset Formula $\left(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)$
+\end_inset
+
+ pertenece a la superficie de la esfera, por lo tanto la recta en la dirección
+ del radio (en este caso la del vector homónimo) será normal al plano tangente.
+\end_layout
+
+\begin_layout Standard
+Analíticamente sabemos que el gradiente es la normal a la superficie, por
+ lo tanto:
+\end_layout
+
+\begin_layout Standard
 \begin_inset Formula 
 \[
-\therefore v=\left(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)\bot S_{\left(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)}\Leftrightarrow\nabla f(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2})=\lambda v
+\nabla f(x,y,z)=\left(\begin{matrix}2x & 2y & 2z\end{matrix}\right)\Rightarrow\nabla f(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2})=(0,\sqrt{2},\sqrt{2})=\frac{1}{2}v
 \]
 
 \end_inset
@@ -85,25 +132,56 @@ Sabemos que
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\nabla f(x,y,z)=\left(\begin{matrix}2x & 2y & 2z\end{matrix}\right)\Rightarrow\nabla f(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2})=(0,\sqrt{2},\sqrt{2})=\frac{1}{2}v\blacksquare
+\therefore v\parallel\nabla f(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2})\Rightarrow v\mbox{ es normal a la superficie de }f\acute{(x,y,z)=x^{2}+y^{2}+z^{2}=1}\blacksquare
 \]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left(0,\frac{\sqrt{2}}{2},\frac{\sqrt{2}}{2}\right)$
+\end_inset
+
+ es un punto de la curva de nivel =1, el gradiente es perpendicular a la
+ curva en todo punto, entonces es normal al plano tangente a la curva, en
+ ese punto.
 \end_layout
 
 \begin_layout Section
-\begin_inset Formula $S={(x,y,z)\in\mathbb{R}^{3}:f(x,y,z)=1}$
+Consideremos la superficie 
+\begin_inset Formula $S={(x,y,z)\in\mathbb{R}^{3}:f(x,y,z)=x^{2}+y^{2}-z^{2}=1}$
 \end_inset
 
-
+.
+ Probar que las rectas
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\mbox{¿}L_{1}:t(0,1,1)+(1,0,0);L_{2}:t(0,1,-1)+(1,0,0)\in S\mbox{ y son ortogonales?}
+\mathbb{L}_{1}:t\left(0,1,1\right)+\left(1,0,0\right)\mbox{ y }\mathbb{L}_{2}:t\left(0,1,-1\right)+\left(1,0,0\right)
+\]
+
+\end_inset
+
+ son ortogonales y están contenidas en 
+\begin_inset Formula $S$
+\end_inset
+
+.
+ Usar esto para hallar la ecuación del plano tangente a S en 
+\begin_inset Formula $\left(1,0,0\right)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left\langle \left(0,1,1\right),\left(0,1,-1\right)\right\rangle =1-1=0\Rightarrow\mbox{Son ortogonales}
 \]
 
 \end_inset
@@ -114,7 +192,50 @@ Sabemos que
 \begin_layout Standard
 \begin_inset Formula 
 \[
-f(1,t,t)=1+t^{2}-t^{2}=1\forall t\therefore L_{1}\in S
+\mathbb{L}_{1}=\biggg\{\begin{matrix}x=1\\
+y=t\\
+z=t
+\end{matrix}\Rightarrow\bigg\{\begin{matrix}x=1\\
+y=z
+\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathbb{L}_{2}=\biggg\{\begin{matrix}x=1\\
+y=t\\
+z=-t
+\end{matrix}\Rightarrow\bigg\{\begin{matrix}x=1\\
+y=-z
+\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Reemplazo en la ecuación de }S\rightarrow\mathbb{L}_{1}:1+z^{2}-z^{2}=1\wedge\mathbb{L}_{2}:1+\left(-z\right)^{2}-z^{2}=1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\mathbb{L}_{1}\subset S\wedge\mathbb{L}_{2}\subset S
 \]
 
 \end_inset
@@ -136,7 +257,7 @@ f(1,t,-t)=1+t^{2}-(-t)^{2}=1\forall t\therefore L_{2}\in S
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\vec{v_{1}}\bot\vec{v_{2}}\Leftrightarrow\vec{v_{1}}*\vec{v_{2}}
+\vec{v_{1}}\bot\vec{v_{2}}\Leftrightarrow\vec{v_{1}}*\vec{v_{2}=0}
 \]
 
 \end_inset
@@ -148,17 +269,6 @@ f(1,t,-t)=1+t^{2}-(-t)^{2}=1\forall t\therefore L_{2}\in S
 \begin_inset Formula 
 \[
 (0,1,1)*(0,1,-1)=0+1-1=0\blacksquare
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\text{¿}T:x=1?
 \]
 
 \end_inset
@@ -409,7 +519,7 @@ h(x_{0},y_{0},f(x_{0},y_{0}))=f(x_{0},y_{0})-f(x_{0},y_{0})=0\forall(x_{0},y_{0}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\mbox{El plano tangente T a \ensuremath{f} en \ensuremath{(x_{0},y_{0})} está dado por }<\nabla f(x_{0},y_{0}),(x,y)+(x_{0},y_{0})>=0
+\mbox{El plano tangente T a \ensuremath{f}en \ensuremath{(x_{0},y_{0})}está dado por }<\nabla f(x_{0},y_{0}),(x,y)+(x_{0},y_{0})>=0
 \]
 
 \end_inset
@@ -465,7 +575,7 @@ Encontrar
 \begin_layout Standard
 \begin_inset Formula 
 \[
-T\mbox{ tangente en \ensuremath{P} a }S\Leftrightarrow T:<\nabla f(P),(x,y,z)+P)>=0
+T\mbox{ tangente en \ensuremath{P}a }S\Leftrightarrow T:<\nabla f(P),(x,y,z)+P)>=0
 \]
 
 \end_inset
@@ -615,7 +725,7 @@ x^{5}+x^{3}+x\in R\mbox{ es biyectiva}\Rightarrow f(x)\mbox{ es biyectiva.}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\mbox{Por el teorema de la función inversa, }f(x)\mbox{ es inversible en un entorno  }U\subseteq D,V\subseteq Im
+\mbox{Por el teorema de la función inversa, }f(x)\mbox{ es inversible en un entorno }U\subseteq D,V\subseteq Im
 \]
 
 \end_inset
@@ -797,7 +907,7 @@ en
 \[
 DF(x,y)=\left(\begin{matrix}2x & -2y\\
 2y & 2x
-\end{matrix}\right)\Rightarrow\mbox{Tiene \ensuremath{det\neq0\forall(x,y)\neq(0,0)} y derivadas continuas en todo R}
+\end{matrix}\right)\Rightarrow\mbox{Tiene \ensuremath{det\neq0\forall(x,y)\neq(0,0)}y derivadas continuas en todo R}
 \]
 
 \end_inset
@@ -891,7 +1001,7 @@ Encontrar
 \begin_layout Standard
 \begin_inset Formula 
 \[
-D\subseteq U=B_{0,1}(0,1) y>0,z^{\text{3}}>x^{2}\Rightarrow y=\sqrt{z^{3}-x^{2}}\mbox{ es continua}
+D\subseteq U=B_{0,1}(0,1)y>0,z^{\text{3}}>x^{2}\Rightarrow y=\sqrt{z^{3}-x^{2}}\mbox{ es continua}
 \]
 
 \end_inset

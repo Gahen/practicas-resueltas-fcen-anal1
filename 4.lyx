@@ -1,0 +1,1891 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Section
+Calcular las derivadas parciales de segundo orden para las siguientes funciones,
+ verificando la igualdad de las derivadas parciales mixtas para aquellas
+ funciones de clase 
+\begin_inset Formula $C^{2}$
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y)=x^{3}y+e^{xy^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Es un polinomio, por lo que es }C^{\infty}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}(x,y)=3x^{2}y+y^{2}e^{xy^{2}};\frac{\partial f}{\partial y}(x,y)=x^{3}+2xye^{xy^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial x^{2}}(x,y)=6xy+y^{4}e^{xy^{2}};\frac{\partial^{2}f}{\partial y^{2}}(x,y)=4x^{2}y^{2}e^{xy^{2}}+2xe^{xy^{2}};
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial y\partial x}(x,y)=3x^{2}+2xy^{3}e^{xy^{2}}+2ye^{xy^{2}}\frac{\partial^{2}f}{\partial x\partial y}(x,y)=2xye^{xy^{2}}=3x^{2}+2ye^{xy^{2}}+2xy^{3}e^{xy^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Como era esperado }\frac{\partial^{2}f}{\partial y\partial x}(x,y)=\frac{\partial^{2}f}{\partial x\partial y}(x,y)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y,z)=ye^{z}+\frac{e^{y}}{x}+xy\sin z$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}(x,y,z)=y\sin z-\frac{e^{y}}{x^{2}};\frac{\partial f}{\partial y}(x,y,z)=e^{Z}+\frac{e^{y}}{x}+x\sin z;\frac{\partial f}{\partial z}(x,y,z)=ye^{z}+xy\cos z
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial x^{2}}(x,y,z)=\frac{2e^{y}}{x^{3}};\frac{\partial^{2}f}{\partial y^{2}}(x,y,z)=\frac{e^{y}}{x};\frac{\partial^{2}f}{\partial z^{2}}(x,y,z)=ye^{z}-xy\sin z
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial x\partial y}(x,y)=-\frac{e^{y}}{x^{2}}+\sin z;\frac{\partial^{2}f}{\partial y\partial x}(x,y)=\sin z-\frac{e^{y}}{x^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial z\partial y}(x,y)=e^{Z}+x\cos z;\frac{\partial^{2}f}{\partial y\partial z}(x,y)=e^{z}+x\cos z
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial x\partial z}(x,y)=y\cos z;\frac{\partial^{2}f}{\partial z\partial x}(x,y)=y\cos z
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y,z)=\sqrt{x^{2}+y^{2}}+\ln z$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}(x,y,z)=\frac{x}{\sqrt{x^{2}+y^{2}}};\frac{\partial f}{\partial y}(x,y,z)=\frac{y}{\sqrt{x^{2}+y^{2}}};\frac{\partial f}{\partial z}(x,y,z)=\frac{1}{z}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial x^{2}}(x,y,z)=\frac{y^{2}}{\left(\sqrt{x^{2}+y^{2}}\right)^{3/2}};\frac{\partial^{2}f}{\partial y^{2}}(x,y,z)=\frac{x^{2}}{\left(\sqrt{x^{2}+y^{2}}\right)^{3/2}};\frac{\partial^{2}f}{\partial z^{2}}(x,y,z)=-\frac{1}{z^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial x\partial y}(x,y)=\frac{\partial^{2}f}{\partial y\partial x}(x,y)=\frac{xy}{\left(\sqrt{x^{2}+y^{2}}\right)^{3/2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial z\partial y}(x,y)=0;\frac{\partial^{2}f}{\partial y\partial z}(x,y)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial x\partial z}(x,y)=0;\frac{\partial^{2}f}{\partial z\partial x}(x,y)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Calcular todas las derivadas de tercer orden para las siguientes funciones
+\end_layout
+
+\begin_layout Standard
+¡ ni en pedo !
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $f(x,y)=\cos(xy).$
+\end_inset
+
+ Además 
+\begin_inset Formula $x$
+\end_inset
+
+ e 
+\begin_inset Formula $y$
+\end_inset
+
+ son funciones de las variables 
+\begin_inset Formula $u$
+\end_inset
+
+ y 
+\begin_inset Formula $v$
+\end_inset
+
+ de acuerdo a las siguientes fórmulas: 
+\begin_inset Formula $x(u,v)=u+v,y(u,v)=u-v$
+\end_inset
+
+.
+ Calcular
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial u^{2}}\left(x\left(u,v),y\left(u,v\right)\right)\right)\mbox{ y }\frac{\partial^{3}f}{\partial u\partial v^{2}}\left(x\left(u,v\right),y\left(u,v\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sustituyendo
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f(x(u,v),y(u,v))=\cos\left(\left(u+v\right)\left(u-v\right)\right)=\cos\left(u^{2}-v^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial u}=-2u\sin\left(u^{2}-v^{2}\right);\frac{\partial^{2}f}{\partial u^{2}}=-2\sin\left(u^{2}-v^{2}\right)-4u^{4}\cos\left(u^{2}-v^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial v}=2v\sin\left(u^{2}-v^{2}\right);\frac{\partial f}{\partial v^{2}}=2\sin\left(u^{2}-v^{2}\right)-4v^{2}\cos\left(u^{2}-v^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{3}f}{\partial u\partial v^{2}}\left(x\left(u,v\right),y\left(u,v\right)\right)=4u^{2}\cos\left(u^{2}-v^{2}\right)+4v^{2}2u\sin\left(u^{2}-v^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Usando la regla de la cadena
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f(x,y)=\left(-y\sin xy,-x\sin xy\right);Hf(x,y)=\begin{matrix}-y^{2}\cos xy & -yx\cos xy\\
+-yx\cos xy & -x\cos xy
+\end{matrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla x(u,v)=\left(1,1\right);\nabla y(u,v)=\left(1,-1\right)\Rightarrow Hx(u,v)=Hy(u,v)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Sea }g(u,v)=(x(u,v),y(u,v))=(u+v,u-v)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore D\left(f\circ g\right)(u,v)=D(f(x(u,v),y(u,v)))*D(g(u,v))=\left(-y\sin xy,-x\sin xy\right)*\left(\begin{matrix}1 & 1\\
+1 & -1
+\end{matrix}\right)=\left(-y\sin xy-x\sin xy,-y\sin xy+x\sin xy\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left(\sin\left(u^{2}-v^{2}\right)\left(-u-v-u+v\right),\sin\left(u^{2}-v^{2}\right)\left(u+v-u+v\right)\right)=\left(\sin\left(u^{2}-v^{2}\right)\left(-u-v-u+v\right),\sin\left(u^{2}-v^{2}\right)\left(u+v-u+v\right)\right)\rightarrow\mbox{Reemplacé}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow D\left(f\circ g\right)(u,v)=\left(\sin\left(u^{2}-v^{2}\right)\left(-2u\right),\sin\left(u^{2}-v^{2}\right)\left(2v\right)\right)\rightarrow\mbox{Aquí seguiría operando como con una función normal}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Se dice que una función 
+\begin_inset Formula $f:\mathbb{R}^{n}\rightarrow\mathbb{R}$
+\end_inset
+
+ de clase 
+\begin_inset Formula $C^{2}$
+\end_inset
+
+ satisface la ecuación de Laplace o bien que es una función armónica en
+ un conjunto abierto 
+\begin_inset Formula $U\subset\mathbb{R}^{3}$
+\end_inset
+
+ si:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\nabla f=\frac{\partial^{2}f}{\partial x_{1}^{2}}+\ldots+\frac{\partial^{2}f}{\partial x_{n}^{2}}=\nabla^{2}f\equiv0\mbox{ en }U
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Verificar que las siguientes funciones son armónicas en un conjunto abierto
+ 
+\begin_inset Formula $U\subset\mathbb{R}^{3}$
+\end_inset
+
+.
+ Determinar 
+\begin_inset Formula $U$
+\end_inset
+
+ en cada caso:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y,z\right)=x^{2}+y^{2}-2z^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}\left(x,y,z\right)=2x\rightarrow\frac{\partial^{2}f}{\partial x^{2}}\left(x,y,z\right)=2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}\left(x,y,z\right)=2y\rightarrow\frac{\partial^{2}f}{\partial y^{2}}\left(x,y,z\right)=2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial z}\left(x,y,z\right)=-4z\rightarrow\frac{\partial^{2}f}{\partial z^{2}}\left(x,y,z\right)=-4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\frac{\partial^{2}f}{\partial x^{2}}\left(x,y,z\right)+\frac{\partial^{2}f}{\partial y^{2}}\left(x,y,z\right)+\frac{\partial^{2}f}{\partial z^{2}}\left(x,y,z\right)=2+2-4=0\rightarrow\mbox{Es laplaciano para todo }U\subset\mathbb{R}^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y,z\right)=\ln\sqrt{x^{2}+y^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}\left(x,y,z\right)=\frac{1}{\sqrt{x^{2}+y^{2}}}*\frac{x}{\sqrt{x^{2}+y^{2}}}=\frac{x}{x^{2}+y^{2}}\rightarrow\frac{\partial^{2}f}{\partial x^{2}}\left(x,y,z\right)=\frac{1}{x^{2}+y^{2}}-\frac{2x}{\left(x^{2}+y^{2}\right)^{2}}=\frac{x^{2}+y^{2}-2x^{2}}{\left(x^{2}+y^{2}\right)^{2}}=\frac{y^{2}-x^{2}}{\left(x^{2}+y^{2}\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}\left(x,y,z\right)=\frac{y}{x^{2}+y^{2}}\rightarrow\frac{\partial^{2}f}{\partial y^{2}}\left(x,y,z\right)=\frac{x^{2}-y^{2}}{\left(x^{2}+y^{2}\right)^{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial z^{2}}\left(x,y,z\right)=0\rightarrow\frac{\partial^{2}f}{\partial z^{2}}\left(x,y,z\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\frac{\partial^{2}f}{\partial x^{2}}\left(x,y,z\right)+\frac{\partial^{2}f}{\partial y^{2}}\left(x,y,z\right)+\frac{\partial^{2}f}{\partial z^{2}}\left(x,y,z\right)=\frac{y^{2}-x^{2}}{\left(x^{2}+y^{2}\right)^{2}}+\frac{x^{2}-y^{2}}{\left(x^{2}+y^{2}\right)^{2}}=0\rightarrow\mbox{Es laplaciano para todo }U\subset\mathbb{R}^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f(x,y,z)=\frac{1}{\sqrt{x^{2}+y^{2}+z^{2}}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}\left(x,y,z\right)=-x\left(x^{2}+y^{2}+z^{2}\right)^{-3/2}\rightarrow\frac{\partial^{2}f}{\partial x^{2}}\left(x,y,z\right)=-\left(x^{2}+y^{2}+z^{2}\right)^{-3/2}-3x^{2}\left(x^{2}+y^{2}+z^{2}\right)^{-5/2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{-x^{2}-y^{2}-z^{2}+3x^{2}}{\left(x^{2}+y^{2}+z^{2}\right)^{5/2}}=\frac{2x^{2}-y^{2}-z^{2}}{\left(x^{2}+y^{2}+z^{2}\right)^{5/2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}\left(x,y,z\right)=-y\left(x^{2}+y^{2}+z^{2}\right)^{-3/2}\rightarrow\frac{\partial^{2}f}{\partial y^{2}}\left(x,y,z\right)=\frac{2y^{2}-x^{2}-z^{2}}{\left(x^{2}+y^{2}+z^{2}\right)^{5/2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial z}\left(x,y,z\right)=-z\left(x^{2}+y^{2}+z^{2}\right)\rightarrow\frac{\partial^{2}f}{\partial z^{2}}\left(x,y,z\right)=\frac{2z^{2}-x^{2}-y^{2}}{\left(x^{2}+y^{2}+z^{2}\right)^{5/2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\begin_inset Formula 
+\[
+\therefore\frac{\partial^{2}f}{\partial x^{2}}\left(x,y,z\right)+\frac{\partial^{2}f}{\partial y^{2}}\left(x,y,z\right)+\frac{\partial^{2}f}{\partial z^{2}}\left(x,y,z\right)=\frac{2x^{2}+2y^{2}+2z^{2}-2x^{2}-2y^{2}-2z^{2}}{\left(x^{2}+y^{2}+z^{2}\right)^{5/2}}=0\rightarrow\mbox{Es laplaciano para todo }U\subset\mathbb{R}^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y,z\right)=e^{3x+4}\cos\left(3z\right)+4y$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}\left(x,y,z\right)=3e^{3x+4}\cos\left(3z\right)\rightarrow\frac{\partial^{2}f}{\partial x^{2}}\left(x,y,z\right)=9e^{3x+4}\cos\left(3z\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}\left(x,y,z\right)=4\rightarrow\frac{\partial^{2}f}{\partial y^{2}}\left(x,y,z\right)=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial z}\left(x,y,z\right)=-3e^{3x+4}\sin\left(3z\right)\rightarrow\frac{\partial^{2}f}{\partial z^{2}}\left(x,y,z\right)=-9e^{3x+4}\cos\left(3z\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\frac{\partial^{2}f}{\partial x^{2}}\left(x,y,z\right)+\frac{\partial^{2}f}{\partial y^{2}}\left(x,y,z\right)+\frac{\partial^{2}f}{\partial z^{2}}\left(x,y,z\right)=9e^{3x+4}\cos\left(3z\right)-9e^{3x+4}\cos\left(3z\right)=0\rightarrow\mbox{Es laplaciano para todo }U\subset\mathbb{R}^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sean 
+\begin_inset Formula $f,g$
+\end_inset
+
+ dos funciones 
+\begin_inset Formula $C^{2}$
+\end_inset
+
+ definidas en un abierto 
+\begin_inset Formula $U\subset\mathbb{R}^{2}$
+\end_inset
+
+ y tales que
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}=-\frac{\partial g}{\partial y}\wedge\frac{\partial f}{\partial y}=\frac{\partial g}{\partial x}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Probar que 
+\begin_inset Formula $f$
+\end_inset
+
+ y 
+\begin_inset Formula $g$
+\end_inset
+
+ son armónicas en 
+\begin_inset Formula $U$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial x^{2}}=-\frac{\partial^{2}g}{\partial x\partial y}\wedge\frac{\partial^{2}f}{\partial y^{2}}=-\frac{\partial^{2}g}{\partial y\partial x}\rightarrow\mbox{Derivo en y/x en ambos miembros}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\frac{\partial^{2}f}{\partial x^{2}}\left(x,y\right)+\frac{\partial^{2}f}{\partial y^{2}}\left(x,y\right)=\frac{\partial^{2}g}{\partial x\partial y}\left(x,y\right)-\frac{\partial^{2}g}{\partial y\partial x}\left(x,y\right)=0\rightarrow\mbox{Por ser }C^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Desarrollar la función 
+\begin_inset Formula $p\left(x\right)=x^{4}-5x^{3}+5x^{2}+x+2$
+\end_inset
+
+ en potencias de 
+\begin_inset Formula $x-2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Calculo el polinomio de taylor en el punto }x=2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{2}\left(x\right)=p(2)+p'(2)*(x-2)+\frac{p''(2)*\left(x-2\right)^{2}}{2}+\frac{p'''\left(2\right)\left(x-2\right)^{3}}{6}+\frac{p''''\left(2\right)\left(x-2\right)^{4}}{24}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{2}\left(x\right)=0+\left(3x^{3}-15x^{2}+10x+1\right)\bigg|_{x=2}*(x-2)+\frac{\left(9x^{2}-30x+10\right)}{2}\bigg|_{x=2}*\left(x-2\right)^{2}+\frac{\left(18x-30\right)}{6}\bigg|_{x=2}\left(x-2\right)^{3}+\frac{18}{24}\left(x-2\right)^{4}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{2}\left(x\right)=-15\left(x-2\right)-7\left(x-2\right)^{2}+\left(x-2\right)^{3}+\frac{3}{4}\left(x-2\right)^{4}=\left(x-2\right)\left(-15-7\left(x-2\right)+\left(x-2\right)^{2}+\frac{3}{4}\left(x-2\right)^{3}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Desarrollar la función 
+\begin_inset Formula $g\left(x\right)=\sqrt{x}$
+\end_inset
+
+ en potencias de 
+\begin_inset Formula $x-1$
+\end_inset
+
+ hasta orden 3.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{1}(x)=1+g'\left(1\right)\left(x-1\right)+\frac{g''\left(1\right)\left(x-1\right)}{2}+\frac{g'''\left(1\right)\left(x-1\right)}{6}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{1}(x)=1+\left(\frac{1}{2}x^{-1/2}\bigg|_{x=1}\right)\left(x-1\right)+\left(\frac{-\frac{1}{4}x^{-3/2}\bigg|_{x=1}}{2}\right)\left(x-1\right)+\left(\frac{\frac{3}{8}x^{-5/2}\bigg|_{x=1}}{2}\right)\left(x-1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{1}(x)=1+\frac{1}{2}\left(x-1\right)+-\frac{1}{8}\left(x-1\right)+\frac{3}{16}\left(x-1\right)\sim g(x)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Hallar el polinomio de Maclaurin de grado tres para la función 
+\begin_inset Formula $f\left(x\right)=\ln\left(x+1\right)^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{0}(x)=0+\frac{2\ln\left(x+1\right)}{x+1}\biggg|_{x=0}x+\left(-\frac{2\left(\ln\left(x+1\right)-1\right)}{\left(x+1\right)^{2}}\biggg|_{x=0}\right)\frac{x^{2}}{2}+\left(\frac{4\left(\ln\left(x+1\right)-1\right)-2}{\left(x+1\right)^{3}}\biggg|_{x=0}\right)\frac{x^{3}}{6}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{0}(x)=0+x^{2}+x^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Hallar el polinomio de Maclaurin de grado tres para la función 
+\begin_inset Formula $g\left(x\right)=e^{x+2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{0}(x)=e^{2}+e^{2}x+\frac{e^{2}x^{2}}{2}+\frac{e^{2}x^{3}}{6}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Hallar el polinomio de Maclaurin de orden 2 y la expresión del resto para
+ la función 
+\begin_inset Formula $f(x)=\sqrt{1+x}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{0}^{2}(x)+R_{0}^{3}(x)=1+\frac{1}{2}\left(1\right)^{-1/2}x+\frac{-\frac{1}{4}\left(1\right)^{-3/2}x^{2}}{2}=1+\frac{1}{2}x-\frac{1}{8}x^{2}+R_{0}^{3}(x)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{0}^{3}(x)=\left(\frac{\frac{3}{8}\left(1+c\right)^{-5/2}}{6}\right)x^{3}\rightarrow\mbox{Con }c\mbox{ entre }x\mbox{ y }0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore P_{0}^{2}(x)+R_{0}^{3}(x)=1+\frac{1}{2}x-\frac{1}{8}x^{2}+\left(\frac{1}{16}\left(1+c\right)^{-5/2}\right)x^{3}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Evaluar el error de la igualdad aproximada 
+\begin_inset Formula $\sqrt{1+x}\approx1+\frac{1}{2}x-\frac{1}{8}x^{2}$
+\end_inset
+
+ cuando 
+\begin_inset Formula $x=0,2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E_{2,0}(0,2)=\frac{1}{16}\left(1+c\right)^{-5/2}\frac{1}{125}/c\in[0;0,2]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\frac{1}{125*16\left(1+c\right)^{5/2}}\leq\frac{1}{125*16\left(1+0,2\right)^{5/2}}=\frac{1}{125*16\left(1+0,2\right)^{5/2}}=\frac{1}{2488.32}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore E_{2,0}(0,2)\leq\frac{1}{2488.32}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Sea 
+\begin_inset Formula $\alpha\in\mathbb{R}$
+\end_inset
+
+.
+ Haller el polinomio de Maclaurin de grado 
+\begin_inset Formula $n$
+\end_inset
+
+ de la función 
+\begin_inset Formula $y=\left(1+x\right)^{\alpha}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f'(x)=\alpha\left(1+x\right)^{\alpha-1};f''(x)=\alpha\left(\alpha-1\right)\left(1+x\right)^{\alpha-2};...f^{n}=\alpha\left(\alpha-1\right)\left(\alpha-2\right)...\left(\alpha-n\right)\left(1+x\right)^{\alpha-n}=\frac{\alpha!/\left(\alpha-n-1\right)!x^{n}}{n!}\rightarrow\forall0<n<\alpha
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{0}(x)=1+\alpha\left(x\right)+\frac{\alpha*\left(\alpha-1\right)x^{2}}{2}+...+\frac{\alpha!/\left(\alpha-n-1\right)!x^{n}}{n!}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Calcular el valor de 
+\begin_inset Formula $\left(1,3\right)^{2/3}$
+\end_inset
+
+ con error menor que 
+\begin_inset Formula $\frac{1}{100}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+y=\left(1+\left(1,3\right)^{2/3}\right)^{\alpha}\approx P_{k}(\left(1,3\right)^{2/3})+R_{k}(\left(1,3\right)^{2/3})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{1}(\left(1,3\right)^{2/3})=\alpha\left(1+c\right)^{\alpha-1}\left(\left(1,3\right)^{2/3}\right)\rightarrow c\in[0,\left(1,3\right)^{2/3}]
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Acá hay algo raro, porque si alfa - 1 es menor a cero entonces el mayor
+ valor que puede tomar es 
+\begin_inset Formula $x=\left(1,3\right)^{2/3}$
+\end_inset
+
+, pero sino es 
+\begin_inset Formula $0$
+\end_inset
+
+.
+ Faltaría saber que alfa es mayor a algo, me parece.
+\end_layout
+
+\begin_layout Section
+Calcular: 
+\end_layout
+
+\begin_layout Subsection
+El número 
+\begin_inset Formula $e$
+\end_inset
+
+ con error menor que 
+\begin_inset Formula $10^{-4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $\ln\frac{2}{3}$
+\end_inset
+
+ con error menor que 
+\begin_inset Formula $10^{-3}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Calcular la fórmula de Taylor de segundo orden para las funciones dadas
+ en el punto indicado.
+ Escribir la forma de Lagrange del residuo.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=\left(x+y\right)^{2}$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{2,\left(0,0\right)}=0+\left(2\left(x+y\right)\bigg|_{(0,0)}x+2\left(x+y\right)\bigg|_{(0,0)}y\right)+\frac{1}{2}\left(2x^{2}+2y^{2}+4xy\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{2,\left(0,0\right)}=x^{2}+y^{2}+2xy=\left(x+y\right)^{2}\rightarrow\mbox{Esperado}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{2,\left(0,0\right)}=0\rightarrow\mbox{Ya que es un polinomio de segundo grado, la derivada tercera será nula}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=e^{x+y}$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{2,\left(0,0\right)}=1+x+y+\frac{1}{2}\left(x^{2}+y^{2}+2xy\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{2,\left(0,0\right)}=\frac{1}{6}\left(e^{c_{1}+c_{2}}\left(x^{3}+y^{3}+3x^{2}y+3y^{2}x\right)\right)=e^{c_{1}+c_{2}}\left(\frac{x^{3}+y^{3}}{6}+\frac{x^{2}y+y^{2}x}{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=\frac{1}{x^{2}+y^{2}+1}$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}\left(0,0\right)=-\frac{2x}{\left(x^{2}+y^{2}+1\right)^{2}}\bigg|_{\left(0,0\right)}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}\left(0,0\right)=-\frac{2y}{\left(x^{2}+y^{2}+1\right)^{2}}\bigg|_{\left(0,0\right)}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial x^{2}}\left(0,0\right)=\frac{6x^{2}-2\left(y^{2}+1\right)}{\left(x^{2}+y^{2}+1\right)^{3}}\bigg|_{\left(0,0\right)}=-2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial y^{2}}\left(0,0\right)=\frac{6y^{2}-2\left(x^{2}+1\right)}{\left(x^{2}+y^{2}+1\right)^{3}}\bigg|_{\left(0,0\right)}=-2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial y\partial x}\left(0,0\right)=\frac{2*2x*2y}{\left(x^{2}+y^{2}+1\right)^{3}}=\frac{\partial^{2}f}{\partial x\partial y}\left(0,0\right)=\frac{8xy}{\left(x^{2}+y^{2}+1\right)^{3}}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{2,\left(0,0\right)}=1+0+\frac{1}{2}\left(-2x^{2}-2y^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{2,\left(0,0\right)}=\frac{1}{6}\left(horror\right)\rightarrow\mbox{Horrible...}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=e^{\left(x-1\right)^{2}}\cos y$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(1,0\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}\left(1,0\right)=2\left(x-1\right)e^{\left(x-1\right)^{2}}\cos y\bigg|_{\left(1,0\right)}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial y}\left(1,0\right)=-e^{\left(x-1\right)^{2}}\sin y\bigg|_{\left(1,0\right)}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial x^{2}}\left(1,0\right)=2e^{\left(x-1\right)^{2}}\cos y+4\left(x-1\right)^{2}e^{\left(x-1\right)^{2}}\cos y\bigg|_{\left(1,0\right)}=2e^{\left(x-1\right)^{2}}\cos\left(y\right)\left(2x^{2}-4x+3\right)\bigg|_{\left(1,0\right)}=2*\cos\left(0\right)*1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial y^{2}}\left(1,0\right)=-e^{\left(x-1\right)^{2}}\cos y\bigg|_{\left(1,0\right)}=-1
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial x\partial y}\left(1,0\right)=-2\left(x-1\right)e^{\left(x-1\right)^{2}}\sin y\bigg|_{\left(1,0\right)}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial^{2}f}{\partial y\partial x}\left(1,0\right)=-2\left(x-1\right)e^{\left(x-1\right)^{2}}\sin y\bigg|_{\left(1,0\right)}=0
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{2,\left(1,0\right)}=1+\frac{1}{2}\left(2\left(x-1\right)^{2}-y^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{2,\left(1,0\right)}=
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=\sin\left(xy\right)$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(1,\pi\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=e^{x}\sin\left(xy\right)$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(2,\frac{\pi}{4}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=\ln\left(1+xy\right)$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(2,3\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=x+xy+2y$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(1,1\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y\right)=x^{y}$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(1,2\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f\left(x,y,z\right)=x+\sqrt{y}+\sqrt[3]{z}$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(2,3,4\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Utilizando los resultados anteriores calcular 
+\begin_inset Formula $0,95^{2,01}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Con un error menor que 
+\begin_inset Formula $1/200$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Con un error menor que 
+\begin_inset Formula $1/5000$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sea 
+\begin_inset Formula $f\left(x,y\right)=xe^{y}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Calcular el polinomio de Taylor de orden 1 de 
+\begin_inset Formula $f$
+\end_inset
+
+ en el punto 
+\begin_inset Formula $P=\left(1,0\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{1,\left(1,0\right)}\left(x,y\right)=1+e^{y}\bigg|_{\left(1,0\right)}\left(x-1\right)+xe^{y}\bigg|_{\left(1,0\right)}y=1+x-1+y=x+y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Usar este polinomio para aproximar el valor de 
+\begin_inset Formula $f\left(0,98;0,02\right)$
+\end_inset
+
+.
+ Estimar el error cometido.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+R_{1,\left(1,0\right)}\left(x,y\right)=\frac{1}{2}\left(0\bigg|_{\left(c_{1},c_{2}\right)}\left(x-1\right)^{2}+xe^{y}\bigg|_{\left(c_{1},c_{2}\right)}y^{2}+2\left(e^{y}\bigg|_{\left(c_{1},c_{2}\right)}\right)\left(x-1\right)y\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow R_{1,\left(1,0\right)}\left(0,98;0,02\right)=\frac{1}{2}\left(c_{1}e^{c_{2}}\left(0,98-1\right)^{2}+2e^{c_{2}}\left(0,98-1\right)*0,02\right)=0,0002\left(c_{1}e^{c_{2}}+2e^{c_{2}}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+c_{1}\in[0,98;1]\wedge c_{2}\in[0;0,02]\Rightarrow0,0002\left(3e^{0,02}\right)\approx0,0006
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(0,98;0,02\right)=0,9997\wedge P_{1,\left(1,0\right)}\left(0,98;0,02\right)=1\Rightarrow f\left(0,98;0,02\right)-P_{1,\left(1,0\right)}\left(0,98;0,02\right)=0,0003<0,0006
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mbox{Queda corroborado.}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Obtener la fórmula aproximada 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\cos x}{\cos y}=1-\frac{1}{2}\left(x^{2}-y^{2}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+para valores suficientemente pequeños de 
+\begin_inset Formula $\left|x\right|$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+, 
+\begin_inset Formula $\left|y\right|$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+No entiendo qué hay que hacer ...
+\end_layout
+
+\begin_layout Section
+Resolver
+\end_layout
+
+\begin_layout Subsection
+Calcular el polinomio de Taylor de grado 1 centrado en 
+\begin_inset Formula $\left(1,1\right)$
+\end_inset
+
+ de la función 
+\begin_inset Formula $f\left(x,y\right)=e^{x^{2}-y^{2}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{1,\left(1,1\right)}\left(x,y\right)=1+2xe^{x^{2}-y^{2}}\bigg|_{\left(1,1\right)}\left(x-1\right)-2ye^{x^{2}-y^{2}}\bigg|_{\left(1,1\right)}\left(y-1\right)=1+2\left(x-y\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Usar la parte a) para evaluar 
+\begin_inset Formula $e^{\frac{4}{10}}$
+\end_inset
+
+ usando que 
+\begin_inset Formula $\frac{4}{10}=\left(1+\frac{1}{10}\right)^{2}-\left(1-\frac{1}{10}\right)^{2}$
+\end_inset
+
+.
+ Comprobar que el error es menor que 0,3.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+e^{\frac{4}{10}}=e^{\left(1+\frac{1}{10}\right)^{2}-\left(1-\frac{1}{10}\right)^{2}}\Rightarrow P_{1,\left(1,1\right)}\left(1+\frac{1}{10},1-\frac{1}{10}\right)=1+2\left(1+\frac{1}{10}-1+\frac{1}{10}\right)=1+\frac{4}{10}=1,4
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\left|e^{\frac{4}{10}}-1,4\right|\approx0,09\leq0,3
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Calcular el polinomio de segundo grado que mejor aproxima en el origen a
+ la función 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(x,y\right)=\sin\left(x\right)\sin\left(y\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{2,\left(0,0\right)}\left(x,y\right)=0+0x+0y+\frac{1}{2}\left(0x^{2}+0y^{2}+2*1xy\right)=xy\rightarrow\mbox{Razonable ya que sabemos que tiende a 0 de forma similar}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Calcular el polinomio de Taylor de grado 2 alrededor del punto 
+\begin_inset Formula $\left(1,-1,0\right)$
+\end_inset
+
+ de la función
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+f\left(x,y,z\right)=\frac{\cos\left(x+y\right)\sin\left(\frac{yz}{x}\right)}{\left(2x+y\right)e^{z+\left(x^{2}-y^{2}\right)}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\partial f}{\partial x}\left(1,-1,0\right)=\frac{-\sin\left(x+y\right)\cos\left(\frac{yz}{x}\right)*\left(-1x^{-2}\right)}{\left(2x+y\right)e^{z+\left(x^{2}-y^{2}\right)}}+
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{2,\left(1,-1,0\right)}\left(x,y,z\right)=0+
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Es muy horrible ...
+\end_layout
+
+\begin_layout Section
+Dada 
+\begin_inset Formula $f\left(x,y\right)=\left(x+1,2y-e^{x}\right)$
+\end_inset
+
+ y sea 
+\begin_inset Formula $g:\mathbb{R}^{2}\rightarrow\mathbb{R}$
+\end_inset
+
+ diferenciable, tal que el polinomio de Taylor de grado 2 de 
+\begin_inset Formula $g\circ f$
+\end_inset
+
+ en 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+ es 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+4+3x-2y-x^{2}+5xy
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Calcular 
+\begin_inset Formula $\nabla g\left(1,-1\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Df\left(x,y\right)=\left(\begin{matrix}1 & 0\\
+-e^{x} & 2
+\end{matrix}\right)\Rightarrow D\left(g\circ f\right)\left(0,0\right)=\left(\frac{\partial\left(g\circ f\right)}{\partial x}\left(0,0\right),\frac{\partial\left(g\circ f\right)}{\partial y}\left(0,0\right)\right)=\nabla g\left(1,-1\right)*\left(\begin{matrix}1 & 0\\
+1 & 2
+\end{matrix}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+P_{2,\left(0,0\right)}(x,y)=4+3x-2y-x^{2}+5xy\Rightarrow\frac{\partial\left(g\circ f\right)}{\partial x}\left(0,0\right)=3\wedge\frac{\partial\left(g\circ f\right)}{\partial y}\left(0,0\right)=-2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\therefore\left(3,-2\right)=\nabla g\left(1,-1\right)*\left(\begin{matrix}1 & 0\\
+-1 & 2
+\end{matrix}\right)=\left(\frac{\partial g}{\partial x}\left(1,-1\right)-\frac{\partial g}{\partial y}\left(1,-1\right),2\frac{\partial g}{\partial y}\left(1,-1\right)\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\frac{\partial g}{\partial x}\left(1,-1\right)-\frac{\partial g}{\partial y}\left(1,-1\right)=3\wedge2\frac{\partial g}{\partial y}\left(1,-1\right)=-2\therefore\frac{\partial g}{\partial y}\left(1,-1\right)=-1\wedge\frac{\partial g}{\partial x}\left(1,-1\right)=2
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Rightarrow\nabla g\left(1,-1\right)=\left(2,-1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hallar el polinomio de Taylor de grado 2 en 
+\begin_inset Formula $\left(0,0\right)$
+\end_inset
+
+ de las funciones 
+\begin_inset Formula $f\left(x,y\right)$
+\end_inset
+
+ dos veces diferenciables que satisfacen la condición:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $xf\left(x,y\right)+yf\left(x,y\right)=f\left(x,y\right)+2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $xf_{y}\left(x,y\right)=yf_{x}\left(x,y\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Formula $f_{yx}\left(x,y\right)=x+f_{x}\left(x,y\right)$
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
