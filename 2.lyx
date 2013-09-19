@@ -1378,7 +1378,7 @@ Probar por definición que si
 \color none
 \begin_inset Formula 
 \[
-|y\sin(xy-6)|=|y||\sin(xy-6)|=|y||\sin((x-2)(y-3)+3x+2y-12)|
+|y\sin(xy-6)|\leq|y||\sin(xy-6)|=|y||\sin((x-2)(y-3)+3x+2y-12)|
 \]
 
 \end_inset
@@ -3753,7 +3753,7 @@ x^{2},e^{x}\mbox{ son continuas }\forall x\in\mathbb{R}\Rightarrow f(x,y)=\left(
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin\left(x^{2}+y^{2}\right)}{x^{2}+y^{2}}=0\Rightarrow\frac{\sin\left(x^{2}+y^{2}\right)}{x^{2}+y^{2}}\mbox{ es continua }\forall\left(x,y\right)\in\mathbb{R}^{2}\mbox{ si se redefine el valor en \ensuremath{0} a \ensuremath{0}}
+\lim_{\left(x,y\right)\to\left(0,0\right)}\frac{\sin\left(x^{2}+y^{2}\right)}{x^{2}+y^{2}}=0\Rightarrow\frac{\sin\left(x^{2}+y^{2}\right)}{x^{2}+y^{2}}\mbox{ es continua }\forall\left(x,y\right)\in\mathbb{R}^{2}\mbox{ si se redefine el valor en \ensuremath{0}a \ensuremath{0}}
 \]
 
 \end_inset
