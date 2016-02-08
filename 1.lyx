@@ -94,8 +94,8 @@ x+3<-1\Rightarrow & x>-4
 \begin_layout Subsection
 \begin_inset Formula $|x-3|\ge1\Leftrightarrow\begin{cases}
 x-3\geq1 & x\geq4\\
-x-3\leq-1 & x\leq1
-\end{cases}\therefore x\in(-\infty,1)\cup(4,+\infty)$
+x-3\leq-1 & x\leq2
+\end{cases}\therefore x\in(-\infty,2]\cup[4,+\infty)$
 \end_inset
 
 
