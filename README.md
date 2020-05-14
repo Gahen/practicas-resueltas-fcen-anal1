@@ -1,5 +1,7 @@
-Prácticas resueltas de Análisis Matemático I de Ciencias de la Computación, FCEN, UBA ~ 2012
-==============================
+Prácticas resueltas de Análisis Matemático I
+=======
+Ciencias de la Computación, FCEN, UBA ~ 2012
+---------
 
 Archivos fuente con las prácticas resueltas de Análisis matemático I
 
